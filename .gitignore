@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+*.db
+*.sqlite3
+*.log
+*.zip
+
+# VSCode
+.vscode/
+
+# Ignore files inside dst, but keep the folder
+/live/dst/*
+!/live/dst/.gitkeep
+
+/demo/dst/*
+!/demo/dst/.gitkeep
