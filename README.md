@@ -85,7 +85,7 @@ DQA/                 # Root project folder
 	    	 ├── dst/ 
     		 └── src/
          └── demo/
-             ├── data/ 
+            ├── data/ 
 	    	 ├── dst/ 
     		 └── src/
 2. Open **`DQA.ipynb`** (for live) or **`DQA_demo.ipynb`** (for demo).  
