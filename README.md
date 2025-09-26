@@ -81,14 +81,13 @@ DQA/                 # Root project folder
    My Drive/
      └── DQA/
          └── live/
-		    `├── data/ 
+		     ├── data/ 
 	    	 ├── dst/ 
     		 └── src/
          └── demo/
-   `		`├── data/ 
+             ├── data/ 
 	    	 ├── dst/ 
     		 └── src/
-
 2. Open **`DQA.ipynb`** (for live) or **`DQA_demo.ipynb`** (for demo).  
 3. Mount Google Drive when prompted.  
 4. Run all cells → a file picker will allow you to choose from uploaded `.csv` files.  
