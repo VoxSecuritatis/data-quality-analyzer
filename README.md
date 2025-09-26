@@ -81,8 +81,13 @@ DQA/                 # Root project folder
    My Drive/
      └── DQA/
          └── live/
+		    `├── data/ 
+	    	 ├── dst/ 
+    		 └── src/
          └── demo/
-   ```
+   `		`├── data/ 
+	    	 ├── dst/ 
+    		 └── src/
 
 2. Open **`DQA.ipynb`** (for live) or **`DQA_demo.ipynb`** (for demo).  
 3. Mount Google Drive when prompted.  
