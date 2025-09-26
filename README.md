@@ -30,7 +30,12 @@ DQA/                 # Root project folder
 ├── demo/            # Demo version (self-contained, static dataset)
 │   ├── DQA_demo.py
 │   ├── DQA_demo.ipynb
-│   └── sample.csv   # Static dataset bundled with demo
+│   ├── data/        # Input datasets (.csv here)
+│   |   └── sample.csv   # Static dataset bundled with demo
+│   ├── dst/         # Output folder for generated HTML reports
+│   └── src/         # Helper modules
+│       ├── dqa_utils.py   # Functions for charting + HTML export
+│       └── file_picker.py # Colab-friendly file selector│   
 ```
 
 ---
