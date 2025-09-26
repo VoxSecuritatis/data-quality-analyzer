@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+*.db
+*.sqlite3
+*.log
+
+# VSCode
+.vscode/
+
+# Reports & generated files
+/live/dst/
+/demo/dst/
