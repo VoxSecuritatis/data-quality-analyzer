@@ -61,7 +61,7 @@ DQA/        # Root project folder
 
 ---
 
-## Installation (Local / Windows 11 + PowerShell)
+## Installation (Local / Windows 11 + PowerShell / Python 3.12+)
 
 1. Clone the repo:
    ```powershell
@@ -69,7 +69,7 @@ DQA/        # Root project folder
    cd data-quality-analyzer/live
    ```
 
-2. Create a Python virtual environment:
+2. Create a Python virtual environment (for a clean local install, recommended, but not required:
    ```powershell
    python -m venv .venv
    .\.venv\Scripts -activate
@@ -79,10 +79,11 @@ DQA/        # Root project folder
    ```powershell
    python -m pip install -r requirements.txt
    ```
+4. Install wkhtmltopdf (HTML -> PDF for reporting, download and install - may require additional configuration)
 
-4. Run the script:
+5. Run the script:
    ```powershell
-   python DQA_live-v2.6.py
+   python DQA_live-v2.7.2.py
    ```
 
 ---
