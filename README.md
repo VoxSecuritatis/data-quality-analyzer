@@ -132,4 +132,4 @@ See `requirements.txt` for dependencies:
 
 ## Developer
 **Brock Frary**  
-Version: v2.6.1 (as of 2025-09-28)  
+Version: v2.7.2 (as of 2025-09-30)  
