@@ -79,12 +79,9 @@ def export_html_report(df: pd.DataFrame, output_path="dst/dqa_report.html", samp
         plt.xlabel("Percentage Missing")
         plt.ylabel("Columns")
 
-        # ===== START HERE (fix path for missing values chart) =====
-        plots_dir = Path(output_path).parent / "plots"
-        plots_dir.mkdir(parents=True, exist_ok=True)
-        chart_path = plots_dir / "missing_values.png"
+        # (fix path for missing values chart) =====
+        chart_path = Path(output_path).parent / "missing_values.png"
         plt.savefig(chart_path, bbox_inches="tight"); plt.close()
-        # ===== END HERE =====
 
         # Embed chart into HTML
         chart_b64 = encode_image_base64(chart_path)
@@ -96,10 +93,9 @@ def export_html_report(df: pd.DataFrame, output_path="dst/dqa_report.html", samp
         plt.figure(figsize=(10,8))
         sns.heatmap(plot_df[numeric_cols].corr(), annot=True, fmt=".2f", cmap="coolwarm")
 
-        # ===== START HERE (fix path for correlation heatmap) =====
-        corr_path = Path(output_path).parent / "plots" / "corr_heatmap.png"
-        plt.savefig(corr_path, bbox_inches="tight"); plt.close()
-        # ===== END HERE =====
+    # ===== save correlation heatmap directly in dst =====
+    corr_path = Path(output_path).parent / "corr_heatmap.png"
+    plt.savefig(corr_path, bbox_inches="tight"); plt.close()
 
     # --- HTML Template ---
     template_str = """

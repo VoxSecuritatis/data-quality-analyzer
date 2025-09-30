@@ -19,3 +19,8 @@ __pycache__/
 
 /demo/dst/*
 !/demo/dst/.gitkeep
+demo/dst/*.html
+demo/dst/plots/
+live/dst/*.html
+live/dst/plots/
+DQA-vX.x/*
