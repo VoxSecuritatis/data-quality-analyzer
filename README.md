@@ -8,7 +8,7 @@ It produces a **self-contained HTML report** with tables and charts that can be 
 
 Two versions are provided:
 - **Live** (`DQA_live-v2.7.2.py`) – allows you to select a dataset (.csv) at runtime.
-- **Demo** (`DQA_demo-v2.5.ipynb`) – includes a static sample dataset, used to demonstrate features without requiring uploads.
+- **Demo** (`DQA_demo-v2.7.2.py`) – includes a static sample dataset, used to demonstrate features without requiring uploads.
 
 > Note: `.ipynb` notebooks were supported in v2.5 for Colab.  
 > They are **not updated in v2.7.2**. The most current version of DQA is the local `.py` scripts.
