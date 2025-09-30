@@ -1,0 +1,37 @@
+columns:
+- name: Date/Time
+  dtype: object
+  nullable: false
+- name: Temp_C
+  dtype: float64
+  nullable: true
+  min: -23.3
+  max: 33.0
+- name: Dew Point Temp_C
+  dtype: float64
+  nullable: true
+  min: -28.5
+  max: 24.4
+- name: Rel Hum_%
+  dtype: float64
+  nullable: true
+  min: 18.0
+  max: 100.0
+- name: Wind Speed_km/h
+  dtype: float64
+  nullable: true
+  min: 0.0
+  max: 83.0
+- name: Visibility_km
+  dtype: float64
+  nullable: true
+  min: 0.2
+  max: 48.3
+- name: Press_kPa
+  dtype: float64
+  nullable: true
+  min: 97.52
+  max: 103.65
+- name: Weather
+  dtype: object
+  nullable: true
