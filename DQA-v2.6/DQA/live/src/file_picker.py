@@ -108,3 +108,5 @@ def pick_file(base_dir=None,
     except (ValueError, IndexError):
         print("[FILE PICKER] Invalid choice.")
         return None
+    
+# © 2025 Brock Frary. All rights reserved.

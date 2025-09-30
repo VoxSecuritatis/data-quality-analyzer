@@ -1,6 +1,7 @@
 # Data Quality Analyzer (DQA)
 # Developer:  Brock Frary
 # Date:  2025-09-26
+
 #
 # -------- Bootstrap Environment:Install Libraries, Import Utils, Load Dataset --------
 # Imports
@@ -482,3 +483,5 @@ except Exception as e:
     print("3. Verify that the destination folder exists.")
     print(f"   Destination path checked: {dst_folder}")
     print("4. If the error persists, re-run the bootstrap cell to re-import modules.")
+
+    # © 2025 Brock Frary. All rights reserved.

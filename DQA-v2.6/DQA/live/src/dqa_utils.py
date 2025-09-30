@@ -357,3 +357,6 @@ def export_schema_yaml(df: pd.DataFrame, output_path: str):
     with open(output_path, "w", encoding="utf-8") as f:
         yaml.safe_dump(schema, f, sort_keys=False)
     return str(output_path)
+
+
+# © 2025 Brock Frary. All rights reserved.

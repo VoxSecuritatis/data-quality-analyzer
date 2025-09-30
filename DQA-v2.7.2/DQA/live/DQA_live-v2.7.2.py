@@ -389,3 +389,6 @@ except Exception as e:
     print("1. Check if 'df' is defined and contains a valid DataFrame.")
     print("2. Ensure 'dqa_utils.py' is imported as 'dqa'.")
     print("3. Verify that the destination folder exists.")
+
+
+# © 2025 Brock Frary. All rights reserved.

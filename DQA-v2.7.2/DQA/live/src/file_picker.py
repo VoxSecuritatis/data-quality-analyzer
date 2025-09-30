@@ -113,3 +113,5 @@ def pick_file(base_dir=None,
                 print(f"[FILE PICKER] Invalid choice. Please enter a number between 0 and {len(files)}.")
         except ValueError:
             print("[FILE PICKER] Invalid input. Please enter a valid number.")
+
+# © 2025 Brock Frary. All rights reserved.

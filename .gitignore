@@ -24,3 +24,5 @@ demo/dst/plots/
 live/dst/*.html
 live/dst/plots/
 DQA-vX.x/*
+DQA-v2.7.2/*
+DQA-v3.0.1/*

@@ -67,3 +67,5 @@ def pick_file(base_dir="/content/drive/My Drive/DQA/live/data",
     except (ValueError, IndexError):
         print("[FILE PICKER] Invalid choice.")
         return None
+
+# © 2025 Brock Frary. All rights reserved.

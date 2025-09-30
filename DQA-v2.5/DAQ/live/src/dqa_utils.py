@@ -115,3 +115,5 @@ def export_html_report(df: pd.DataFrame, output_path="dst/dqa_report.html", samp
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
     return str(output_path)
+
+# © 2025 Brock Frary. All rights reserved.

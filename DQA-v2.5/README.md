@@ -130,3 +130,7 @@ See `requirements.txt` for dependencies:
 ## Developer
 **Brock Frary**  
 Version: v2.5 (as of 2025-09-25)  
+
+---
+
+© 2025 Brock Frary. All rights reserved.

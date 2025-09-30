@@ -1337,3 +1337,5 @@ def nlp_word_frequencies(
     except Exception as e:
         print(f"[NLP] Error during NLP analysis: {e}")
         return f"<h2>Natural Language Processing</h2><p>Error: {e}</p>"
+
+# © 2025 Brock Frary. All rights reserved.

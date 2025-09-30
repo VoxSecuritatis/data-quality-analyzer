@@ -69,7 +69,7 @@ DQA/        # Root project folder
    cd data-quality-analyzer/live
    ```
 
-2. Create a Python virtual environment (for a clean local install, recommended, but not required:
+2. Create a Python virtual environment (for a clean local install, recommended, but not required):
    ```powershell
    python -m venv .venv
    .\.venv\Scripts -activate
@@ -134,3 +134,7 @@ See `requirements.txt` for dependencies:
 ## Developer
 **Brock Frary**  
 Version: v2.7.2 (as of 2025-09-30)  
+
+---
+
+© 2025 Brock Frary. All rights reserved.

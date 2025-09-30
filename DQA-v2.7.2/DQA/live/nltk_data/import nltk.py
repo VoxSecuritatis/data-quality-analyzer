@@ -18,3 +18,5 @@ print("Tokenized:", word_tokenize(sample_text))
 
 # Test stopwords
 print("Stopwords sample:", stopwords.words("english")[:10])
+
+# © 2025 Brock Frary. All rights reserved.

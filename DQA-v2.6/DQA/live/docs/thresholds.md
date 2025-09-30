@@ -13,3 +13,5 @@
 | **Invalid Values**        | Violates domain/business rules (e.g., negative age) | 🔴 Flagged                                    | Domain-specific thresholds needed. |
 | **Feature Scaling**       | Std dev differs >100x between numeric features      | ⚠️ Flagged                                    | Suggest normalization / scaling. |
 | **Time Series Gaps**      | Missing/duplicate timestamps                        | ⚠️ Flagged                                    | Depends on expected frequency. |
+
+© 2025 Brock Frary. All rights reserved.

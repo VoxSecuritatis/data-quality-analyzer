@@ -1,3 +1,5 @@
+# © 2025 Brock Frary. All rights reserved.
+
 Check,Threshold / Rule of Thumb,Severity Levels,Notes
 Missing Values,"<5% (OK), 5–30% (Warning), >30% (High Risk)","Green <5%, Yellow 5–30%, Red >30%",">30% missing often dropped unless critical"
 Duplicate Rows,">1–5% flagged","Green <1%, Yellow 1–5%, Red >5%","Should be 0% for unique IDs"

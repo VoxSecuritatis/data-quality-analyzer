@@ -1,0 +1,2021 @@
+incident_id,timestamp,attack_type,target_system,severity,confidence_score,affected_users,country,remediation_status,target_label
+1001,2025-09-11 23:15:00,Prompt Injection,Fraud Detection,4,0.81,543,USA,In Progress,malicious
+1002,2025-09-01 14:20:00,Data Poisoning,Chatbot,3,0.72,883,USA,Open,malicious
+1003,2025-09-27 11:58:00,Adversarial Example,Fraud Detection,1,0.52,4798,China,Open,malicious
+1004,2025-09-08 20:04:00,Prompt Injection,Image Classifier,3,0.75,1223,Russia,Open,malicious
+1005,2025-09-05 08:25:00,Prompt Injection,Image Classifier,1,0.88,2893,China,Open,malicious
+1006,2025-09-12 16:50:00,Prompt Injection,Fraud Detection,5,0.63,2068,Germany,Closed,malicious
+1007,2025-09-26 19:54:00,Adversarial Example,Fraud Detection,1,0.9,3709,Russia,Open,malicious
+1008,2025-09-16 06:02:00,Data Poisoning,Fraud Detection,3,0.63,1786,USA,In Progress,malicious
+1009,2025-09-12 03:03:00,Data Poisoning,Recommendation Engine,3,0.91,1457,USA,In Progress,malicious
+1010,2025-09-29 12:50:00,Model Evasion,Fraud Detection,99,0.54,1914,USA,In Progress,malicious
+1011,2025-09-02 04:05:00,Prompt Injection,Chatbot,1,0.93,500000,India,In Progress,malicious
+1012,2025-09-01 12:49:00,Model Evasion,Recommendation Engine,1,0.75,3613,USA,Open,malicious
+1013,2025-09-02 16:33:00,Model Evasion,Recommendation Engine,1,0.65,1308,USA,Closed,benign
+1014,2025-09-04 16:31:00,Data Poisoning,Fraud Detection,1,0.63,647,Germany,,malicious
+1015,2025-09-27 06:19:00,Adversarial Example,Chatbot,2,0.72,2187,China,Open,malicious
+1016,2025-09-28 05:08:00,Adversarial Example,Recommendation Engine,4,1.0,552,China,,benign
+1017,2025-09-13 04:48:00,Data Poisoning,Image Classifier,2,0.61,281,China,Closed,malicious
+1018,2025-09-14 17:29:00,Adversarial Example,Recommendation Engine,1,0.55,1281,USA,Open,malicious
+1019,2025-09-20 22:13:00,Model Evasion,Fraud Detection,5,0.79,1846,China,,malicious
+1020,2025-09-05 10:36:00,Prompt Injection,Chatbot,2,0.74,2487,China,Closed,malicious
+1021,2025-09-20 02:00:00,Data Poisoning,Fraud Detection,2,0.76,2793,Russia,,malicious
+1022,2025-09-29 18:34:00,Prompt Injection,Image Classifier,2,0.83,3711,USA,In Progress,malicious
+1023,2025-09-18 19:38:00,Adversarial Example,Image Classifier,5,0.63,4199,Russia,In Progress,benign
+1024,2025-09-14 03:42:00,Prompt Injection,Image Classifier,1,0.96,4861,Germany,Closed,malicious
+1025,2025-09-13 19:11:00,Adversarial Example,Fraud Detection,5,0.72,2776,USA,Closed,malicious
+1026,2025-09-02 21:47:00,Adversarial Example,Recommendation Engine,4,0.56,1596,Germany,,malicious
+1027,2025-09-01 03:09:00,Model Evasion,Fraud Detection,1,0.87,479,USA,Closed,malicious
+1028,2025-09-14 06:38:00,Adversarial Example,Chatbot,99,0.82,,Brazil,In Progress,malicious
+1029,2025-09-25 20:13:00,Model Evasion,Recommendation Engine,2,0.66,3218,Russia,In Progress,malicious
+1030,2025-09-02 07:39:00,Model Evasion,Image Classifier,1,0.81,1963,USA,Open,benign
+1031,2025-09-01 21:07:00,Model Evasion,Fraud Detection,5,0.61,2142,USA,,malicious
+1032,2025-09-22 21:51:00,Data Poisoning,Image Classifier,4,0.72,3898,USA,Closed,benign
+1033,2025-09-08 21:54:00,Data Poisoning,Image Classifier,4,0.95,2072,USA,Closed,malicious
+1034,2025-09-03 11:16:00,Adversarial Example,Chatbot,1,0.57,1295,USA,Closed,malicious
+1035,2025-09-03 16:50:00,Model Evasion,Recommendation Engine,3,0.69,938,USA,,benign
+1036,2025-09-29 21:26:00,Data Poisoning,Chatbot,4,0.91,761,Germany,In Progress,malicious
+1037,2025-09-22 08:20:00,Model Evasion,Chatbot,2,0.98,4749,USA,Closed,benign
+1038,2025-09-11 01:42:00,Prompt Injection,Chatbot,2,0.73,1669,India,Closed,malicious
+1039,2025-09-16 02:57:00,Prompt Injection,Image Classifier,1,0.75,3862,India,In Progress,malicious
+1040,2025-09-08 09:07:00,Prompt Injection,Chatbot,1,0.79,2685,China,Closed,malicious
+1041,2025-09-07 02:32:00,Adversarial Example,Chatbot,5,0.97,3899,Russia,Open,malicious
+1042,2025-09-30 21:01:00,Model Evasion,Recommendation Engine,3,0.93,1931,USA,In Progress,malicious
+1043,2025-09-06 20:33:00,Prompt Injection,Recommendation Engine,99,0.59,3939,USA,In Progress,benign
+1044,2025-09-30 20:41:00,Data Poisoning,Chatbot,3,0.72,1126,Germany,In Progress,malicious
+1045,2025-09-08 15:36:00,Prompt Injection,Recommendation Engine,4,0.73,3297,China,Open,malicious
+1046,2025-09-17 14:17:00,Prompt Injection,Recommendation Engine,2,0.89,4670,China,In Progress,malicious
+1047,2025-09-02 19:32:00,Prompt Injection,Chatbot,2,0.8,1203,Russia,,malicious
+1048,2025-09-17 07:23:00,Adversarial Example,Image Classifier,2,0.83,,Brazil,,malicious
+1049,2025-09-12 21:59:00,Data Poisoning,Chatbot,2,1.0,3772,Germany,,malicious
+1050,2025-09-29 11:14:00,Model Evasion,Recommendation Engine,3,0.54,519,India,In Progress,malicious
+1051,2025-09-11 02:21:00,Data Poisoning,Image Classifier,99,0.61,2283,USA,In Progress,malicious
+1052,2025-09-25 22:40:00,Model Evasion,Fraud Detection,4,0.7,4558,USA,In Progress,malicious
+1053,2025-09-19 10:11:00,Adversarial Example,Image Classifier,2,0.67,482,Germany,Open,malicious
+1054,2025-09-02 02:25:00,Adversarial Example,Recommendation Engine,1,0.51,,China,,malicious
+1055,2025-09-03 17:43:00,Adversarial Example,Image Classifier,1,0.55,3093,China,Closed,benign
+1056,2025-09-17 14:59:00,Adversarial Example,Chatbot,3,0.84,342,USA,Closed,malicious
+1057,2025-09-14 12:17:00,Model Evasion,Fraud Detection,4,0.94,,Germany,In Progress,malicious
+1058,2025-09-01 17:01:00,Prompt Injection,Fraud Detection,5,0.76,1202,USA,Open,benign
+1059,2025-09-09 02:13:00,Model Evasion,Fraud Detection,1,0.77,1621,Germany,In Progress,malicious
+1060,2025-09-10 07:37:00,Data Poisoning,Recommendation Engine,3,0.63,2398,USA,Closed,malicious
+1061,2025-09-29 07:17:00,Adversarial Example,Recommendation Engine,3,0.88,3596,USA,,malicious
+1062,2025-09-07 17:32:00,Adversarial Example,Fraud Detection,4,0.88,3535,USA,Closed,malicious
+1063,2025-09-05 18:33:00,Data Poisoning,Image Classifier,3,0.79,2877,USA,,malicious
+1064,2025-09-04 22:35:00,Model Evasion,Fraud Detection,4,0.61,2390,Russia,,malicious
+1065,2025-09-01 02:41:00,Prompt Injection,Image Classifier,4,0.55,3351,USA,Open,benign
+1066,2025-09-26 17:45:00,Prompt Injection,Image Classifier,1,0.53,2913,USA,Closed,malicious
+1067,2025-09-19 10:37:00,Data Poisoning,Recommendation Engine,4,0.8,1189,China,In Progress,malicious
+1068,2025-09-24 10:43:00,Prompt Injection,Image Classifier,1,0.91,2340,China,Open,malicious
+1069,2025-09-23 15:26:00,Model Evasion,Fraud Detection,4,0.93,3580,USA,,malicious
+1070,2025-09-09 00:14:00,Model Evasion,Recommendation Engine,3,0.73,1603,USA,Closed,malicious
+1071,2025-09-21 05:27:00,Data Poisoning,Chatbot,3,0.89,3297,Brazil,In Progress,malicious
+1072,2025-09-29 01:17:00,Model Evasion,Chatbot,5,0.97,597,Germany,Open,malicious
+1073,2025-09-18 22:51:00,Adversarial Example,Recommendation Engine,5,0.64,644,USA,In Progress,malicious
+1074,2025-09-01 16:56:00,Data Poisoning,Fraud Detection,5,0.7,4543,China,Closed,malicious
+1075,2025-09-17 20:13:00,Model Evasion,Chatbot,3,0.97,2902,USA,In Progress,malicious
+1076,2025-09-17 20:36:00,Data Poisoning,Chatbot,4,0.67,,USA,Open,malicious
+1077,2025-09-17 03:27:00,Prompt Injection,Image Classifier,3,0.96,4830,Germany,In Progress,malicious
+1078,2025-09-17 21:00:00,Model Evasion,Image Classifier,5,0.99,1642,Russia,Closed,malicious
+1079,2025-09-06 22:09:00,Adversarial Example,Fraud Detection,3,0.83,2297,USA,Open,malicious
+1080,2025-09-12 23:42:00,Model Evasion,Recommendation Engine,5,0.91,4696,India,,malicious
+1081,2025-09-07 10:28:00,Data Poisoning,Fraud Detection,5,0.87,2172,USA,Open,malicious
+1082,2025-09-15 18:31:00,Data Poisoning,Recommendation Engine,4,0.85,2160,USA,Closed,malicious
+1083,2025-09-09 11:05:00,Model Evasion,Chatbot,2,0.65,3749,USA,In Progress,malicious
+1084,2025-09-15 18:03:00,Adversarial Example,Image Classifier,1,0.53,2922,USA,,malicious
+1085,2025-09-28 03:39:00,Adversarial Example,Fraud Detection,5,0.67,579,Russia,,malicious
+1086,2025-09-06 22:51:00,Adversarial Example,Fraud Detection,1,0.83,3804,China,In Progress,benign
+1087,2025-09-28 18:16:00,Data Poisoning,Recommendation Engine,5,0.55,4878,USA,Closed,malicious
+1088,2025-09-27 10:04:00,Model Evasion,Recommendation Engine,3,0.51,2368,Brazil,Open,malicious
+1089,2025-09-29 07:34:00,Prompt Injection,Fraud Detection,3,0.57,3932,Russia,Closed,malicious
+1090,2025-09-02 18:48:00,Data Poisoning,Recommendation Engine,5,0.86,4627,India,,benign
+1091,2025-09-02 09:47:00,Adversarial Example,Fraud Detection,4,0.99,3360,Russia,Open,malicious
+1092,2025-09-02 20:55:00,Model Evasion,Fraud Detection,3,0.99,4707,USA,Open,malicious
+1093,2025-09-04 15:38:00,Adversarial Example,Fraud Detection,3,0.75,1100,India,In Progress,malicious
+1094,2025-09-16 06:42:00,Prompt Injection,Chatbot,2,0.93,1670,Germany,Closed,malicious
+1095,2025-09-28 10:24:00,Adversarial Example,Recommendation Engine,4,0.87,2220,Russia,Open,malicious
+1096,2025-09-24 00:39:00,Adversarial Example,Image Classifier,2,0.75,4970,India,In Progress,benign
+1097,2025-09-10 17:06:00,Prompt Injection,Image Classifier,5,0.79,216,USA,Closed,malicious
+1098,2025-09-09 19:06:00,Model Evasion,Recommendation Engine,5,0.57,375,India,,malicious
+1099,2025-09-27 20:20:00,Data Poisoning,Fraud Detection,2,0.97,1609,USA,,malicious
+1100,2025-09-03 11:21:00,Model Evasion,Image Classifier,4,0.68,4106,USA,Closed,malicious
+1101,2025-09-19 15:34:00,Prompt Injection,Image Classifier,3,0.72,3839,USA,Open,malicious
+1102,2025-09-28 01:12:00,Adversarial Example,Recommendation Engine,2,0.84,2939,Russia,Open,malicious
+1103,2025-09-16 17:42:00,Model Evasion,Image Classifier,99,0.67,4062,USA,,malicious
+1104,2025-09-06 19:52:00,Data Poisoning,Fraud Detection,1,0.63,1613,China,,malicious
+1105,2025-09-22 04:55:00,Prompt Injection,Recommendation Engine,2,0.82,3679,USA,Open,malicious
+1106,2025-09-10 01:47:00,Model Evasion,Fraud Detection,3,0.51,4913,Brazil,Closed,malicious
+1107,2025-09-17 09:19:00,Data Poisoning,Image Classifier,3,0.86,1296,USA,,malicious
+1108,2025-09-25 11:02:00,Prompt Injection,Image Classifier,3,0.76,3996,India,Open,benign
+1109,2025-09-09 05:17:00,Data Poisoning,Fraud Detection,4,0.8,4786,Russia,Closed,malicious
+1110,2025-09-10 17:59:00,Prompt Injection,Chatbot,4,0.82,1155,China,In Progress,malicious
+1111,2025-09-22 09:38:00,Adversarial Example,Image Classifier,4,0.76,4879,USA,Closed,malicious
+1112,2025-09-14 06:35:00,Model Evasion,Chatbot,1,0.79,2366,Germany,Open,benign
+1113,2025-09-08 14:45:00,Data Poisoning,Image Classifier,2,0.84,2891,Russia,Closed,malicious
+1114,2025-09-18 00:58:00,Prompt Injection,Chatbot,2,high,1972,India,Open,malicious
+1115,2025-09-30 12:50:00,Data Poisoning,Chatbot,2,0.86,,USA,,malicious
+1116,2025-09-04 12:16:00,Data Poisoning,Chatbot,3,0.93,4492,Russia,In Progress,malicious
+1117,2025-09-23 13:22:00,Model Evasion,Fraud Detection,2,0.59,1081,USA,,malicious
+1118,2025-09-06 15:10:00,Adversarial Example,Chatbot,2,0.7,2033,China,,malicious
+1119,2025-09-10 13:33:00,Data Poisoning,Chatbot,2,0.97,,India,Open,malicious
+1120,2025-09-19 22:26:00,Prompt Injection,Chatbot,5,0.7,4555,USA,Open,malicious
+1121,2025-09-13 02:12:00,Prompt Injection,Image Classifier,5,0.56,2416,India,Open,malicious
+1122,2025-09-24 02:30:00,Adversarial Example,Chatbot,4,0.76,4641,China,Open,malicious
+1123,2025-09-05 19:10:00,Prompt Injection,Image Classifier,5,0.55,3653,Russia,,malicious
+1124,2025-09-18 16:06:00,Adversarial Example,Chatbot,4,0.6,496,USA,Open,benign
+1125,2025-09-01 03:26:00,Prompt Injection,Chatbot,3,1.0,504,China,Open,malicious
+1126,2025-09-15 22:38:00,Model Evasion,Fraud Detection,1,0.77,3386,India,,benign
+1127,2025-09-16 12:41:00,Data Poisoning,Image Classifier,4,0.64,2208,USA,In Progress,malicious
+1128,2025-09-17 06:19:00,Model Evasion,Chatbot,4,1.0,4813,USA,In Progress,malicious
+1129,2025-09-29 20:03:00,Data Poisoning,Image Classifier,4,0.98,3216,Brazil,Closed,malicious
+1130,2025-09-16 13:23:00,Data Poisoning,Image Classifier,4,0.72,,USA,,benign
+1131,2025-09-13 14:21:00,Data Poisoning,Recommendation Engine,3,0.63,1408,Brazil,Open,malicious
+1132,2025-09-11 07:00:00,Model Evasion,Fraud Detection,4,0.92,4364,USA,Closed,malicious
+1133,2025-09-29 00:22:00,Data Poisoning,Fraud Detection,5,0.86,4077,USA,In Progress,malicious
+1134,2025-09-05 10:14:00,Model Evasion,Fraud Detection,2,0.84,1477,India,In Progress,malicious
+1135,2025-09-02 03:58:00,Adversarial Example,Recommendation Engine,4,0.95,4960,Germany,,malicious
+1136,2025-09-24 11:47:00,Prompt Injection,Recommendation Engine,3,0.84,2397,China,Open,benign
+1137,2025-09-12 05:58:00,Prompt Injection,Fraud Detection,4,0.64,109,China,Open,malicious
+1138,2025-09-07 21:14:00,Data Poisoning,Recommendation Engine,4,0.85,3554,India,Closed,malicious
+1139,2025-09-20 08:50:00,Model Evasion,Recommendation Engine,1,0.65,,USA,In Progress,malicious
+1140,2025-09-16 11:39:00,Prompt Injection,Recommendation Engine,4,0.88,1499,China,Closed,malicious
+1141,2025-09-30 13:17:00,Model Evasion,Fraud Detection,2,0.81,595,USA,Closed,malicious
+1142,2025-09-02 20:53:00,Model Evasion,Fraud Detection,4,0.54,978,China,Closed,malicious
+1143,2025-09-21 11:07:00,Data Poisoning,Fraud Detection,3,0.76,730,USA,Open,malicious
+1144,2025-09-21 15:23:00,Prompt Injection,Recommendation Engine,4,0.67,56,USA,In Progress,malicious
+1145,2025-09-03 12:27:00,Data Poisoning,Fraud Detection,1,0.66,2243,China,Closed,malicious
+1146,2025-09-19 00:19:00,Data Poisoning,Recommendation Engine,4,0.8,1701,USA,In Progress,malicious
+1147,2025-09-30 19:41:00,Prompt Injection,Chatbot,2,0.66,1286,USA,In Progress,malicious
+1148,2025-09-16 03:54:00,Prompt Injection,Recommendation Engine,5,0.89,111,Germany,Closed,malicious
+1149,2025-09-13 12:47:00,Adversarial Example,Image Classifier,5,0.54,4806,China,Closed,malicious
+1150,2025-09-19 03:05:00,Adversarial Example,Fraud Detection,99,0.83,1201,Russia,,malicious
+1151,2025-09-08 02:30:00,Model Evasion,Fraud Detection,4,0.9,947,Germany,Open,malicious
+1152,2025-09-11 21:47:00,Prompt Injection,Image Classifier,4,0.84,4121,USA,In Progress,malicious
+1153,2025-09-16 06:16:00,Adversarial Example,Recommendation Engine,2,0.75,757,Germany,Closed,malicious
+1154,2025-09-17 12:16:00,Model Evasion,Chatbot,2,0.98,3388,USA,Closed,malicious
+1155,2025-09-21 21:20:00,Model Evasion,Image Classifier,3,0.65,1841,India,In Progress,malicious
+1156,2025-09-01 21:46:00,Model Evasion,Image Classifier,4,0.51,3535,Brazil,Closed,malicious
+1157,2025-09-05 16:56:00,Adversarial Example,Recommendation Engine,5,0.72,2293,China,,malicious
+1158,2025-09-19 22:11:00,Prompt Injection,Fraud Detection,2,0.52,1104,Germany,In Progress,malicious
+1159,2025-09-07 13:54:00,Data Poisoning,Recommendation Engine,5,0.98,661,USA,Closed,malicious
+1160,2025-09-28 23:34:00,Model Evasion,Image Classifier,4,0.6,908,China,In Progress,malicious
+1161,2025-09-16 05:59:00,Adversarial Example,Image Classifier,4,high,4617,Russia,Closed,malicious
+1162,2025-09-04 20:10:00,Adversarial Example,Fraud Detection,2,0.89,1856,USA,Closed,malicious
+1163,2025-09-21 08:40:00,Data Poisoning,Fraud Detection,1,0.61,2311,USA,Open,malicious
+1164,2025-09-03 14:28:00,Data Poisoning,Fraud Detection,3,0.81,789,China,In Progress,malicious
+1165,2025-09-23 04:48:00,Adversarial Example,Recommendation Engine,4,0.52,171,Germany,Open,malicious
+1166,2025-09-23 14:42:00,Prompt Injection,Fraud Detection,2,0.74,4360,USA,Closed,malicious
+1167,2025-09-10 09:45:00,Data Poisoning,Image Classifier,3,0.51,1986,Russia,In Progress,benign
+1168,2025-09-01 11:03:00,Adversarial Example,Image Classifier,5,0.96,1885,USA,In Progress,malicious
+1169,2025-09-25 03:26:00,Data Poisoning,Chatbot,5,0.99,475,USA,,benign
+1170,2025-09-06 13:14:00,Prompt Injection,Recommendation Engine,5,0.61,1049,Germany,,malicious
+1171,2025-09-20 11:01:00,Model Evasion,Chatbot,2,0.6,4129,USA,Closed,malicious
+1172,2025-09-22 01:03:00,Data Poisoning,Image Classifier,2,0.88,2311,Germany,Closed,malicious
+1173,2025-09-03 07:04:00,Prompt Injection,Chatbot,4,0.63,1161,USA,Closed,malicious
+1174,2025-09-28 07:53:00,Adversarial Example,Image Classifier,3,0.95,815,USA,Closed,malicious
+1175,2025-09-13 06:35:00,Data Poisoning,Chatbot,1,0.79,3766,USA,,malicious
+1176,2025-09-17 14:58:00,Data Poisoning,Fraud Detection,2,0.68,2922,Russia,In Progress,malicious
+1177,2025-09-17 10:24:00,Adversarial Example,Chatbot,3,0.92,753,China,Open,malicious
+1178,2025-09-02 03:16:00,Model Evasion,Fraud Detection,2,0.75,4661,India,In Progress,benign
+1179,2025-09-14 22:40:00,Adversarial Example,Fraud Detection,2,0.96,461,USA,In Progress,malicious
+1180,2025-09-20 06:08:00,Data Poisoning,Recommendation Engine,2,0.96,3239,China,,malicious
+1181,2025-09-19 13:36:00,Adversarial Example,Fraud Detection,1,0.58,2702,China,In Progress,malicious
+1182,2025-09-20 21:53:00,Prompt Injection,Fraud Detection,4,0.5,80,Russia,In Progress,malicious
+1183,2025-09-27 01:05:00,Adversarial Example,Chatbot,3,0.99,2804,Germany,Closed,malicious
+1184,2025-09-01 14:14:00,Data Poisoning,Image Classifier,4,0.95,869,Germany,Open,malicious
+1185,2025-09-18 01:08:00,Adversarial Example,Recommendation Engine,2,0.53,4694,USA,In Progress,benign
+1186,2025-09-27 19:43:00,Model Evasion,Fraud Detection,2,0.92,806,China,In Progress,malicious
+1187,2025-09-06 03:12:00,Adversarial Example,Recommendation Engine,4,0.73,1934,China,Open,malicious
+1188,2025-09-15 23:16:00,Model Evasion,Chatbot,3,0.63,703,Russia,Closed,malicious
+1189,2025-09-27 18:39:00,Prompt Injection,Fraud Detection,3,0.94,2523,USA,,malicious
+1190,2025-09-19 06:29:00,Model Evasion,Chatbot,2,0.6,2639,USA,,malicious
+1191,2025-09-16 05:19:00,Adversarial Example,Recommendation Engine,5,0.97,4582,China,In Progress,malicious
+1192,2025-09-04 10:11:00,Data Poisoning,Chatbot,2,0.6,3909,USA,Closed,malicious
+1193,2025-09-23 21:30:00,Model Evasion,Recommendation Engine,3,0.81,4801,USA,,malicious
+1194,2025-09-09 19:28:00,Prompt Injection,Chatbot,4,0.61,1164,Russia,,malicious
+1195,2025-09-18 14:22:00,Model Evasion,Recommendation Engine,3,0.77,619,China,,malicious
+1196,2025-09-26 19:17:00,Model Evasion,Image Classifier,2,0.84,3066,Russia,,malicious
+1197,2025-09-02 14:47:00,Model Evasion,Chatbot,3,0.6,4872,India,,malicious
+1198,2025-09-29 07:32:00,Prompt Injection,Chatbot,4,0.76,446,USA,In Progress,malicious
+1199,2025-09-29 03:45:00,Adversarial Example,Image Classifier,2,0.73,2337,China,,malicious
+1200,2025-09-01 03:17:00,Model Evasion,Image Classifier,1,0.54,208,USA,In Progress,malicious
+1201,2025-09-17 07:49:00,Model Evasion,Chatbot,2,0.91,2460,Russia,Open,malicious
+1202,2025-09-25 02:18:00,Data Poisoning,Image Classifier,5,0.67,3442,China,Open,malicious
+1203,2025-09-11 11:27:00,Prompt Injection,Fraud Detection,1,0.79,2711,USA,Closed,malicious
+1204,2025-09-16 17:51:00,Model Evasion,Recommendation Engine,99,0.76,2337,USA,In Progress,malicious
+1205,2025-09-18 11:44:00,Prompt Injection,Recommendation Engine,3,0.76,1291,China,Closed,malicious
+1206,2025-09-20 08:08:00,Model Evasion,Recommendation Engine,99,0.55,2198,USA,Open,malicious
+1207,2025-09-30 05:47:00,Adversarial Example,Fraud Detection,5,0.71,1400,USA,Open,malicious
+1208,2025-09-15 08:26:00,Adversarial Example,Image Classifier,3,0.73,4950,India,Open,malicious
+1209,2025-09-11 21:48:00,Model Evasion,Image Classifier,2,0.87,2655,India,Open,malicious
+1210,2025-09-19 07:30:00,Adversarial Example,Chatbot,1,0.92,4012,USA,,malicious
+1211,2025-09-02 22:51:00,Model Evasion,Image Classifier,2,0.77,704,China,Open,malicious
+1212,2025-09-05 13:06:00,Adversarial Example,Chatbot,4,0.54,825,Russia,,malicious
+1213,2025-09-25 03:14:00,Data Poisoning,Fraud Detection,2,0.62,1004,USA,,malicious
+1214,2025-09-21 23:26:00,Data Poisoning,Recommendation Engine,2,0.58,3460,Russia,Closed,malicious
+1215,2025-09-29 13:06:00,Data Poisoning,Recommendation Engine,3,0.56,376,USA,,malicious
+1216,2025-09-08 22:11:00,Prompt Injection,Recommendation Engine,5,0.68,972,Germany,Closed,malicious
+1217,2025-09-03 00:31:00,Prompt Injection,Image Classifier,2,0.61,4213,China,,benign
+1218,2025-09-02 04:54:00,Data Poisoning,Chatbot,1,0.61,3076,China,,malicious
+1219,2025-09-13 15:47:00,Prompt Injection,Chatbot,1,high,443,Russia,Open,malicious
+1220,2025-09-07 00:40:00,Adversarial Example,Fraud Detection,5,0.51,754,USA,In Progress,malicious
+1221,2025-09-14 10:40:00,Model Evasion,Image Classifier,4,0.55,3604,USA,,malicious
+1222,2025-09-13 17:43:00,Model Evasion,Fraud Detection,2,0.59,4735,China,In Progress,malicious
+1223,2025-09-04 23:59:00,Model Evasion,Chatbot,1,0.72,2171,India,In Progress,malicious
+1224,2025-09-17 00:38:00,Data Poisoning,Chatbot,2,0.76,2705,USA,In Progress,benign
+1225,2025-09-25 09:53:00,Prompt Injection,Recommendation Engine,1,0.57,3465,India,,malicious
+1226,2025-09-08 17:11:00,Adversarial Example,Image Classifier,5,0.71,2711,USA,In Progress,malicious
+1227,2025-09-27 01:04:00,Adversarial Example,Chatbot,4,0.67,2407,USA,,malicious
+1228,2025-09-02 06:02:00,Data Poisoning,Recommendation Engine,3,0.59,622,India,Open,malicious
+1229,2025-09-06 15:55:00,Adversarial Example,Image Classifier,5,0.5,1723,USA,,malicious
+1230,2025-09-06 15:20:00,Adversarial Example,Fraud Detection,2,0.73,3322,China,Closed,malicious
+1231,2025-09-28 08:24:00,Adversarial Example,Image Classifier,4,0.84,1919,USA,Open,malicious
+1232,2025-09-16 05:18:00,Adversarial Example,Image Classifier,5,0.61,918,USA,In Progress,malicious
+1233,2025-09-15 04:45:00,Prompt Injection,Chatbot,2,0.57,4215,Germany,In Progress,malicious
+1234,2025-09-22 01:06:00,Adversarial Example,Chatbot,4,0.94,581,China,Closed,malicious
+1235,2025-09-12 13:26:00,Model Evasion,Image Classifier,2,0.64,3881,China,Open,malicious
+1236,2025-09-22 13:45:00,Data Poisoning,Chatbot,2,0.61,1686,China,Closed,malicious
+1237,2025-09-18 11:59:00,Prompt Injection,Chatbot,1,0.93,3909,USA,In Progress,malicious
+1238,2025-09-30 03:36:00,Adversarial Example,Chatbot,3,0.91,1999,China,,malicious
+1239,2025-09-12 08:51:00,Prompt Injection,Recommendation Engine,4,high,2711,Brazil,In Progress,benign
+1240,2025-09-09 05:15:00,Adversarial Example,Recommendation Engine,5,0.74,400,Russia,Closed,malicious
+1241,2025-09-02 10:09:00,Model Evasion,Image Classifier,4,0.61,3648,USA,,malicious
+1242,2025-09-22 22:56:00,Data Poisoning,Chatbot,5,0.54,2628,USA,,benign
+1243,2025-09-27 12:31:00,Adversarial Example,Recommendation Engine,5,0.79,1656,Russia,In Progress,malicious
+1244,2025-09-15 12:52:00,Adversarial Example,Image Classifier,1,0.55,620,China,,malicious
+1245,2025-09-21 17:35:00,Adversarial Example,Chatbot,3,0.72,246,China,Open,malicious
+1246,2025-09-05 23:18:00,Adversarial Example,Fraud Detection,1,0.97,3339,India,In Progress,malicious
+1247,2025-09-30 20:56:00,Data Poisoning,Chatbot,4,0.98,3010,USA,In Progress,malicious
+1248,2025-09-06 03:20:00,Data Poisoning,Chatbot,5,0.62,4719,China,Open,malicious
+1249,2025-09-30 14:42:00,Model Evasion,Recommendation Engine,1,0.81,2368,Brazil,In Progress,malicious
+1250,2025-09-11 12:31:00,Data Poisoning,Image Classifier,4,0.74,3994,Germany,Closed,malicious
+1251,2025-09-01 19:14:00,Adversarial Example,Image Classifier,4,0.94,1839,USA,Closed,malicious
+1252,2025-09-04 02:59:00,Model Evasion,Recommendation Engine,3,0.64,2903,USA,In Progress,malicious
+1253,2025-09-05 08:55:00,Model Evasion,Chatbot,3,0.5,4395,USA,Open,malicious
+1254,2025-09-09 11:03:00,Model Evasion,Fraud Detection,2,0.58,4498,India,,malicious
+1255,2025-09-21 08:19:00,Adversarial Example,Chatbot,1,0.67,3691,USA,Open,malicious
+1256,2025-09-09 22:34:00,Prompt Injection,Chatbot,2,0.66,3841,USA,Closed,malicious
+1257,2025-09-23 17:11:00,Adversarial Example,Fraud Detection,1,0.9,4348,Russia,In Progress,malicious
+1258,2025-09-04 20:19:00,Data Poisoning,Recommendation Engine,3,0.84,1392,USA,Open,malicious
+1259,2025-09-30 10:45:00,Data Poisoning,Image Classifier,1,0.65,3750,USA,,malicious
+1260,2025-09-02 18:37:00,Adversarial Example,Recommendation Engine,5,0.73,4255,USA,,malicious
+1261,2025-09-27 15:20:00,Adversarial Example,Recommendation Engine,3,0.55,3008,USA,,malicious
+1262,2025-09-12 10:42:00,Model Evasion,Chatbot,4,0.95,4300,China,,malicious
+1263,2025-09-02 12:40:00,Adversarial Example,Image Classifier,3,0.97,3338,Russia,Open,malicious
+1264,2025-09-03 01:21:00,Model Evasion,Image Classifier,3,0.99,3514,Russia,,malicious
+1265,2025-09-15 19:57:00,Data Poisoning,Recommendation Engine,5,0.93,4953,China,Closed,benign
+1266,2025-09-09 07:29:00,Model Evasion,Fraud Detection,1,0.59,759,China,,malicious
+1267,2025-09-02 23:49:00,Adversarial Example,Recommendation Engine,2,0.52,2768,China,Closed,malicious
+1268,2025-09-20 21:23:00,Data Poisoning,Fraud Detection,4,0.79,3088,USA,Open,benign
+1269,2025-09-18 04:16:00,Prompt Injection,Image Classifier,1,0.96,2115,USA,Closed,malicious
+1270,2025-09-27 17:07:00,Model Evasion,Recommendation Engine,1,0.59,4228,Russia,Open,benign
+1271,2025-09-17 04:48:00,Data Poisoning,Chatbot,2,0.5,1723,USA,,malicious
+1272,2025-09-18 23:16:00,Model Evasion,Recommendation Engine,1,0.9,2966,USA,In Progress,malicious
+1273,2025-09-15 18:55:00,Data Poisoning,Image Classifier,3,0.54,429,China,Closed,malicious
+1274,2025-09-03 18:27:00,Data Poisoning,Chatbot,2,0.71,2355,China,Closed,malicious
+1275,2025-09-16 13:19:00,Model Evasion,Chatbot,5,0.84,2459,USA,In Progress,malicious
+1276,2025-09-24 14:26:00,Prompt Injection,Fraud Detection,4,0.62,4192,USA,Open,malicious
+1277,2025-09-15 12:00:00,Data Poisoning,Chatbot,4,0.54,1718,USA,Open,malicious
+1278,2025-09-04 06:55:00,Data Poisoning,Chatbot,4,0.89,1265,Germany,,malicious
+1279,2025-09-04 03:55:00,Data Poisoning,Recommendation Engine,5,0.82,1308,USA,Closed,malicious
+1280,2025-09-30 02:34:00,Prompt Injection,Image Classifier,2,0.99,1050,China,Open,malicious
+1281,2025-09-29 08:18:00,Prompt Injection,Fraud Detection,5,0.67,3473,China,,malicious
+1282,2025-09-14 18:30:00,Adversarial Example,Recommendation Engine,4,0.53,2249,Russia,Open,malicious
+1283,,Model Evasion,Chatbot,4,0.87,2809,USA,In Progress,malicious
+1284,2025-09-05 18:53:00,Prompt Injection,Chatbot,3,0.76,2921,USA,In Progress,malicious
+1285,2025-09-10 23:33:00,Model Evasion,Fraud Detection,2,0.61,4676,China,In Progress,benign
+1286,2025-09-03 09:16:00,Adversarial Example,Image Classifier,3,0.89,4041,Germany,,malicious
+1287,2025-09-07 01:54:00,Model Evasion,Fraud Detection,4,0.6,2417,USA,Closed,malicious
+1288,2025-09-08 09:57:00,Prompt Injection,Recommendation Engine,1,0.63,532,China,In Progress,malicious
+1289,2025-09-05 02:15:00,Model Evasion,Fraud Detection,4,0.55,898,USA,In Progress,malicious
+1290,2025-09-14 16:58:00,Prompt Injection,Chatbot,2,0.7,2654,USA,Open,malicious
+1291,2025-09-22 08:26:00,Model Evasion,Recommendation Engine,1,0.71,1469,China,In Progress,malicious
+1292,2025-09-23 11:12:00,Prompt Injection,Chatbot,1,0.76,2920,USA,Closed,malicious
+1293,2025-09-28 15:10:00,Prompt Injection,Image Classifier,1,0.85,1252,India,,malicious
+1294,2025-09-30 02:39:00,Model Evasion,Chatbot,3,0.95,769,Germany,In Progress,malicious
+1295,,Adversarial Example,Chatbot,2,0.57,833,China,,benign
+1296,,Data Poisoning,Fraud Detection,99,0.53,2209,China,,malicious
+1297,2025-09-20 04:43:00,Adversarial Example,Chatbot,3,0.51,4649,China,Closed,benign
+1298,2025-09-29 07:24:00,Model Evasion,Recommendation Engine,1,0.57,3424,USA,Open,malicious
+1299,2025-09-07 06:07:00,Adversarial Example,Recommendation Engine,4,0.83,1091,Russia,Open,malicious
+1300,2025-09-26 23:30:00,Prompt Injection,Image Classifier,5,0.86,1196,Brazil,,malicious
+1301,2025-09-29 02:07:00,Data Poisoning,Recommendation Engine,4,0.89,3914,USA,In Progress,malicious
+1302,2025-09-06 16:48:00,Model Evasion,Fraud Detection,1,0.62,1660,USA,,malicious
+1303,2025-09-13 21:49:00,Model Evasion,Image Classifier,5,0.65,4654,USA,Open,malicious
+1304,2025-09-13 02:53:00,Model Evasion,Recommendation Engine,4,0.74,260,Germany,In Progress,malicious
+1305,2025-09-26 03:32:00,Data Poisoning,Fraud Detection,1,high,2264,Germany,Open,malicious
+1306,2025-09-23 15:55:00,Prompt Injection,Recommendation Engine,1,0.81,4900,India,Closed,malicious
+1307,2025-09-24 11:48:00,Model Evasion,Recommendation Engine,3,0.99,1185,India,Open,malicious
+1308,2025-09-13 23:51:00,Adversarial Example,Chatbot,1,0.68,2449,China,In Progress,malicious
+1309,2025-09-03 09:00:00,Model Evasion,Recommendation Engine,5,0.88,3533,Germany,In Progress,malicious
+1310,2025-09-22 16:16:00,Model Evasion,Recommendation Engine,2,0.75,4370,Germany,,malicious
+1311,2025-09-01 05:01:00,Model Evasion,Fraud Detection,5,0.56,4301,China,In Progress,benign
+1312,2025-09-01 11:39:00,Model Evasion,Fraud Detection,3,0.79,3344,China,Closed,malicious
+1313,2025-09-01 03:10:00,Prompt Injection,Chatbot,2,0.65,866,Germany,Open,malicious
+1314,2025-09-08 06:52:00,Adversarial Example,Recommendation Engine,1,0.52,92,China,,malicious
+1315,2025-09-25 19:43:00,Prompt Injection,Chatbot,3,0.82,3178,Germany,,malicious
+1316,2025-09-05 05:42:00,Adversarial Example,Recommendation Engine,4,0.93,1351,Germany,In Progress,malicious
+1317,2025-09-14 17:38:00,Model Evasion,Image Classifier,4,0.67,364,Germany,Closed,benign
+1318,2025-09-19 12:01:00,Data Poisoning,Image Classifier,2,0.7,4916,Germany,,malicious
+1319,2025-09-25 00:24:00,Prompt Injection,Chatbot,2,0.95,3718,China,Closed,malicious
+1320,2025-09-23 17:45:00,Data Poisoning,Chatbot,1,0.91,1924,Germany,Closed,malicious
+1321,2025-09-17 00:53:00,Prompt Injection,Chatbot,4,0.86,3095,China,Open,malicious
+1322,2025-09-01 09:29:00,Model Evasion,Fraud Detection,1,0.62,2538,USA,Open,malicious
+1323,2025-09-27 12:50:00,Prompt Injection,Fraud Detection,3,0.96,1296,USA,Open,malicious
+1324,2025-09-25 01:43:00,Model Evasion,Fraud Detection,4,0.58,2276,China,Closed,malicious
+1325,2025-09-26 10:31:00,Prompt Injection,Chatbot,5,0.81,,China,Open,benign
+1326,2025-09-06 04:15:00,Model Evasion,Recommendation Engine,2,0.51,3492,Brazil,,malicious
+1327,2025-09-03 18:54:00,Model Evasion,Image Classifier,2,0.82,1753,USA,,malicious
+1328,2025-09-08 16:53:00,Adversarial Example,Chatbot,4,0.64,910,USA,In Progress,malicious
+1329,2025-09-13 13:10:00,Model Evasion,Fraud Detection,4,0.72,306,USA,Closed,malicious
+1330,2025-09-25 20:17:00,Adversarial Example,Fraud Detection,2,0.67,4231,USA,Open,malicious
+1331,2025-09-12 11:38:00,Model Evasion,Chatbot,5,0.59,4015,India,,malicious
+1332,2025-09-08 10:49:00,Data Poisoning,Chatbot,5,0.81,1438,USA,Closed,malicious
+1333,2025-09-24 17:37:00,Model Evasion,Fraud Detection,2,0.94,872,Germany,Closed,malicious
+1334,2025-09-01 13:04:00,Data Poisoning,Recommendation Engine,2,0.98,1141,Germany,Open,malicious
+1335,2025-09-20 06:31:00,Data Poisoning,Fraud Detection,3,0.6,665,China,Closed,malicious
+1336,2025-09-29 09:04:00,Model Evasion,Fraud Detection,4,0.86,208,Russia,Open,malicious
+1337,2025-09-29 00:08:00,Data Poisoning,Chatbot,1,0.83,951,China,Open,malicious
+1338,2025-09-09 16:53:00,Adversarial Example,Recommendation Engine,4,0.67,1057,USA,Open,malicious
+1339,2025-09-28 20:31:00,Prompt Injection,Fraud Detection,4,0.51,4744,Russia,Closed,malicious
+1340,2025-09-28 18:14:00,Model Evasion,Fraud Detection,2,high,4722,Russia,Closed,malicious
+1341,2025-09-05 00:41:00,Data Poisoning,Image Classifier,4,0.97,4620,USA,Open,malicious
+1342,2025-09-14 07:50:00,Model Evasion,Chatbot,5,0.82,4008,USA,Closed,benign
+1343,2025-09-27 21:54:00,Adversarial Example,Image Classifier,1,0.72,1868,USA,Open,malicious
+1344,2025-09-21 13:12:00,Model Evasion,Image Classifier,2,0.76,4864,USA,In Progress,malicious
+1345,2025-09-08 09:27:00,Model Evasion,Fraud Detection,3,0.6,771,Brazil,Closed,malicious
+1346,2025-09-07 01:16:00,Data Poisoning,Chatbot,5,0.88,4835,China,Closed,malicious
+1347,2025-09-17 05:15:00,Adversarial Example,Recommendation Engine,5,0.87,4030,USA,In Progress,malicious
+1348,2025-09-16 06:49:00,Prompt Injection,Fraud Detection,3,0.57,521,Russia,In Progress,malicious
+1349,2025-09-17 22:16:00,Prompt Injection,Recommendation Engine,4,0.94,3355,China,In Progress,benign
+1350,2025-09-04 07:40:00,Data Poisoning,Recommendation Engine,3,0.63,1400,USA,Open,malicious
+1351,2025-09-02 15:28:00,Model Evasion,Chatbot,3,0.99,3738,Russia,Open,malicious
+1352,2025-09-09 08:39:00,Data Poisoning,Image Classifier,2,0.69,4343,India,,malicious
+1353,2025-09-05 14:55:00,Data Poisoning,Chatbot,2,0.59,3723,India,In Progress,malicious
+1354,2025-09-29 10:21:00,Data Poisoning,Recommendation Engine,2,0.68,3247,China,,malicious
+1355,2025-09-04 02:55:00,Model Evasion,Fraud Detection,3,0.72,500000,India,Open,benign
+1356,2025-09-08 13:33:00,Adversarial Example,Recommendation Engine,1,0.53,,USA,Closed,malicious
+1357,2025-09-18 17:47:00,Data Poisoning,Fraud Detection,5,0.79,4064,China,In Progress,malicious
+1358,2025-09-16 13:06:00,Model Evasion,Fraud Detection,1,high,4681,Brazil,Closed,malicious
+1359,2025-09-10 07:23:00,Adversarial Example,Chatbot,2,0.87,2398,USA,Open,malicious
+1360,2025-09-23 06:57:00,Data Poisoning,Recommendation Engine,3,0.51,142,India,In Progress,benign
+1361,2025-09-10 02:41:00,Prompt Injection,Image Classifier,4,0.77,2851,China,,malicious
+1362,2025-09-08 14:46:00,Adversarial Example,Recommendation Engine,1,0.53,,USA,,malicious
+1363,2025-09-24 08:21:00,Data Poisoning,Recommendation Engine,2,0.85,3695,India,Open,malicious
+1364,2025-09-20 15:52:00,Adversarial Example,Image Classifier,5,0.53,,USA,Closed,malicious
+1365,2025-09-16 17:57:00,Adversarial Example,Chatbot,2,0.96,642,Germany,Open,malicious
+1366,2025-09-22 17:29:00,Adversarial Example,Recommendation Engine,2,0.85,3440,USA,Closed,malicious
+1367,2025-09-22 13:04:00,Adversarial Example,Recommendation Engine,5,0.75,2548,Russia,Open,malicious
+1368,2025-09-30 15:15:00,Adversarial Example,Fraud Detection,1,0.72,3693,USA,,malicious
+1369,2025-09-04 07:37:00,Adversarial Example,Recommendation Engine,3,0.57,369,USA,Closed,malicious
+1370,2025-09-21 15:49:00,Data Poisoning,Image Classifier,2,0.65,3650,USA,Open,malicious
+1371,2025-09-11 15:38:00,Prompt Injection,Fraud Detection,2,0.93,786,Russia,In Progress,malicious
+1372,2025-09-02 17:31:00,Model Evasion,Chatbot,2,0.95,949,Germany,,benign
+1373,2025-09-19 21:56:00,Adversarial Example,Fraud Detection,1,0.5,521,Germany,,malicious
+1374,2025-09-11 03:19:00,Model Evasion,Image Classifier,2,0.8,2943,China,In Progress,malicious
+1375,2025-09-14 13:08:00,Data Poisoning,Image Classifier,1,0.86,354,China,Open,malicious
+1376,2025-09-03 02:51:00,Adversarial Example,Fraud Detection,4,0.81,2335,USA,Closed,malicious
+1377,2025-09-16 00:06:00,Prompt Injection,Chatbot,3,0.54,1482,China,,malicious
+1378,2025-09-16 01:39:00,Model Evasion,Fraud Detection,3,0.61,1647,USA,Open,malicious
+1379,2025-09-01 14:36:00,Adversarial Example,Chatbot,5,0.63,3045,Brazil,In Progress,benign
+1380,2025-09-23 06:53:00,Data Poisoning,Fraud Detection,4,0.92,4631,India,Closed,malicious
+1381,2025-09-03 21:02:00,Prompt Injection,Image Classifier,1,0.73,2215,China,Open,malicious
+1382,2025-09-11 13:22:00,Model Evasion,Recommendation Engine,5,0.74,4716,USA,Open,malicious
+1383,2025-09-28 14:14:00,Model Evasion,Recommendation Engine,2,0.97,427,India,,malicious
+1384,2025-09-05 21:59:00,Adversarial Example,Chatbot,1,0.82,2537,USA,,malicious
+1385,2025-09-06 13:07:00,Prompt Injection,Chatbot,4,0.95,544,USA,Closed,benign
+1386,2025-09-28 11:27:00,Prompt Injection,Chatbot,3,0.73,2764,USA,Open,malicious
+1387,2025-09-21 02:20:00,Prompt Injection,Image Classifier,3,0.57,4919,China,In Progress,malicious
+1388,2025-09-26 20:33:00,Prompt Injection,Fraud Detection,2,0.96,3765,India,In Progress,malicious
+1389,2025-09-12 19:39:00,Data Poisoning,Image Classifier,3,0.73,658,USA,Closed,malicious
+1390,2025-09-13 13:17:00,Prompt Injection,Recommendation Engine,2,0.59,2827,USA,Open,malicious
+1391,2025-09-19 05:38:00,Model Evasion,Chatbot,5,0.65,2058,China,,malicious
+1392,2025-09-15 16:16:00,Model Evasion,Fraud Detection,2,0.53,3327,Germany,Open,malicious
+1393,2025-09-06 18:31:00,Data Poisoning,Recommendation Engine,5,0.73,730,USA,,malicious
+1394,2025-09-12 22:54:00,Model Evasion,Recommendation Engine,3,0.93,1832,USA,In Progress,malicious
+1395,2025-09-10 18:58:00,Model Evasion,Recommendation Engine,5,0.97,408,Russia,Closed,malicious
+1396,2025-09-20 14:51:00,Prompt Injection,Image Classifier,4,0.97,4179,Brazil,Closed,malicious
+1397,2025-09-27 08:25:00,Model Evasion,Chatbot,4,0.56,3247,Brazil,Closed,malicious
+1398,2025-09-19 00:25:00,Data Poisoning,Recommendation Engine,2,0.69,4802,India,,malicious
+1399,2025-09-18 13:56:00,Prompt Injection,Chatbot,2,0.51,133,USA,In Progress,malicious
+1400,2025-09-23 08:57:00,Adversarial Example,Image Classifier,2,0.93,4883,USA,In Progress,malicious
+1401,2025-09-06 18:28:00,Prompt Injection,Recommendation Engine,5,0.68,4959,USA,Closed,malicious
+1402,2025-09-05 03:09:00,Data Poisoning,Image Classifier,5,0.82,666,USA,Closed,malicious
+1403,2025-09-01 19:10:00,Prompt Injection,Image Classifier,3,0.86,276,Brazil,,benign
+1404,2025-09-17 15:04:00,Prompt Injection,Chatbot,1,0.71,3307,India,,malicious
+1405,,Data Poisoning,Recommendation Engine,3,0.65,881,Germany,Open,malicious
+1406,2025-09-07 09:24:00,Prompt Injection,Image Classifier,4,0.98,500000,USA,,malicious
+1407,2025-09-01 18:01:00,Data Poisoning,Recommendation Engine,3,0.98,2082,Russia,Open,malicious
+1408,2025-09-21 08:25:00,Data Poisoning,Chatbot,4,0.64,1237,India,Closed,malicious
+1409,2025-09-12 17:36:00,Adversarial Example,Image Classifier,99,0.74,2452,USA,In Progress,malicious
+1410,2025-09-06 10:05:00,Model Evasion,Chatbot,2,0.99,158,Russia,,malicious
+1411,2025-09-04 15:17:00,Model Evasion,Recommendation Engine,3,0.5,2596,USA,In Progress,malicious
+1412,2025-09-14 22:16:00,Prompt Injection,Recommendation Engine,3,0.71,3815,USA,,malicious
+1413,2025-09-03 07:43:00,Prompt Injection,Chatbot,2,0.55,4374,Germany,,malicious
+1414,2025-09-10 09:00:00,Adversarial Example,Fraud Detection,2,0.75,2526,Germany,Open,malicious
+1415,2025-09-21 09:35:00,Adversarial Example,Image Classifier,1,0.51,110,USA,,malicious
+1416,2025-09-07 17:02:00,Adversarial Example,Recommendation Engine,5,0.7,541,USA,Closed,benign
+1417,2025-09-12 18:44:00,Data Poisoning,Recommendation Engine,3,0.61,1138,Brazil,In Progress,malicious
+1418,2025-09-06 15:30:00,Adversarial Example,Image Classifier,3,0.77,3283,Germany,,malicious
+1419,2025-09-14 13:31:00,Adversarial Example,Chatbot,5,1.0,3610,Germany,In Progress,malicious
+1420,2025-09-02 03:59:00,Prompt Injection,Chatbot,4,0.9,4455,USA,In Progress,benign
+1421,2025-09-03 10:26:00,Adversarial Example,Chatbot,1,0.92,3557,USA,In Progress,malicious
+1422,2025-09-10 05:24:00,Data Poisoning,Fraud Detection,3,0.82,2419,USA,,malicious
+1423,2025-09-06 00:53:00,Data Poisoning,Fraud Detection,3,0.52,1756,USA,Open,malicious
+1424,2025-09-14 06:48:00,Prompt Injection,Recommendation Engine,4,0.6,3086,USA,In Progress,malicious
+1425,2025-09-20 09:32:00,Adversarial Example,Chatbot,4,0.96,2306,USA,In Progress,malicious
+1426,2025-09-07 13:15:00,Adversarial Example,Image Classifier,4,0.68,975,China,,malicious
+1427,2025-09-10 05:36:00,Data Poisoning,Recommendation Engine,2,0.55,722,USA,,malicious
+1428,2025-09-22 03:25:00,Adversarial Example,Image Classifier,5,0.85,2570,India,Closed,malicious
+1429,2025-09-10 04:45:00,Adversarial Example,Recommendation Engine,1,0.65,324,USA,Closed,malicious
+1430,2025-09-21 05:24:00,Adversarial Example,Fraud Detection,1,0.63,1529,China,Open,malicious
+1431,2025-09-21 18:19:00,Model Evasion,Recommendation Engine,2,1.0,1945,USA,Open,malicious
+1432,2025-09-25 11:27:00,Prompt Injection,Fraud Detection,1,0.93,4486,China,Open,malicious
+1433,2025-09-21 07:02:00,Model Evasion,Recommendation Engine,2,0.7,2430,USA,Open,malicious
+1434,2025-09-19 04:51:00,Prompt Injection,Chatbot,5,0.99,4111,Brazil,In Progress,malicious
+1435,2025-09-26 20:20:00,Data Poisoning,Image Classifier,5,0.83,3510,India,,malicious
+1436,2025-09-19 12:06:00,Adversarial Example,Chatbot,2,0.87,845,China,Closed,malicious
+1437,2025-09-27 20:09:00,Prompt Injection,Recommendation Engine,2,0.52,4964,USA,In Progress,malicious
+1438,2025-09-17 00:09:00,Model Evasion,Recommendation Engine,2,0.56,567,China,,malicious
+1439,2025-09-10 18:29:00,Adversarial Example,Recommendation Engine,2,0.82,3688,India,,malicious
+1440,2025-09-23 15:00:00,Data Poisoning,Fraud Detection,1,0.95,2179,USA,In Progress,malicious
+1441,2025-09-23 02:43:00,Prompt Injection,Image Classifier,5,0.81,,China,In Progress,malicious
+1442,2025-09-02 23:29:00,Prompt Injection,Image Classifier,2,0.57,3319,India,Closed,malicious
+1443,2025-09-28 21:18:00,Prompt Injection,Recommendation Engine,3,0.56,2320,India,Open,malicious
+1444,2025-09-17 04:09:00,Adversarial Example,Recommendation Engine,1,0.92,1646,India,Open,malicious
+1445,2025-09-25 11:37:00,Model Evasion,Fraud Detection,5,0.57,4003,Russia,Closed,malicious
+1446,2025-09-07 19:43:00,Model Evasion,Chatbot,4,0.76,3909,Russia,Closed,malicious
+1447,2025-09-30 03:35:00,Prompt Injection,Chatbot,5,0.52,3420,China,Open,malicious
+1448,2025-09-07 15:00:00,Data Poisoning,Image Classifier,4,0.54,2531,China,In Progress,malicious
+1449,2025-09-12 08:44:00,Data Poisoning,Fraud Detection,2,0.84,356,India,Open,malicious
+1450,2025-09-04 04:51:00,Model Evasion,Recommendation Engine,2,0.84,3081,Germany,,malicious
+1451,2025-09-20 05:03:00,Data Poisoning,Image Classifier,4,0.67,2280,Brazil,,malicious
+1452,2025-09-27 20:06:00,Model Evasion,Fraud Detection,2,0.61,4131,USA,Closed,malicious
+1453,2025-09-22 12:17:00,Prompt Injection,Chatbot,3,0.91,2460,USA,Open,malicious
+1454,2025-09-21 06:08:00,Model Evasion,Fraud Detection,1,0.61,,USA,Open,malicious
+1455,2025-09-18 16:31:00,Model Evasion,Chatbot,1,0.77,4209,USA,,malicious
+1456,2025-09-16 18:07:00,Prompt Injection,Fraud Detection,3,0.98,1197,USA,Open,malicious
+1457,2025-09-01 14:11:00,Data Poisoning,Image Classifier,3,0.57,1278,Germany,Closed,malicious
+1458,2025-09-13 13:11:00,Model Evasion,Chatbot,4,0.97,465,USA,Closed,malicious
+1459,2025-09-05 17:53:00,Model Evasion,Image Classifier,1,0.59,4000,Germany,,malicious
+1460,2025-09-09 06:58:00,Prompt Injection,Image Classifier,3,0.78,3348,Germany,Open,malicious
+1461,2025-09-25 10:35:00,Data Poisoning,Chatbot,2,0.69,1487,USA,Open,benign
+1462,2025-09-19 03:44:00,Model Evasion,Chatbot,1,0.98,4942,USA,,malicious
+1463,2025-09-03 18:40:00,Prompt Injection,Recommendation Engine,3,0.64,4597,Germany,In Progress,malicious
+1464,2025-09-04 12:12:00,Model Evasion,Recommendation Engine,1,0.7,4536,India,In Progress,malicious
+1465,2025-09-25 15:46:00,Adversarial Example,Recommendation Engine,2,0.99,325,Russia,Open,malicious
+1466,2025-09-20 11:54:00,Prompt Injection,Image Classifier,2,0.77,1765,Russia,Closed,malicious
+1467,2025-09-27 11:55:00,Data Poisoning,Image Classifier,2,0.75,4162,Brazil,In Progress,malicious
+1468,2025-09-29 07:30:00,Data Poisoning,Recommendation Engine,1,0.63,303,China,Open,malicious
+1469,2025-09-23 10:40:00,Data Poisoning,Image Classifier,1,0.85,4579,Russia,In Progress,malicious
+1470,2025-09-27 14:24:00,Data Poisoning,Image Classifier,2,0.51,1440,India,,malicious
+1471,2025-09-03 17:13:00,Model Evasion,Chatbot,1,0.52,500000,Russia,In Progress,malicious
+1472,2025-09-13 02:50:00,Model Evasion,Chatbot,4,0.8,3034,USA,In Progress,malicious
+1473,2025-09-17 17:47:00,Data Poisoning,Image Classifier,2,0.67,2631,Brazil,,malicious
+1474,2025-09-15 10:04:00,Data Poisoning,Recommendation Engine,2,0.98,95,China,Closed,malicious
+1475,2025-09-15 05:31:00,Data Poisoning,Fraud Detection,2,0.95,3455,India,Open,malicious
+1476,2025-09-27 17:34:00,Model Evasion,Recommendation Engine,4,0.86,4377,USA,Closed,malicious
+1477,2025-09-03 08:13:00,Data Poisoning,Fraud Detection,5,0.91,2369,USA,Closed,malicious
+1478,2025-09-09 10:41:00,Data Poisoning,Recommendation Engine,4,0.83,3467,USA,In Progress,malicious
+1479,2025-09-23 05:16:00,Adversarial Example,Chatbot,4,0.56,528,USA,Open,malicious
+1480,2025-09-19 20:02:00,Adversarial Example,Image Classifier,3,0.88,2310,USA,In Progress,malicious
+1481,2025-09-25 04:50:00,Data Poisoning,Image Classifier,4,0.61,4675,India,,malicious
+1482,2025-09-19 23:50:00,Prompt Injection,Chatbot,3,0.66,1663,USA,Closed,malicious
+1483,2025-09-20 01:52:00,Data Poisoning,Fraud Detection,2,0.91,3364,USA,Closed,malicious
+1484,2025-09-20 23:21:00,Adversarial Example,Fraud Detection,2,0.77,2341,USA,,malicious
+1485,2025-09-18 14:31:00,Prompt Injection,Fraud Detection,2,0.93,4905,China,Open,malicious
+1486,2025-09-17 01:32:00,Prompt Injection,Chatbot,5,0.61,692,USA,Closed,malicious
+1487,2025-09-11 15:05:00,Data Poisoning,Fraud Detection,3,0.8,4330,USA,Closed,malicious
+1488,2025-09-07 19:37:00,Adversarial Example,Chatbot,4,0.54,951,China,Open,malicious
+1489,2025-09-08 19:41:00,Adversarial Example,Recommendation Engine,2,0.82,1360,Germany,In Progress,malicious
+1490,2025-09-01 06:57:00,Prompt Injection,Recommendation Engine,3,0.88,538,USA,,malicious
+1491,2025-09-29 20:56:00,Data Poisoning,Chatbot,1,0.79,819,USA,Open,malicious
+1492,2025-09-15 03:18:00,Model Evasion,Image Classifier,1,0.63,3162,USA,,malicious
+1493,2025-09-03 06:27:00,Model Evasion,Recommendation Engine,5,0.52,3925,Brazil,,malicious
+1494,2025-09-12 22:49:00,Adversarial Example,Fraud Detection,3,0.56,500000,USA,Closed,malicious
+1495,2025-09-17 16:52:00,Model Evasion,Chatbot,2,0.81,1028,China,Open,malicious
+1496,2025-09-27 17:53:00,Adversarial Example,Fraud Detection,5,0.97,3665,USA,,malicious
+1497,2025-09-19 02:52:00,Adversarial Example,Fraud Detection,2,0.6,1242,China,In Progress,malicious
+1498,2025-09-08 20:58:00,Adversarial Example,Image Classifier,5,0.87,1141,USA,,malicious
+1499,2025-09-01 06:52:00,Model Evasion,Fraud Detection,2,0.93,592,USA,Closed,malicious
+1500,2025-09-06 05:43:00,Adversarial Example,Image Classifier,2,0.76,1605,China,In Progress,malicious
+1501,2025-09-29 00:35:00,Prompt Injection,Recommendation Engine,2,0.83,4210,USA,In Progress,malicious
+1502,2025-09-24 06:16:00,Data Poisoning,Chatbot,1,0.91,,USA,Open,malicious
+1503,2025-09-17 08:28:00,Data Poisoning,Fraud Detection,1,0.63,4071,Germany,In Progress,malicious
+1504,2025-09-20 00:24:00,Adversarial Example,Chatbot,4,0.65,4302,Brazil,Open,malicious
+1505,2025-09-27 21:56:00,Data Poisoning,Fraud Detection,5,0.5,3694,USA,Open,malicious
+1506,2025-09-14 02:48:00,Model Evasion,Chatbot,4,0.98,2350,Germany,In Progress,malicious
+1507,2025-09-25 19:35:00,Model Evasion,Fraud Detection,1,0.96,4207,Brazil,Open,malicious
+1508,2025-09-13 03:46:00,Data Poisoning,Fraud Detection,3,0.88,1440,India,Open,malicious
+1509,2025-09-15 05:03:00,Model Evasion,Fraud Detection,1,0.54,3626,China,In Progress,malicious
+1510,2025-09-13 11:15:00,Data Poisoning,Fraud Detection,1,0.72,,Germany,Closed,malicious
+1511,2025-09-27 06:41:00,Data Poisoning,Fraud Detection,4,0.55,3711,USA,,malicious
+1512,2025-09-04 13:04:00,Data Poisoning,Fraud Detection,3,0.51,184,China,Open,malicious
+1513,2025-09-25 05:51:00,Adversarial Example,Fraud Detection,1,0.81,4996,USA,Open,malicious
+1514,2025-09-17 02:30:00,Data Poisoning,Fraud Detection,1,0.98,220,USA,In Progress,malicious
+1515,2025-09-06 02:37:00,Adversarial Example,Fraud Detection,99,0.95,3188,China,,malicious
+1516,2025-09-23 13:19:00,Data Poisoning,Chatbot,1,0.85,1093,USA,,malicious
+1517,2025-09-26 03:28:00,Data Poisoning,Image Classifier,3,0.55,2945,Germany,Open,malicious
+1518,2025-09-14 23:50:00,Data Poisoning,Fraud Detection,3,0.64,2474,China,In Progress,malicious
+1519,2025-09-04 22:04:00,Model Evasion,Image Classifier,1,0.66,2615,China,Closed,malicious
+1520,2025-09-03 00:34:00,Adversarial Example,Fraud Detection,1,0.88,2012,USA,,benign
+1521,2025-09-15 19:52:00,Adversarial Example,Fraud Detection,2,0.9,2490,USA,Closed,malicious
+1522,2025-09-10 23:57:00,Data Poisoning,Chatbot,4,0.69,600,China,In Progress,malicious
+1523,2025-09-29 20:35:00,Data Poisoning,Recommendation Engine,3,0.71,1160,Brazil,Closed,malicious
+1524,2025-09-01 12:08:00,Model Evasion,Recommendation Engine,4,0.52,4599,USA,In Progress,malicious
+1525,2025-09-01 11:38:00,Model Evasion,Chatbot,99,0.64,4313,USA,Open,malicious
+1526,2025-09-28 17:54:00,Model Evasion,Image Classifier,4,0.73,2735,Russia,Closed,malicious
+1527,2025-09-10 16:03:00,Adversarial Example,Recommendation Engine,3,0.56,2218,USA,Open,malicious
+1528,2025-09-12 15:39:00,Adversarial Example,Chatbot,3,0.73,4707,Russia,Open,malicious
+1529,2025-09-06 03:20:00,Adversarial Example,Chatbot,4,0.93,1152,China,In Progress,malicious
+1530,2025-09-17 23:46:00,Data Poisoning,Recommendation Engine,4,0.79,56,China,Closed,malicious
+1531,2025-09-26 15:39:00,Adversarial Example,Image Classifier,3,0.54,1204,USA,,malicious
+1532,2025-09-04 00:40:00,Prompt Injection,Chatbot,4,0.6,4341,USA,Closed,malicious
+1533,2025-09-25 11:50:00,Prompt Injection,Fraud Detection,1,0.74,143,USA,,malicious
+1534,2025-09-12 21:01:00,Model Evasion,Image Classifier,3,0.68,367,Russia,Open,malicious
+1535,2025-09-23 10:27:00,Adversarial Example,Image Classifier,2,0.68,1482,Germany,Open,malicious
+1536,2025-09-04 19:26:00,Prompt Injection,Recommendation Engine,1,0.76,615,Germany,In Progress,benign
+1537,2025-09-06 18:55:00,Model Evasion,Recommendation Engine,1,0.79,3638,India,,malicious
+1538,2025-09-15 20:04:00,Adversarial Example,Fraud Detection,4,0.9,,USA,Closed,malicious
+1539,2025-09-26 20:59:00,Data Poisoning,Chatbot,3,high,3227,Germany,In Progress,malicious
+1540,2025-09-17 08:56:00,Prompt Injection,Recommendation Engine,2,0.9,1588,China,In Progress,malicious
+1541,2025-09-22 23:47:00,Data Poisoning,Recommendation Engine,3,0.67,2489,India,In Progress,malicious
+1542,2025-09-08 17:30:00,Adversarial Example,Image Classifier,3,0.53,3003,USA,Closed,malicious
+1543,2025-09-16 06:12:00,Prompt Injection,Recommendation Engine,2,0.78,698,Germany,In Progress,malicious
+1544,2025-09-29 01:39:00,Adversarial Example,Recommendation Engine,4,0.79,4971,Russia,Closed,malicious
+1545,2025-09-01 19:27:00,Data Poisoning,Recommendation Engine,4,0.97,2823,China,In Progress,malicious
+1546,,Prompt Injection,Recommendation Engine,4,0.86,944,USA,,malicious
+1547,2025-09-01 17:42:00,Data Poisoning,Image Classifier,4,0.96,3881,China,Open,malicious
+1548,2025-09-13 21:00:00,Adversarial Example,Fraud Detection,3,0.95,922,USA,,malicious
+1549,2025-09-17 20:04:00,Adversarial Example,Fraud Detection,1,0.8,1746,Germany,,malicious
+1550,2025-09-15 23:05:00,Data Poisoning,Chatbot,2,0.76,500000,Brazil,In Progress,benign
+1551,2025-09-16 01:29:00,Prompt Injection,Recommendation Engine,1,0.78,2853,China,,benign
+1552,2025-09-08 18:14:00,Data Poisoning,Image Classifier,5,0.99,1559,China,,malicious
+1553,2025-09-16 22:05:00,Adversarial Example,Chatbot,1,0.89,1083,Germany,,malicious
+1554,2025-09-27 00:57:00,Data Poisoning,Chatbot,1,0.55,3538,USA,In Progress,malicious
+1555,2025-09-07 11:48:00,Adversarial Example,Fraud Detection,5,0.89,433,USA,Closed,malicious
+1556,2025-09-17 11:14:00,Data Poisoning,Image Classifier,5,0.59,2926,Russia,Open,malicious
+1557,2025-09-27 11:02:00,Prompt Injection,Image Classifier,4,0.72,1089,Germany,Open,malicious
+1558,2025-09-07 04:44:00,Prompt Injection,Image Classifier,1,0.61,,USA,Closed,malicious
+1559,2025-09-26 18:18:00,Data Poisoning,Fraud Detection,1,0.84,2612,USA,Closed,malicious
+1560,2025-09-17 22:34:00,Data Poisoning,Fraud Detection,2,0.94,4191,Germany,,malicious
+1561,2025-09-05 17:21:00,Prompt Injection,Fraud Detection,1,0.65,3759,India,Open,malicious
+1562,2025-09-27 02:54:00,Adversarial Example,Fraud Detection,1,0.54,4263,India,Closed,malicious
+1563,2025-09-05 16:11:00,Prompt Injection,Fraud Detection,3,0.65,2089,USA,,malicious
+1564,2025-09-17 09:45:00,Adversarial Example,Recommendation Engine,5,0.84,1902,Russia,Open,malicious
+1565,2025-09-13 00:57:00,Data Poisoning,Recommendation Engine,2,0.66,2567,China,In Progress,malicious
+1566,2025-09-25 12:27:00,Data Poisoning,Image Classifier,4,0.64,1998,Germany,In Progress,malicious
+1567,2025-09-05 21:36:00,Adversarial Example,Chatbot,4,0.59,3114,China,Open,malicious
+1568,2025-09-08 23:56:00,Data Poisoning,Image Classifier,2,0.75,2994,USA,Open,malicious
+1569,2025-09-02 01:42:00,Adversarial Example,Chatbot,4,0.64,2010,Brazil,In Progress,malicious
+1570,2025-09-16 01:17:00,Model Evasion,Fraud Detection,2,0.87,4844,USA,In Progress,malicious
+1571,2025-09-28 03:21:00,Prompt Injection,Chatbot,1,0.54,1891,USA,Open,malicious
+1572,2025-09-20 03:29:00,Model Evasion,Image Classifier,4,0.83,830,India,,malicious
+1573,2025-09-17 04:42:00,Adversarial Example,Image Classifier,1,0.62,48,Germany,Closed,malicious
+1574,2025-09-14 05:45:00,Prompt Injection,Chatbot,99,0.74,4210,India,Closed,malicious
+1575,2025-09-13 10:44:00,Adversarial Example,Recommendation Engine,2,0.64,1178,China,Open,malicious
+1576,2025-09-16 15:56:00,Prompt Injection,Fraud Detection,3,0.86,3033,USA,Closed,malicious
+1577,2025-09-19 17:22:00,Prompt Injection,Fraud Detection,3,0.97,70,Russia,In Progress,malicious
+1578,2025-09-20 15:35:00,Prompt Injection,Image Classifier,1,0.96,66,USA,In Progress,malicious
+1579,2025-09-10 14:07:00,Prompt Injection,Recommendation Engine,1,0.79,1777,Russia,Closed,malicious
+1580,2025-09-30 09:48:00,Adversarial Example,Chatbot,4,0.73,2228,USA,Open,malicious
+1581,2025-09-19 08:32:00,Prompt Injection,Fraud Detection,5,0.91,1789,India,In Progress,malicious
+1582,2025-09-13 07:49:00,Prompt Injection,Recommendation Engine,5,0.84,612,USA,,benign
+1583,2025-09-29 18:59:00,Model Evasion,Fraud Detection,3,0.59,1886,China,,malicious
+1584,2025-09-19 05:36:00,Data Poisoning,Recommendation Engine,4,0.91,1622,Russia,In Progress,malicious
+1585,2025-09-28 23:02:00,Data Poisoning,Recommendation Engine,4,0.71,696,China,In Progress,malicious
+1586,2025-09-26 18:00:00,Model Evasion,Image Classifier,4,0.59,1237,Germany,Closed,malicious
+1587,2025-09-01 22:04:00,Model Evasion,Fraud Detection,3,0.64,2406,India,Open,malicious
+1588,2025-09-18 20:51:00,Adversarial Example,Chatbot,4,0.63,248,Germany,Closed,malicious
+1589,2025-09-25 22:29:00,Adversarial Example,Image Classifier,5,0.76,637,Russia,Open,malicious
+1590,2025-09-17 12:43:00,Adversarial Example,Image Classifier,3,0.62,949,China,,malicious
+1591,,Model Evasion,Chatbot,5,0.56,1904,USA,,malicious
+1592,2025-09-25 00:18:00,Model Evasion,Image Classifier,3,0.56,3587,USA,Open,malicious
+1593,2025-09-05 13:48:00,Prompt Injection,Recommendation Engine,1,0.79,1111,USA,Closed,benign
+1594,2025-09-27 10:29:00,Adversarial Example,Recommendation Engine,1,0.87,175,USA,In Progress,malicious
+1595,2025-09-19 14:30:00,Adversarial Example,Fraud Detection,2,0.66,722,China,Open,malicious
+1596,2025-09-18 13:29:00,Adversarial Example,Fraud Detection,3,0.52,3842,USA,Closed,malicious
+1597,2025-09-20 13:38:00,Data Poisoning,Chatbot,5,0.56,3674,USA,,benign
+1598,2025-09-20 22:30:00,Prompt Injection,Fraud Detection,1,0.96,4866,USA,In Progress,malicious
+1599,2025-09-11 18:05:00,Adversarial Example,Recommendation Engine,5,0.75,1947,India,,malicious
+1600,2025-09-15 08:12:00,Adversarial Example,Chatbot,5,0.73,702,China,Open,malicious
+1601,2025-09-04 07:08:00,Adversarial Example,Chatbot,1,0.52,2128,USA,,malicious
+1602,2025-09-15 17:53:00,Data Poisoning,Fraud Detection,5,0.86,926,Russia,,benign
+1603,2025-09-07 13:15:00,Data Poisoning,Recommendation Engine,99,0.76,4233,USA,Open,malicious
+1604,2025-09-03 13:49:00,Model Evasion,Chatbot,4,0.6,,Brazil,In Progress,malicious
+1605,2025-09-22 01:55:00,Prompt Injection,Recommendation Engine,4,0.56,2517,Germany,Open,malicious
+1606,2025-09-10 02:36:00,Model Evasion,Recommendation Engine,99,0.69,2397,USA,Closed,malicious
+1607,2025-09-18 16:30:00,Prompt Injection,Recommendation Engine,4,0.92,1149,Germany,Open,malicious
+1608,2025-09-30 09:44:00,Data Poisoning,Fraud Detection,2,0.93,3380,India,Open,malicious
+1609,2025-09-30 19:18:00,Adversarial Example,Image Classifier,5,0.8,,China,In Progress,malicious
+1610,2025-09-28 06:58:00,Model Evasion,Image Classifier,4,0.86,1253,Russia,Closed,malicious
+1611,2025-09-30 19:56:00,Adversarial Example,Chatbot,3,0.56,1483,USA,,benign
+1612,2025-09-11 04:43:00,Model Evasion,Recommendation Engine,2,0.79,309,USA,,malicious
+1613,2025-09-01 08:24:00,Data Poisoning,Fraud Detection,4,0.83,3952,USA,,malicious
+1614,2025-09-24 14:22:00,Data Poisoning,Recommendation Engine,1,0.6,3049,USA,,malicious
+1615,2025-09-24 19:39:00,Data Poisoning,Recommendation Engine,5,0.94,1564,USA,In Progress,malicious
+1616,2025-09-20 10:56:00,Model Evasion,Fraud Detection,2,0.6,1500,Russia,Closed,malicious
+1617,2025-09-17 15:20:00,Prompt Injection,Image Classifier,1,0.66,4865,USA,In Progress,malicious
+1618,2025-09-24 07:51:00,Model Evasion,Recommendation Engine,3,0.81,15,China,Open,malicious
+1619,2025-09-13 00:32:00,Prompt Injection,Recommendation Engine,1,0.82,605,China,Closed,malicious
+1620,2025-09-27 05:57:00,Model Evasion,Image Classifier,4,0.85,1381,Russia,Closed,malicious
+1621,2025-09-02 11:05:00,Model Evasion,Fraud Detection,5,high,4908,Brazil,,malicious
+1622,2025-09-26 06:35:00,Data Poisoning,Chatbot,5,0.92,3383,India,,malicious
+1623,2025-09-16 18:20:00,Adversarial Example,Image Classifier,1,0.77,894,Brazil,,malicious
+1624,2025-09-25 01:00:00,Adversarial Example,Chatbot,1,0.74,,India,,malicious
+1625,2025-09-27 03:58:00,Prompt Injection,Chatbot,5,0.99,413,Brazil,Open,malicious
+1626,2025-09-15 06:39:00,Adversarial Example,Image Classifier,5,0.87,4120,Germany,,benign
+1627,2025-09-20 02:29:00,Model Evasion,Recommendation Engine,3,0.56,2004,USA,In Progress,malicious
+1628,2025-09-20 08:20:00,Model Evasion,Chatbot,3,0.88,315,China,Closed,malicious
+1629,2025-09-08 15:23:00,Data Poisoning,Chatbot,2,0.55,4666,Germany,Open,malicious
+1630,2025-09-16 02:12:00,Data Poisoning,Fraud Detection,5,0.51,4820,USA,Open,malicious
+1631,2025-09-18 22:26:00,Adversarial Example,Recommendation Engine,4,0.7,3055,USA,Closed,malicious
+1632,2025-09-22 01:54:00,Prompt Injection,Chatbot,2,1.0,1849,China,Closed,malicious
+1633,2025-09-10 14:43:00,Adversarial Example,Fraud Detection,2,0.59,1953,Russia,Closed,malicious
+1634,,Adversarial Example,Recommendation Engine,5,0.84,388,USA,Open,malicious
+1635,2025-09-13 06:00:00,Adversarial Example,Image Classifier,1,0.59,2769,India,In Progress,malicious
+1636,2025-09-27 16:13:00,Adversarial Example,Image Classifier,2,0.86,4539,Germany,In Progress,benign
+1637,2025-09-30 09:56:00,Model Evasion,Fraud Detection,3,0.75,3046,Brazil,Closed,malicious
+1638,2025-09-29 08:21:00,Prompt Injection,Image Classifier,1,0.84,2415,Russia,Open,malicious
+1639,2025-09-03 07:30:00,Model Evasion,Chatbot,1,0.6,2389,India,,malicious
+1640,2025-09-14 06:07:00,Prompt Injection,Recommendation Engine,5,0.87,303,China,Open,malicious
+1641,2025-09-29 18:30:00,Data Poisoning,Chatbot,5,1.0,763,USA,Closed,malicious
+1642,2025-09-18 00:24:00,Adversarial Example,Chatbot,5,0.83,1973,China,Open,malicious
+1643,2025-09-05 22:34:00,Model Evasion,Image Classifier,5,0.75,815,India,Open,malicious
+1644,2025-09-10 06:03:00,Prompt Injection,Chatbot,3,0.96,877,Russia,Open,malicious
+1645,2025-09-24 16:41:00,Data Poisoning,Image Classifier,5,0.51,,India,,malicious
+1646,2025-09-08 14:55:00,Data Poisoning,Recommendation Engine,3,0.86,2326,USA,Closed,malicious
+1647,2025-09-08 15:43:00,Adversarial Example,Recommendation Engine,4,0.94,2429,China,Closed,malicious
+1648,2025-09-15 21:27:00,Prompt Injection,Chatbot,99,0.53,2060,USA,Closed,malicious
+1649,2025-09-18 07:33:00,Model Evasion,Fraud Detection,2,0.73,4398,USA,In Progress,malicious
+1650,2025-09-17 15:19:00,Adversarial Example,Image Classifier,3,high,,USA,In Progress,malicious
+1651,2025-09-01 11:07:00,Model Evasion,Image Classifier,3,0.78,4255,USA,Closed,malicious
+1652,2025-09-21 15:03:00,Data Poisoning,Chatbot,1,0.82,2201,India,Open,benign
+1653,2025-09-07 11:37:00,Model Evasion,Image Classifier,1,0.65,3597,USA,Open,malicious
+1654,2025-09-26 08:07:00,Model Evasion,Image Classifier,5,0.73,1203,USA,Closed,malicious
+1655,2025-09-14 06:49:00,Adversarial Example,Fraud Detection,5,0.64,2424,Brazil,,malicious
+1656,2025-09-28 22:51:00,Model Evasion,Fraud Detection,3,0.68,3875,USA,,malicious
+1657,2025-09-23 04:01:00,Adversarial Example,Chatbot,1,0.58,2823,USA,Open,malicious
+1658,2025-09-24 03:07:00,Data Poisoning,Fraud Detection,1,0.94,3285,USA,Open,malicious
+1659,2025-09-19 23:55:00,Adversarial Example,Chatbot,5,0.51,2063,USA,In Progress,malicious
+1660,2025-09-27 04:52:00,Adversarial Example,Recommendation Engine,3,0.94,1979,USA,,malicious
+1661,2025-09-04 08:35:00,Prompt Injection,Chatbot,2,0.79,4348,USA,Open,malicious
+1662,2025-09-14 23:59:00,Model Evasion,Recommendation Engine,3,0.67,3131,China,Open,malicious
+1663,2025-09-27 22:50:00,Data Poisoning,Chatbot,2,0.86,3092,USA,Closed,malicious
+1664,2025-09-28 20:00:00,Adversarial Example,Image Classifier,3,0.75,4826,USA,In Progress,malicious
+1665,2025-09-27 10:48:00,Data Poisoning,Fraud Detection,5,0.75,3664,Russia,,malicious
+1666,2025-09-10 04:16:00,Prompt Injection,Recommendation Engine,3,0.56,2336,China,,malicious
+1667,2025-09-25 16:27:00,Model Evasion,Chatbot,4,0.69,,Russia,In Progress,malicious
+1668,2025-09-22 20:31:00,Adversarial Example,Fraud Detection,2,0.62,497,China,Open,malicious
+1669,2025-09-13 00:28:00,Model Evasion,Chatbot,4,0.51,3817,USA,,malicious
+1670,2025-09-20 02:52:00,Prompt Injection,Fraud Detection,4,0.68,4643,India,,malicious
+1671,2025-09-24 20:29:00,Prompt Injection,Fraud Detection,1,0.54,131,USA,,malicious
+1672,2025-09-04 23:13:00,Data Poisoning,Chatbot,3,0.63,857,USA,Closed,benign
+1673,2025-09-04 08:04:00,Adversarial Example,Recommendation Engine,2,0.55,,Germany,In Progress,malicious
+1674,2025-09-08 00:56:00,Data Poisoning,Recommendation Engine,5,0.55,29,China,,malicious
+1675,2025-09-01 00:09:00,Prompt Injection,Image Classifier,3,0.6,3396,India,In Progress,malicious
+1676,2025-09-14 08:55:00,Model Evasion,Fraud Detection,99,1.0,4604,Russia,Open,malicious
+1677,2025-09-17 12:33:00,Data Poisoning,Image Classifier,1,0.5,1260,USA,In Progress,malicious
+1678,2025-09-21 12:28:00,Data Poisoning,Image Classifier,4,0.82,1558,China,Closed,malicious
+1679,2025-09-27 07:32:00,Model Evasion,Chatbot,4,0.57,15,China,Closed,benign
+1680,2025-09-01 16:55:00,Data Poisoning,Chatbot,4,0.96,3605,Brazil,In Progress,malicious
+1681,2025-09-20 05:52:00,Model Evasion,Chatbot,2,0.55,1607,India,Closed,malicious
+1682,2025-09-25 06:41:00,Adversarial Example,Fraud Detection,3,0.98,3517,Russia,,malicious
+1683,2025-09-06 20:15:00,Model Evasion,Chatbot,4,0.81,2016,USA,Closed,malicious
+1684,2025-09-17 13:13:00,Adversarial Example,Chatbot,2,0.5,3574,India,Open,malicious
+1685,2025-09-03 21:18:00,Model Evasion,Fraud Detection,2,0.95,1743,USA,In Progress,malicious
+1686,2025-09-15 02:29:00,Prompt Injection,Fraud Detection,3,0.76,3791,USA,In Progress,malicious
+1687,2025-09-05 20:10:00,Prompt Injection,Recommendation Engine,3,0.63,3634,Russia,Open,malicious
+1688,2025-09-05 19:38:00,Adversarial Example,Chatbot,2,0.88,1088,USA,Open,malicious
+1689,2025-09-15 16:48:00,Adversarial Example,Chatbot,2,0.96,1361,Brazil,Open,malicious
+1690,2025-09-15 03:44:00,Prompt Injection,Chatbot,2,0.74,3372,USA,Open,malicious
+1691,2025-09-13 12:17:00,Adversarial Example,Recommendation Engine,4,0.66,4473,India,,malicious
+1692,2025-09-08 04:24:00,Model Evasion,Chatbot,4,0.89,475,USA,Closed,malicious
+1693,2025-09-28 19:14:00,Model Evasion,Recommendation Engine,5,0.84,1289,USA,Closed,malicious
+1694,2025-09-07 01:02:00,Prompt Injection,Image Classifier,5,0.94,328,USA,,malicious
+1695,2025-09-01 06:24:00,Data Poisoning,Recommendation Engine,3,0.85,4044,China,Open,benign
+1696,2025-09-01 06:44:00,Model Evasion,Image Classifier,1,0.62,1839,USA,In Progress,malicious
+1697,2025-09-29 10:23:00,Adversarial Example,Chatbot,1,0.97,1186,Germany,In Progress,malicious
+1698,2025-09-21 06:29:00,Data Poisoning,Image Classifier,2,0.55,4533,USA,In Progress,malicious
+1699,2025-09-09 20:43:00,Data Poisoning,Recommendation Engine,5,0.63,3414,USA,Open,malicious
+1700,2025-09-13 18:24:00,Model Evasion,Fraud Detection,3,0.76,3536,USA,,malicious
+1701,2025-09-23 15:26:00,Model Evasion,Image Classifier,2,0.78,1773,China,,malicious
+1702,2025-09-07 20:20:00,Data Poisoning,Image Classifier,3,0.51,2063,India,,malicious
+1703,2025-09-27 21:57:00,Data Poisoning,Chatbot,3,0.89,1844,Russia,Closed,malicious
+1704,2025-09-11 11:46:00,Prompt Injection,Recommendation Engine,4,0.68,4963,USA,Closed,malicious
+1705,2025-09-17 08:54:00,Adversarial Example,Image Classifier,1,0.7,2558,China,Closed,malicious
+1706,2025-09-17 08:04:00,Prompt Injection,Image Classifier,5,0.9,1262,India,Closed,malicious
+1707,2025-09-03 12:36:00,Model Evasion,Image Classifier,3,0.69,3291,USA,In Progress,malicious
+1708,2025-09-08 13:56:00,Prompt Injection,Image Classifier,1,0.52,1018,China,In Progress,malicious
+1709,2025-09-04 08:09:00,Prompt Injection,Fraud Detection,5,0.59,1789,China,,malicious
+1710,2025-09-23 08:41:00,Prompt Injection,Recommendation Engine,1,0.98,3524,USA,Closed,malicious
+1711,2025-09-10 08:16:00,Prompt Injection,Chatbot,5,0.54,3504,USA,,malicious
+1712,2025-09-27 22:05:00,Adversarial Example,Chatbot,99,0.68,806,USA,Open,malicious
+1713,2025-09-25 04:16:00,Adversarial Example,Fraud Detection,4,0.75,2666,Germany,Closed,malicious
+1714,2025-09-12 21:00:00,Data Poisoning,Recommendation Engine,4,0.75,404,USA,Closed,malicious
+1715,2025-09-16 05:49:00,Model Evasion,Image Classifier,2,0.5,593,USA,,malicious
+1716,2025-09-04 03:44:00,Prompt Injection,Fraud Detection,5,0.75,3949,USA,,malicious
+1717,2025-09-27 05:04:00,Data Poisoning,Recommendation Engine,3,0.69,4107,USA,Open,malicious
+1718,2025-09-30 17:03:00,Data Poisoning,Image Classifier,4,0.99,3280,USA,,malicious
+1719,2025-09-19 12:17:00,Data Poisoning,Fraud Detection,5,0.58,2212,Russia,Closed,malicious
+1720,2025-09-26 03:07:00,Adversarial Example,Recommendation Engine,5,0.68,1542,USA,In Progress,malicious
+1721,2025-09-06 00:39:00,Prompt Injection,Chatbot,5,0.71,613,Germany,Open,malicious
+1722,2025-09-11 01:29:00,Prompt Injection,Chatbot,2,0.7,868,USA,Open,malicious
+1723,2025-09-30 22:45:00,Model Evasion,Recommendation Engine,5,0.83,811,Germany,Closed,malicious
+1724,2025-09-20 19:38:00,Prompt Injection,Chatbot,4,0.61,1822,China,In Progress,malicious
+1725,2025-09-23 06:09:00,Prompt Injection,Recommendation Engine,5,0.61,4862,USA,,malicious
+1726,2025-09-26 18:51:00,Data Poisoning,Image Classifier,4,0.86,4177,India,,malicious
+1727,2025-09-30 19:44:00,Model Evasion,Recommendation Engine,2,0.75,1744,China,In Progress,malicious
+1728,2025-09-06 20:27:00,Prompt Injection,Image Classifier,2,0.71,2256,India,In Progress,malicious
+1729,2025-09-29 17:08:00,Adversarial Example,Fraud Detection,3,0.58,4042,China,Closed,malicious
+1730,2025-09-17 20:45:00,Prompt Injection,Recommendation Engine,4,0.59,3667,Brazil,,malicious
+1731,2025-09-27 03:06:00,Data Poisoning,Fraud Detection,2,0.51,521,India,Closed,malicious
+1732,2025-09-30 17:28:00,Adversarial Example,Chatbot,3,0.55,1525,Brazil,,malicious
+1733,2025-09-16 22:08:00,Data Poisoning,Image Classifier,2,0.78,1469,China,,malicious
+1734,2025-09-14 07:58:00,Prompt Injection,Recommendation Engine,5,0.95,2675,China,In Progress,malicious
+1735,2025-09-14 17:18:00,Adversarial Example,Fraud Detection,3,0.64,1513,India,Closed,malicious
+1736,2025-09-11 14:14:00,Model Evasion,Image Classifier,1,0.66,4876,Russia,In Progress,malicious
+1737,2025-09-01 20:52:00,Model Evasion,Image Classifier,1,0.56,1451,Brazil,Closed,malicious
+1738,2025-09-28 14:44:00,Adversarial Example,Chatbot,1,0.69,4654,USA,,malicious
+1739,2025-09-09 10:53:00,Adversarial Example,Chatbot,3,0.52,3430,India,Open,malicious
+1740,2025-09-27 00:01:00,Data Poisoning,Image Classifier,1,0.96,3007,USA,Open,malicious
+1741,2025-09-19 12:58:00,Adversarial Example,Image Classifier,1,0.84,3124,China,Closed,malicious
+1742,2025-09-11 23:01:00,Data Poisoning,Recommendation Engine,5,1.0,1753,USA,Closed,benign
+1743,2025-09-10 01:31:00,Prompt Injection,Image Classifier,5,0.94,4955,USA,In Progress,malicious
+1744,2025-09-28 12:49:00,Data Poisoning,Recommendation Engine,3,0.74,1612,Russia,,malicious
+1745,2025-09-05 19:49:00,Adversarial Example,Image Classifier,99,0.76,3275,USA,Open,malicious
+1746,2025-09-30 08:49:00,Adversarial Example,Chatbot,1,0.6,555,Germany,In Progress,malicious
+1747,2025-09-06 13:37:00,Prompt Injection,Recommendation Engine,4,0.73,4251,China,Closed,malicious
+1748,2025-09-05 19:41:00,Adversarial Example,Fraud Detection,4,0.95,2049,USA,,benign
+1749,2025-09-19 00:14:00,Adversarial Example,Chatbot,3,0.53,,USA,In Progress,malicious
+1750,2025-09-17 05:46:00,Model Evasion,Recommendation Engine,3,0.93,2849,China,In Progress,malicious
+1751,2025-09-08 02:09:00,Model Evasion,Recommendation Engine,3,0.67,3030,USA,Closed,malicious
+1752,2025-09-13 07:15:00,Prompt Injection,Fraud Detection,3,0.95,1081,India,,malicious
+1753,2025-09-21 02:00:00,Data Poisoning,Recommendation Engine,4,0.97,3325,Brazil,Open,malicious
+1754,2025-09-23 00:23:00,Model Evasion,Image Classifier,1,0.84,492,USA,In Progress,malicious
+1755,2025-09-30 09:18:00,Data Poisoning,Fraud Detection,2,0.83,4764,USA,Closed,malicious
+1756,2025-09-04 05:17:00,Adversarial Example,Chatbot,2,0.73,74,China,In Progress,benign
+1757,2025-09-04 08:54:00,Model Evasion,Chatbot,2,0.92,2991,Germany,Closed,malicious
+1758,2025-09-30 22:08:00,Prompt Injection,Image Classifier,3,0.98,3360,USA,Closed,malicious
+1759,2025-09-27 03:40:00,Prompt Injection,Chatbot,1,0.89,370,USA,Closed,malicious
+1760,2025-09-28 15:31:00,Prompt Injection,Recommendation Engine,5,0.81,4682,China,,malicious
+1761,2025-09-14 18:56:00,Model Evasion,Recommendation Engine,2,0.8,328,Brazil,Open,malicious
+1762,2025-09-16 03:53:00,Data Poisoning,Image Classifier,1,0.92,4685,USA,,malicious
+1763,2025-09-14 20:43:00,Adversarial Example,Chatbot,4,0.77,1790,China,Open,malicious
+1764,2025-09-26 15:32:00,Data Poisoning,Chatbot,1,0.9,776,Brazil,Closed,malicious
+1765,2025-09-19 20:49:00,Data Poisoning,Image Classifier,4,0.75,2022,Germany,Open,malicious
+1766,2025-09-06 12:21:00,Adversarial Example,Fraud Detection,4,0.53,4674,Germany,,malicious
+1767,2025-09-10 23:48:00,Adversarial Example,Chatbot,2,0.69,4316,China,In Progress,malicious
+1768,2025-09-04 20:49:00,Model Evasion,Fraud Detection,1,0.72,1187,Brazil,,malicious
+1769,2025-09-03 23:40:00,Model Evasion,Chatbot,2,0.57,1503,Germany,,malicious
+1770,2025-09-28 02:37:00,Model Evasion,Chatbot,1,0.55,3291,Russia,,malicious
+1771,2025-09-26 09:46:00,Model Evasion,Chatbot,1,0.77,3325,Germany,,malicious
+1772,2025-09-09 08:15:00,Model Evasion,Chatbot,2,0.54,187,Germany,,malicious
+1773,2025-09-05 08:14:00,Adversarial Example,Recommendation Engine,2,0.65,1214,USA,Open,malicious
+1774,2025-09-12 21:44:00,Data Poisoning,Fraud Detection,3,high,3286,USA,Open,malicious
+1775,2025-09-17 19:34:00,Model Evasion,Fraud Detection,4,0.98,3446,India,In Progress,malicious
+1776,2025-09-28 20:38:00,Model Evasion,Chatbot,3,0.86,1109,USA,,malicious
+1777,2025-09-11 13:03:00,Data Poisoning,Chatbot,1,1.0,2521,China,,malicious
+1778,2025-09-05 07:58:00,Model Evasion,Fraud Detection,1,0.85,4939,USA,In Progress,malicious
+1779,2025-09-05 05:30:00,Data Poisoning,Recommendation Engine,5,0.65,3879,India,In Progress,malicious
+1780,2025-09-09 01:57:00,Data Poisoning,Image Classifier,3,0.84,530,USA,Closed,malicious
+1781,2025-09-16 13:35:00,Adversarial Example,Image Classifier,5,0.85,1070,India,In Progress,malicious
+1782,2025-09-17 17:11:00,Prompt Injection,Fraud Detection,2,0.69,3136,Germany,In Progress,malicious
+1783,2025-09-30 15:19:00,Adversarial Example,Chatbot,4,0.51,962,USA,In Progress,malicious
+1784,2025-09-29 15:20:00,Prompt Injection,Chatbot,3,0.85,1405,China,Closed,malicious
+1785,2025-09-13 16:31:00,Prompt Injection,Recommendation Engine,2,0.51,3137,USA,Open,malicious
+1786,2025-09-26 00:34:00,Prompt Injection,Image Classifier,3,0.82,516,USA,Closed,malicious
+1787,2025-09-24 05:14:00,Model Evasion,Recommendation Engine,3,0.58,3164,USA,Open,malicious
+1788,2025-09-03 21:48:00,Adversarial Example,Image Classifier,2,0.78,1491,USA,In Progress,malicious
+1789,2025-09-08 01:21:00,Prompt Injection,Fraud Detection,2,0.75,3689,Brazil,Closed,malicious
+1790,2025-09-20 22:52:00,Data Poisoning,Image Classifier,4,0.51,4228,USA,Closed,malicious
+1791,2025-09-08 20:34:00,Model Evasion,Recommendation Engine,5,0.68,4409,Germany,Open,malicious
+1792,2025-09-17 15:14:00,Adversarial Example,Recommendation Engine,2,0.8,590,USA,Closed,malicious
+1793,2025-09-15 22:28:00,Prompt Injection,Recommendation Engine,2,0.92,1543,Germany,Closed,malicious
+1794,2025-09-16 06:09:00,Data Poisoning,Fraud Detection,2,0.94,3056,USA,,malicious
+1795,2025-09-27 01:45:00,Adversarial Example,Image Classifier,4,0.74,2206,Germany,Open,malicious
+1796,2025-09-26 11:08:00,Adversarial Example,Image Classifier,2,0.86,3339,Germany,Closed,malicious
+1797,2025-09-17 00:21:00,Model Evasion,Recommendation Engine,99,0.66,2708,Germany,Closed,malicious
+1798,2025-09-10 12:36:00,Adversarial Example,Image Classifier,2,0.67,4029,USA,In Progress,malicious
+1799,2025-09-28 14:29:00,Model Evasion,Chatbot,3,0.6,747,Germany,,malicious
+1800,2025-09-28 04:24:00,Prompt Injection,Chatbot,4,0.78,800,USA,,malicious
+1801,2025-09-12 17:47:00,Model Evasion,Chatbot,5,0.66,1497,USA,In Progress,malicious
+1802,2025-09-14 00:57:00,Data Poisoning,Image Classifier,3,0.54,1379,China,In Progress,malicious
+1803,2025-09-20 05:33:00,Model Evasion,Fraud Detection,3,0.84,679,China,In Progress,malicious
+1804,2025-09-30 19:28:00,Data Poisoning,Fraud Detection,99,0.85,3770,China,In Progress,benign
+1805,2025-09-19 06:49:00,Model Evasion,Fraud Detection,1,0.68,3342,Germany,,benign
+1806,2025-09-12 07:22:00,Adversarial Example,Fraud Detection,5,0.54,896,USA,Closed,malicious
+1807,2025-09-17 09:44:00,Prompt Injection,Chatbot,1,0.71,1546,USA,Closed,malicious
+1808,2025-09-17 04:41:00,Data Poisoning,Chatbot,4,0.72,3126,USA,In Progress,malicious
+1809,2025-09-08 06:48:00,Model Evasion,Recommendation Engine,4,0.83,683,Germany,Open,malicious
+1810,2025-09-16 16:14:00,Model Evasion,Image Classifier,2,0.66,1295,China,In Progress,malicious
+1811,2025-09-04 15:20:00,Model Evasion,Image Classifier,5,0.84,1385,USA,Closed,malicious
+1812,2025-09-08 06:38:00,Adversarial Example,Fraud Detection,1,0.94,942,Germany,Open,malicious
+1813,2025-09-14 09:02:00,Adversarial Example,Chatbot,2,0.62,3280,China,In Progress,malicious
+1814,2025-09-04 01:52:00,Data Poisoning,Fraud Detection,3,0.99,1033,China,Open,benign
+1815,2025-09-21 15:21:00,Data Poisoning,Recommendation Engine,2,0.69,2786,China,In Progress,malicious
+1816,2025-09-10 10:08:00,Adversarial Example,Image Classifier,4,0.63,2233,Germany,,malicious
+1817,2025-09-10 20:18:00,Data Poisoning,Image Classifier,1,0.71,3645,Germany,Closed,malicious
+1818,2025-09-16 09:55:00,Prompt Injection,Fraud Detection,1,0.55,1620,USA,In Progress,malicious
+1819,2025-09-01 05:02:00,Prompt Injection,Recommendation Engine,1,0.56,3535,USA,Open,malicious
+1820,2025-09-12 19:42:00,Adversarial Example,Image Classifier,2,0.71,3205,USA,Closed,malicious
+1821,2025-09-01 00:55:00,Data Poisoning,Recommendation Engine,3,0.88,2882,Germany,In Progress,malicious
+1822,2025-09-07 01:17:00,Model Evasion,Recommendation Engine,4,0.95,4904,Russia,In Progress,malicious
+1823,2025-09-20 22:19:00,Prompt Injection,Fraud Detection,5,0.83,170,China,In Progress,malicious
+1824,2025-09-06 15:50:00,Adversarial Example,Chatbot,5,0.55,1553,USA,In Progress,malicious
+1825,2025-09-02 11:25:00,Data Poisoning,Fraud Detection,2,0.84,3897,India,,benign
+1826,2025-09-12 15:08:00,Adversarial Example,Chatbot,3,0.82,1595,India,Closed,malicious
+1827,2025-09-28 11:37:00,Model Evasion,Recommendation Engine,2,0.9,1623,Russia,,malicious
+1828,2025-09-04 05:01:00,Prompt Injection,Chatbot,2,0.91,4122,Germany,Closed,benign
+1829,2025-09-11 10:34:00,Adversarial Example,Recommendation Engine,3,0.93,1091,Russia,In Progress,malicious
+1830,2025-09-04 13:26:00,Adversarial Example,Image Classifier,1,0.71,2837,USA,Closed,malicious
+1831,2025-09-04 13:22:00,Adversarial Example,Image Classifier,2,0.85,407,USA,Open,malicious
+1832,2025-09-13 12:30:00,Model Evasion,Image Classifier,5,0.63,4169,USA,Closed,malicious
+1833,2025-09-13 00:22:00,Adversarial Example,Fraud Detection,3,1.0,,Germany,Open,malicious
+1834,2025-09-14 07:41:00,Model Evasion,Fraud Detection,3,0.59,4944,USA,Open,malicious
+1835,2025-09-27 19:58:00,Model Evasion,Recommendation Engine,1,0.51,4965,China,,malicious
+1836,2025-09-02 01:31:00,Model Evasion,Image Classifier,2,0.57,236,China,Closed,malicious
+1837,2025-09-29 10:20:00,Prompt Injection,Fraud Detection,5,0.89,2774,USA,In Progress,malicious
+1838,2025-09-29 02:01:00,Prompt Injection,Image Classifier,1,0.72,3437,Russia,Closed,benign
+1839,2025-09-17 04:53:00,Adversarial Example,Fraud Detection,3,0.72,3357,USA,,malicious
+1840,2025-09-28 12:50:00,Adversarial Example,Chatbot,1,high,2877,USA,Open,malicious
+1841,2025-09-25 01:54:00,Prompt Injection,Chatbot,3,0.96,2423,India,Open,benign
+1842,2025-09-25 21:34:00,Data Poisoning,Image Classifier,1,0.66,4714,USA,,malicious
+1843,2025-09-06 15:52:00,Prompt Injection,Recommendation Engine,5,0.6,3147,Germany,,malicious
+1844,2025-09-27 17:58:00,Model Evasion,Fraud Detection,5,0.92,1032,India,Closed,malicious
+1845,2025-09-08 03:07:00,Prompt Injection,Fraud Detection,4,0.95,2854,Russia,Open,malicious
+1846,2025-09-18 13:29:00,Model Evasion,Chatbot,2,0.77,2940,Russia,,malicious
+1847,2025-09-01 17:42:00,Adversarial Example,Chatbot,5,0.81,3701,USA,Closed,malicious
+1848,2025-09-21 18:46:00,Data Poisoning,Recommendation Engine,3,0.63,4070,China,Closed,malicious
+1849,2025-09-05 07:49:00,Adversarial Example,Recommendation Engine,2,0.9,3132,USA,In Progress,malicious
+1850,2025-09-04 05:12:00,Model Evasion,Recommendation Engine,4,0.82,3460,USA,Open,benign
+1851,2025-09-28 02:56:00,Model Evasion,Image Classifier,1,0.75,4942,USA,Closed,malicious
+1852,2025-09-03 11:56:00,Model Evasion,Chatbot,1,0.53,1923,USA,,malicious
+1853,2025-09-05 06:48:00,Data Poisoning,Image Classifier,4,0.96,633,Russia,Open,malicious
+1854,2025-09-30 13:23:00,Prompt Injection,Chatbot,2,0.81,4103,USA,,malicious
+1855,2025-09-06 06:01:00,Adversarial Example,Chatbot,3,0.6,1392,China,,malicious
+1856,2025-09-06 17:38:00,Adversarial Example,Fraud Detection,3,0.8,3446,China,Closed,malicious
+1857,2025-09-12 12:56:00,Prompt Injection,Chatbot,5,0.84,3098,China,Closed,malicious
+1858,2025-09-19 13:34:00,Adversarial Example,Chatbot,5,0.76,4944,Brazil,In Progress,malicious
+1859,2025-09-05 10:11:00,Data Poisoning,Image Classifier,5,0.86,61,USA,,malicious
+1860,2025-09-19 02:29:00,Adversarial Example,Chatbot,2,0.79,2469,Germany,Closed,malicious
+1861,2025-09-10 23:29:00,Model Evasion,Image Classifier,2,0.97,1817,China,In Progress,malicious
+1862,2025-09-09 23:10:00,Prompt Injection,Recommendation Engine,3,0.53,632,USA,Open,malicious
+1863,2025-09-06 12:23:00,Data Poisoning,Chatbot,1,0.55,4887,China,In Progress,malicious
+1864,2025-09-09 11:19:00,Prompt Injection,Chatbot,1,0.59,2598,India,In Progress,malicious
+1865,2025-09-11 22:08:00,Data Poisoning,Image Classifier,3,0.85,3451,USA,,malicious
+1866,2025-09-17 03:55:00,Model Evasion,Recommendation Engine,3,0.82,,USA,Open,malicious
+1867,2025-09-05 16:18:00,Prompt Injection,Fraud Detection,99,0.95,2653,USA,,malicious
+1868,2025-09-12 01:13:00,Adversarial Example,Recommendation Engine,2,0.87,1454,India,,malicious
+1869,2025-09-25 11:20:00,Data Poisoning,Image Classifier,2,0.75,1138,Germany,In Progress,malicious
+1870,2025-09-14 06:43:00,Prompt Injection,Recommendation Engine,1,1.0,3192,China,In Progress,malicious
+1871,2025-09-24 23:29:00,Adversarial Example,Image Classifier,5,0.63,4620,China,Closed,malicious
+1872,2025-09-08 01:27:00,Prompt Injection,Image Classifier,4,0.92,4994,Russia,In Progress,malicious
+1873,2025-09-08 07:54:00,Prompt Injection,Fraud Detection,5,0.71,2210,India,Closed,malicious
+1874,2025-09-12 23:40:00,Prompt Injection,Chatbot,5,0.82,4882,India,,malicious
+1875,2025-09-03 15:32:00,Data Poisoning,Image Classifier,3,0.86,3759,India,In Progress,malicious
+1876,2025-09-20 11:04:00,Adversarial Example,Image Classifier,3,0.82,3029,Germany,Open,malicious
+1877,2025-09-19 22:45:00,Model Evasion,Fraud Detection,2,high,1360,China,Open,malicious
+1878,2025-09-19 16:20:00,Data Poisoning,Image Classifier,3,0.72,2426,Russia,,malicious
+1879,2025-09-02 02:45:00,Data Poisoning,Chatbot,3,0.78,4268,Russia,,malicious
+1880,2025-09-04 21:42:00,Data Poisoning,Fraud Detection,3,0.92,500000,USA,In Progress,malicious
+1881,2025-09-05 16:47:00,Model Evasion,Chatbot,5,0.72,1345,USA,Closed,malicious
+1882,2025-09-19 20:19:00,Adversarial Example,Chatbot,99,0.96,974,Brazil,In Progress,malicious
+1883,2025-09-09 01:33:00,Adversarial Example,Fraud Detection,4,0.72,4161,USA,Closed,malicious
+1884,2025-09-08 08:29:00,Adversarial Example,Image Classifier,4,0.77,3628,Russia,In Progress,malicious
+1885,2025-09-10 15:58:00,Prompt Injection,Chatbot,4,0.9,1622,USA,Open,malicious
+1886,2025-09-14 23:19:00,Prompt Injection,Chatbot,1,0.79,457,USA,Open,malicious
+1887,2025-09-20 01:26:00,Prompt Injection,Chatbot,1,0.98,3330,USA,Closed,malicious
+1888,2025-09-10 01:26:00,Model Evasion,Chatbot,4,0.83,1740,USA,In Progress,malicious
+1889,2025-09-18 05:38:00,Prompt Injection,Fraud Detection,4,0.76,500000,USA,,malicious
+1890,2025-09-25 13:18:00,Model Evasion,Fraud Detection,1,0.51,1954,China,Closed,malicious
+1891,2025-09-04 00:04:00,Adversarial Example,Recommendation Engine,5,0.71,279,Germany,Open,malicious
+1892,2025-09-08 11:47:00,Prompt Injection,Recommendation Engine,1,0.65,2391,Brazil,Closed,benign
+1893,2025-09-07 07:51:00,Prompt Injection,Chatbot,2,0.87,1040,China,In Progress,malicious
+1894,2025-09-27 11:10:00,Data Poisoning,Image Classifier,4,0.6,961,China,,malicious
+1895,2025-09-12 09:09:00,Model Evasion,Chatbot,1,0.6,3845,China,,benign
+1896,2025-09-29 18:27:00,Adversarial Example,Image Classifier,1,0.59,1217,China,Closed,malicious
+1897,2025-09-10 18:03:00,Data Poisoning,Chatbot,2,0.56,3220,China,In Progress,malicious
+1898,2025-09-20 23:06:00,Data Poisoning,Recommendation Engine,4,0.66,374,USA,In Progress,malicious
+1899,2025-09-16 12:30:00,Adversarial Example,Recommendation Engine,3,0.94,4130,USA,,malicious
+1900,2025-09-29 21:25:00,Data Poisoning,Image Classifier,4,0.89,1392,USA,Open,malicious
+1901,2025-09-01 01:57:00,Model Evasion,Chatbot,3,0.87,2076,USA,In Progress,malicious
+1902,2025-09-14 03:35:00,Model Evasion,Image Classifier,1,0.9,774,Germany,,benign
+1903,2025-09-10 04:34:00,Prompt Injection,Recommendation Engine,99,0.63,4316,USA,,malicious
+1904,2025-09-27 14:48:00,Data Poisoning,Chatbot,1,0.94,3424,Russia,In Progress,malicious
+1905,2025-09-01 14:06:00,Prompt Injection,Chatbot,5,0.57,2123,Russia,In Progress,malicious
+1906,2025-09-08 14:34:00,Data Poisoning,Image Classifier,3,0.67,4589,Brazil,Closed,malicious
+1907,2025-09-10 12:23:00,Model Evasion,Fraud Detection,5,0.79,3593,Russia,Open,malicious
+1908,2025-09-16 18:20:00,Model Evasion,Image Classifier,1,0.55,279,USA,Closed,malicious
+1909,2025-09-23 06:03:00,Model Evasion,Recommendation Engine,3,0.87,4841,China,Closed,malicious
+1910,2025-09-05 11:49:00,Data Poisoning,Recommendation Engine,1,0.69,2811,USA,,malicious
+1911,2025-09-21 21:45:00,Model Evasion,Recommendation Engine,1,0.89,2342,India,,malicious
+1912,2025-09-30 05:41:00,Data Poisoning,Recommendation Engine,4,0.75,1474,Russia,Open,malicious
+1913,2025-09-19 07:46:00,Prompt Injection,Recommendation Engine,2,0.59,1857,Russia,Closed,malicious
+1914,2025-09-26 16:16:00,Data Poisoning,Fraud Detection,3,0.87,2889,China,Closed,benign
+1915,2025-09-28 02:51:00,Prompt Injection,Chatbot,1,0.63,1059,India,,malicious
+1916,2025-09-02 10:08:00,Data Poisoning,Image Classifier,2,0.75,1922,USA,,malicious
+1917,2025-09-28 02:01:00,Prompt Injection,Image Classifier,4,0.54,3799,USA,In Progress,malicious
+1918,2025-09-09 23:41:00,Model Evasion,Recommendation Engine,3,0.81,4592,India,Closed,malicious
+1919,2025-09-30 12:53:00,Prompt Injection,Image Classifier,4,0.83,2473,China,Open,malicious
+1920,2025-09-02 06:28:00,Model Evasion,Recommendation Engine,4,0.69,4139,Brazil,Closed,malicious
+1921,2025-09-02 07:57:00,Model Evasion,Fraud Detection,5,high,1851,USA,,malicious
+1922,2025-09-15 07:38:00,Prompt Injection,Fraud Detection,2,0.94,3541,Russia,In Progress,benign
+1923,2025-09-23 09:34:00,Data Poisoning,Chatbot,4,0.85,4549,China,Closed,malicious
+1924,2025-09-28 14:36:00,Data Poisoning,Fraud Detection,5,0.86,594,India,Open,malicious
+1925,2025-09-14 23:28:00,Adversarial Example,Fraud Detection,4,0.63,506,India,,malicious
+1926,2025-09-01 00:09:00,Data Poisoning,Chatbot,3,0.83,4889,Russia,In Progress,malicious
+1927,2025-09-12 13:24:00,Adversarial Example,Image Classifier,4,0.6,20,USA,Closed,benign
+1928,2025-09-16 13:42:00,Data Poisoning,Recommendation Engine,4,0.57,1399,Russia,Open,malicious
+1929,2025-09-07 20:25:00,Data Poisoning,Recommendation Engine,4,1.0,3201,USA,,malicious
+1930,2025-09-02 12:59:00,Model Evasion,Image Classifier,1,0.81,2461,USA,Open,malicious
+1931,2025-09-28 15:29:00,Adversarial Example,Chatbot,2,0.72,3678,China,Closed,benign
+1932,2025-09-04 16:07:00,Data Poisoning,Image Classifier,5,0.64,336,India,,malicious
+1933,2025-09-24 21:07:00,Adversarial Example,Fraud Detection,2,0.8,1667,China,Closed,benign
+1934,2025-09-06 21:52:00,Model Evasion,Chatbot,4,0.52,3576,India,In Progress,malicious
+1935,2025-09-01 22:22:00,Model Evasion,Chatbot,2,0.55,909,Germany,Closed,benign
+1936,2025-09-14 08:16:00,Adversarial Example,Chatbot,3,0.52,275,USA,In Progress,malicious
+1937,2025-09-20 02:54:00,Model Evasion,Recommendation Engine,1,0.75,891,Russia,Closed,malicious
+1938,2025-09-10 21:11:00,Prompt Injection,Image Classifier,2,0.8,12,USA,Open,malicious
+1939,2025-09-23 10:13:00,Prompt Injection,Chatbot,5,0.53,4057,Russia,Open,malicious
+1940,2025-09-19 11:34:00,Model Evasion,Chatbot,5,0.86,3025,USA,,malicious
+1941,2025-09-26 04:18:00,Prompt Injection,Chatbot,4,0.62,973,China,Open,malicious
+1942,2025-09-20 14:53:00,Data Poisoning,Image Classifier,3,high,4270,China,Open,malicious
+1943,2025-09-30 05:18:00,Adversarial Example,Recommendation Engine,4,0.99,3970,USA,In Progress,malicious
+1944,2025-09-29 07:12:00,Data Poisoning,Fraud Detection,4,0.85,1408,USA,Open,malicious
+1945,2025-09-13 11:48:00,Adversarial Example,Recommendation Engine,3,0.94,1943,USA,In Progress,malicious
+1946,2025-09-22 13:17:00,Model Evasion,Chatbot,1,0.97,2288,USA,In Progress,malicious
+1947,2025-09-09 11:39:00,Data Poisoning,Recommendation Engine,4,0.74,546,USA,In Progress,malicious
+1948,2025-09-01 03:55:00,Model Evasion,Recommendation Engine,4,0.85,1218,China,Closed,malicious
+1949,2025-09-30 19:29:00,Model Evasion,Fraud Detection,99,0.93,1420,India,In Progress,malicious
+1950,2025-09-02 07:48:00,Adversarial Example,Image Classifier,1,0.68,1454,China,Closed,malicious
+1951,2025-09-06 22:47:00,Adversarial Example,Image Classifier,4,0.63,3377,Russia,In Progress,malicious
+1952,2025-09-26 04:58:00,Adversarial Example,Recommendation Engine,3,0.97,2772,Germany,Closed,malicious
+1953,2025-09-04 15:36:00,Data Poisoning,Recommendation Engine,3,0.86,4098,Germany,,benign
+1954,2025-09-14 04:59:00,Prompt Injection,Image Classifier,1,0.61,2738,Germany,,malicious
+1955,2025-09-06 16:02:00,Adversarial Example,Image Classifier,3,0.72,3747,China,Closed,benign
+1956,2025-09-04 18:15:00,Adversarial Example,Fraud Detection,2,0.9,1842,Germany,,malicious
+1957,2025-09-26 02:39:00,Data Poisoning,Chatbot,2,0.77,746,USA,Open,malicious
+1958,2025-09-05 03:11:00,Adversarial Example,Recommendation Engine,4,0.82,2816,Russia,In Progress,malicious
+1959,2025-09-16 04:12:00,Data Poisoning,Image Classifier,4,0.88,871,India,Closed,malicious
+1960,2025-09-06 13:27:00,Model Evasion,Recommendation Engine,3,0.81,494,USA,,malicious
+1961,2025-09-30 01:12:00,Adversarial Example,Recommendation Engine,5,0.77,3444,India,,malicious
+1962,2025-09-22 04:43:00,Adversarial Example,Image Classifier,2,0.87,4723,USA,Open,malicious
+1963,2025-09-17 04:45:00,Model Evasion,Fraud Detection,2,0.86,1075,USA,In Progress,malicious
+1964,2025-09-15 17:24:00,Model Evasion,Recommendation Engine,4,0.81,3994,USA,Open,malicious
+1965,2025-09-11 18:44:00,Model Evasion,Fraud Detection,2,0.68,4237,India,Closed,benign
+1966,2025-09-14 09:22:00,Adversarial Example,Image Classifier,2,0.7,45,India,,malicious
+1967,2025-09-17 14:50:00,Prompt Injection,Chatbot,2,0.99,3056,India,,malicious
+1968,2025-09-01 01:17:00,Prompt Injection,Chatbot,1,0.56,2057,USA,,benign
+1969,2025-09-29 00:25:00,Prompt Injection,Recommendation Engine,5,0.63,663,China,Open,malicious
+1970,2025-09-15 07:31:00,Adversarial Example,Image Classifier,2,0.75,4668,Germany,Open,malicious
+1971,2025-09-12 19:04:00,Model Evasion,Fraud Detection,3,0.92,2029,USA,In Progress,malicious
+1972,2025-09-10 18:20:00,Adversarial Example,Recommendation Engine,1,0.58,2696,Germany,Closed,malicious
+1973,2025-09-13 02:49:00,Model Evasion,Image Classifier,4,0.64,639,USA,In Progress,malicious
+1974,2025-09-13 20:40:00,Adversarial Example,Image Classifier,2,0.53,2663,USA,In Progress,malicious
+1975,2025-09-07 14:30:00,Adversarial Example,Fraud Detection,4,0.85,2745,China,,malicious
+1976,2025-09-21 08:07:00,Model Evasion,Recommendation Engine,3,0.62,4964,Germany,Open,malicious
+1977,2025-09-20 13:33:00,Prompt Injection,Image Classifier,2,0.69,4948,USA,Closed,malicious
+1978,2025-09-28 13:51:00,Model Evasion,Image Classifier,3,0.72,4402,USA,In Progress,malicious
+1979,2025-09-09 07:14:00,Data Poisoning,Image Classifier,1,0.95,2595,USA,Closed,malicious
+1980,2025-09-06 10:04:00,Data Poisoning,Fraud Detection,3,0.71,3427,USA,,malicious
+1981,2025-09-05 13:25:00,Model Evasion,Recommendation Engine,2,0.57,394,USA,In Progress,malicious
+1982,2025-09-05 03:44:00,Adversarial Example,Recommendation Engine,5,0.76,3597,USA,Open,malicious
+1983,2025-09-15 22:46:00,Data Poisoning,Recommendation Engine,1,0.98,4844,Germany,In Progress,malicious
+1984,2025-09-26 23:58:00,Data Poisoning,Recommendation Engine,4,0.8,2332,China,,malicious
+1985,2025-09-13 21:34:00,Adversarial Example,Chatbot,2,0.99,329,India,In Progress,malicious
+1986,2025-09-07 09:04:00,Adversarial Example,Chatbot,2,0.92,2097,Germany,,malicious
+1987,2025-09-14 06:16:00,Prompt Injection,Recommendation Engine,3,0.52,772,USA,In Progress,malicious
+1988,2025-09-02 12:32:00,Adversarial Example,Fraud Detection,5,0.83,1645,USA,Closed,malicious
+1989,2025-09-24 14:56:00,Model Evasion,Chatbot,2,0.64,1732,Russia,Open,malicious
+1990,2025-09-08 19:26:00,Model Evasion,Image Classifier,1,0.78,4473,USA,,malicious
+1991,2025-09-13 18:21:00,Prompt Injection,Chatbot,2,0.64,1787,USA,Closed,malicious
+1992,2025-09-26 07:35:00,Data Poisoning,Image Classifier,1,0.67,1623,USA,,malicious
+1993,2025-09-19 13:27:00,Data Poisoning,Recommendation Engine,1,0.96,999,Germany,In Progress,malicious
+1994,2025-09-03 18:58:00,Adversarial Example,Chatbot,3,0.6,1848,China,,malicious
+1995,2025-09-08 20:22:00,Model Evasion,Fraud Detection,1,0.94,1561,Brazil,,malicious
+1996,2025-09-02 08:50:00,Data Poisoning,Chatbot,1,0.52,,Russia,Open,malicious
+1997,2025-09-29 13:57:00,Prompt Injection,Chatbot,4,0.55,1803,China,Closed,malicious
+1998,2025-09-19 21:22:00,Prompt Injection,Chatbot,2,0.93,1098,USA,In Progress,malicious
+1999,2025-09-22 14:30:00,Model Evasion,Recommendation Engine,1,0.82,2050,USA,Open,malicious
+2000,2025-09-13 05:06:00,Prompt Injection,Fraud Detection,2,0.87,1598,USA,,malicious
+2001,2025-09-18 00:39:00,Prompt Injection,Chatbot,4,0.6,747,USA,Open,malicious
+2002,2025-09-22 17:13:00,Model Evasion,Fraud Detection,2,0.77,3973,USA,,malicious
+2003,2025-09-16 05:51:00,Adversarial Example,Recommendation Engine,3,0.87,2322,USA,In Progress,malicious
+2004,2025-09-11 16:14:00,Adversarial Example,Image Classifier,1,0.81,1553,USA,,malicious
+2005,2025-09-05 00:28:00,Prompt Injection,Chatbot,3,0.74,1615,USA,Open,benign
+2006,2025-09-04 18:08:00,Adversarial Example,Fraud Detection,2,0.98,3754,Brazil,Open,malicious
+2007,2025-09-18 09:33:00,Adversarial Example,Fraud Detection,4,0.84,4424,China,,malicious
+2008,2025-09-07 13:26:00,Prompt Injection,Recommendation Engine,5,0.95,2302,Brazil,Closed,malicious
+2009,2025-09-01 15:22:00,Adversarial Example,Chatbot,4,0.86,4221,USA,Open,malicious
+2010,2025-09-24 01:07:00,Prompt Injection,Image Classifier,2,0.87,4862,China,Closed,malicious
+2011,2025-09-08 11:49:00,Data Poisoning,Fraud Detection,2,0.54,3655,USA,Closed,malicious
+2012,2025-09-23 08:24:00,Model Evasion,Chatbot,2,0.68,3395,USA,Closed,benign
+2013,2025-09-01 18:40:00,Model Evasion,Image Classifier,1,0.93,216,USA,Closed,malicious
+2014,2025-09-23 07:54:00,Adversarial Example,Fraud Detection,2,0.62,3316,Russia,Open,malicious
+2015,2025-09-13 00:54:00,Adversarial Example,Fraud Detection,4,0.56,1359,Brazil,Open,malicious
+2016,2025-09-02 14:56:00,Adversarial Example,Image Classifier,3,0.66,3774,USA,Closed,malicious
+2017,2025-09-27 11:41:00,Model Evasion,Image Classifier,3,0.61,4927,USA,Open,malicious
+2018,2025-09-02 13:23:00,Data Poisoning,Recommendation Engine,3,0.96,4277,China,Closed,malicious
+2019,2025-09-14 05:09:00,Data Poisoning,Chatbot,3,0.93,4429,USA,Closed,malicious
+2020,2025-09-23 09:45:00,Model Evasion,Chatbot,1,0.75,4606,USA,Closed,malicious
+2021,2025-09-26 23:00:00,Data Poisoning,Recommendation Engine,5,0.53,4478,USA,,malicious
+2022,2025-09-17 11:10:00,Model Evasion,Fraud Detection,1,high,1896,China,In Progress,malicious
+2023,2025-09-21 11:26:00,Data Poisoning,Image Classifier,4,0.81,4427,USA,Open,malicious
+2024,2025-09-05 10:11:00,Prompt Injection,Image Classifier,4,0.99,899,USA,Open,malicious
+2025,2025-09-05 09:59:00,Prompt Injection,Image Classifier,4,0.78,641,USA,Closed,malicious
+2026,2025-09-29 05:11:00,Model Evasion,Fraud Detection,3,0.67,4729,China,,malicious
+2027,2025-09-25 23:56:00,Data Poisoning,Image Classifier,1,0.76,3627,Brazil,,malicious
+2028,2025-09-14 23:03:00,Adversarial Example,Image Classifier,2,0.99,195,USA,Open,malicious
+2029,2025-09-10 23:42:00,Data Poisoning,Recommendation Engine,4,0.85,1893,Russia,Closed,benign
+2030,2025-09-14 00:35:00,Prompt Injection,Fraud Detection,3,0.84,3275,India,Open,malicious
+2031,2025-09-25 18:19:00,Prompt Injection,Chatbot,5,0.62,4050,Brazil,Closed,malicious
+2032,2025-09-03 14:36:00,Data Poisoning,Recommendation Engine,2,0.87,4553,India,Closed,malicious
+2033,2025-09-15 07:29:00,Data Poisoning,Recommendation Engine,2,0.88,4925,Germany,In Progress,benign
+2034,2025-09-12 10:38:00,Adversarial Example,Chatbot,2,0.66,2304,Russia,Closed,malicious
+2035,2025-09-25 14:42:00,Adversarial Example,Recommendation Engine,2,0.74,3600,USA,In Progress,malicious
+2036,2025-09-28 13:06:00,Data Poisoning,Fraud Detection,3,0.65,3343,China,Open,malicious
+2037,2025-09-08 01:07:00,Data Poisoning,Image Classifier,4,0.63,2056,Brazil,Open,malicious
+2038,2025-09-24 07:21:00,Data Poisoning,Fraud Detection,4,0.51,2808,India,,malicious
+2039,2025-09-25 05:24:00,Data Poisoning,Chatbot,5,0.64,1224,Brazil,In Progress,benign
+2040,2025-09-05 00:19:00,Model Evasion,Chatbot,5,0.78,886,India,Open,malicious
+2041,2025-09-09 12:58:00,Data Poisoning,Recommendation Engine,5,0.5,392,Russia,In Progress,malicious
+2042,2025-09-10 19:53:00,Adversarial Example,Fraud Detection,1,0.64,1675,Germany,Open,malicious
+2043,2025-09-08 11:49:00,Prompt Injection,Fraud Detection,4,0.94,3190,India,In Progress,malicious
+2044,2025-09-10 00:39:00,Model Evasion,Chatbot,2,0.8,2446,China,In Progress,malicious
+2045,2025-09-01 13:34:00,Data Poisoning,Fraud Detection,1,0.8,3905,Russia,Closed,malicious
+2046,2025-09-08 07:41:00,Prompt Injection,Chatbot,4,0.7,3338,India,Open,malicious
+2047,2025-09-18 07:38:00,Model Evasion,Fraud Detection,2,0.84,3591,India,,benign
+2048,2025-09-02 16:43:00,Prompt Injection,Fraud Detection,1,0.59,3766,Germany,Closed,malicious
+2049,2025-09-08 06:17:00,Data Poisoning,Fraud Detection,1,0.91,2527,USA,,malicious
+2050,2025-09-08 05:00:00,Data Poisoning,Chatbot,1,0.56,2181,USA,In Progress,malicious
+2051,2025-09-06 09:43:00,Adversarial Example,Recommendation Engine,5,0.83,3764,Russia,Closed,malicious
+2052,2025-09-13 01:28:00,Data Poisoning,Fraud Detection,1,0.67,354,China,In Progress,malicious
+2053,2025-09-11 15:28:00,Data Poisoning,Chatbot,2,0.87,2631,USA,Open,malicious
+2054,2025-09-19 04:55:00,Model Evasion,Chatbot,3,0.77,1521,USA,Open,malicious
+2055,2025-09-24 07:55:00,Adversarial Example,Fraud Detection,2,0.73,2672,India,,malicious
+2056,2025-09-19 23:06:00,Model Evasion,Fraud Detection,5,0.58,3178,India,Open,benign
+2057,2025-09-14 19:55:00,Prompt Injection,Recommendation Engine,1,0.82,2337,India,,malicious
+2058,2025-09-28 17:15:00,Data Poisoning,Chatbot,3,0.99,628,Germany,In Progress,malicious
+2059,2025-09-26 20:19:00,Prompt Injection,Chatbot,4,0.91,2679,USA,Closed,benign
+2060,2025-09-11 15:43:00,Model Evasion,Image Classifier,5,0.53,4422,USA,Open,benign
+2061,2025-09-27 21:27:00,Data Poisoning,Chatbot,4,0.69,1438,USA,In Progress,malicious
+2062,2025-09-01 02:06:00,Data Poisoning,Recommendation Engine,5,0.96,,India,Closed,malicious
+2063,2025-09-20 04:32:00,Model Evasion,Image Classifier,1,0.75,1126,USA,In Progress,malicious
+2064,2025-09-29 20:43:00,Model Evasion,Image Classifier,3,0.83,,Germany,,malicious
+2065,2025-09-15 06:10:00,Model Evasion,Image Classifier,2,0.96,1780,China,In Progress,malicious
+2066,2025-09-28 18:04:00,Model Evasion,Fraud Detection,5,0.94,1531,China,,malicious
+2067,2025-09-03 08:08:00,Model Evasion,Fraud Detection,1,0.75,1914,Russia,,malicious
+2068,2025-09-03 15:17:00,Data Poisoning,Chatbot,1,0.72,1232,USA,Open,malicious
+2069,2025-09-10 12:38:00,Model Evasion,Image Classifier,2,0.67,1956,India,,malicious
+2070,2025-09-25 00:00:00,Data Poisoning,Recommendation Engine,1,0.86,392,USA,,malicious
+2071,2025-09-08 16:13:00,Data Poisoning,Fraud Detection,2,0.64,825,USA,In Progress,malicious
+2072,2025-09-16 08:36:00,Model Evasion,Recommendation Engine,5,0.62,2963,China,,malicious
+2073,2025-09-26 04:04:00,Model Evasion,Recommendation Engine,3,0.68,2395,USA,,benign
+2074,2025-09-26 03:05:00,Adversarial Example,Fraud Detection,4,0.59,4145,India,In Progress,malicious
+2075,2025-09-02 03:25:00,Data Poisoning,Fraud Detection,4,0.85,4895,China,Closed,malicious
+2076,2025-09-14 08:56:00,Model Evasion,Fraud Detection,2,0.81,1792,USA,Open,malicious
+2077,2025-09-25 21:20:00,Model Evasion,Fraud Detection,1,0.74,3064,USA,In Progress,malicious
+2078,2025-09-25 01:02:00,Model Evasion,Image Classifier,2,0.7,1363,Germany,,benign
+2079,2025-09-26 23:50:00,Adversarial Example,Image Classifier,2,0.95,2348,India,In Progress,malicious
+2080,2025-09-28 06:42:00,Adversarial Example,Image Classifier,4,0.51,3551,China,Closed,malicious
+2081,2025-09-02 21:08:00,Prompt Injection,Image Classifier,3,0.88,3628,China,In Progress,malicious
+2082,2025-09-09 02:54:00,Data Poisoning,Chatbot,1,0.95,3336,India,In Progress,malicious
+2083,2025-09-07 14:44:00,Prompt Injection,Image Classifier,3,0.72,1565,Germany,In Progress,malicious
+2084,2025-09-23 03:20:00,Model Evasion,Fraud Detection,5,0.78,3667,USA,In Progress,benign
+2085,2025-09-28 05:44:00,Adversarial Example,Recommendation Engine,5,0.97,2213,Germany,,malicious
+2086,2025-09-26 16:20:00,Adversarial Example,Image Classifier,5,0.61,4096,Germany,In Progress,malicious
+2087,2025-09-23 12:09:00,Prompt Injection,Chatbot,4,high,1019,Germany,Closed,benign
+2088,2025-09-10 04:24:00,Adversarial Example,Fraud Detection,2,0.74,1284,Germany,In Progress,malicious
+2089,2025-09-29 06:58:00,Model Evasion,Recommendation Engine,4,0.63,62,Brazil,In Progress,malicious
+2090,2025-09-18 11:10:00,Adversarial Example,Recommendation Engine,1,0.91,2530,USA,,malicious
+2091,2025-09-24 21:13:00,Prompt Injection,Image Classifier,4,0.95,3392,Brazil,,malicious
+2092,2025-09-30 22:02:00,Model Evasion,Recommendation Engine,4,0.89,3272,China,In Progress,malicious
+2093,2025-09-06 12:53:00,Prompt Injection,Image Classifier,1,0.6,2269,Germany,,malicious
+2094,2025-09-06 22:57:00,Adversarial Example,Image Classifier,4,0.54,4247,USA,,malicious
+2095,2025-09-06 14:30:00,Prompt Injection,Fraud Detection,5,0.8,643,USA,In Progress,malicious
+2096,2025-09-07 00:26:00,Prompt Injection,Fraud Detection,2,0.53,4721,India,,malicious
+2097,2025-09-26 06:08:00,Data Poisoning,Chatbot,5,0.84,216,Germany,Open,malicious
+2098,2025-09-05 17:03:00,Adversarial Example,Fraud Detection,1,0.77,195,USA,Open,malicious
+2099,2025-09-30 02:34:00,Adversarial Example,Fraud Detection,3,0.83,3864,China,Open,malicious
+2100,2025-09-04 10:51:00,Prompt Injection,Image Classifier,3,0.8,3273,USA,,malicious
+2101,2025-09-10 08:50:00,Data Poisoning,Fraud Detection,3,0.71,2694,Brazil,Open,malicious
+2102,2025-09-02 09:10:00,Adversarial Example,Image Classifier,5,0.6,3212,Russia,Closed,malicious
+2103,2025-09-04 16:19:00,Model Evasion,Image Classifier,5,0.65,2755,USA,Open,malicious
+2104,2025-09-14 20:36:00,Prompt Injection,Fraud Detection,4,0.76,1521,Russia,Closed,malicious
+2105,2025-09-16 12:39:00,Adversarial Example,Chatbot,2,0.83,1080,Russia,,malicious
+2106,2025-09-26 19:08:00,Model Evasion,Chatbot,5,0.89,721,USA,Open,malicious
+2107,2025-09-20 22:54:00,Adversarial Example,Recommendation Engine,1,0.88,1562,Germany,Closed,malicious
+2108,2025-09-04 07:17:00,Model Evasion,Recommendation Engine,5,0.99,639,China,,malicious
+2109,2025-09-14 06:17:00,Prompt Injection,Fraud Detection,2,0.64,4260,Germany,Open,malicious
+2110,2025-09-08 05:15:00,Adversarial Example,Chatbot,1,0.54,4310,USA,In Progress,benign
+2111,2025-09-12 06:41:00,Adversarial Example,Image Classifier,4,0.67,3787,USA,Open,malicious
+2112,2025-09-27 15:16:00,Data Poisoning,Recommendation Engine,2,0.87,500000,China,Open,malicious
+2113,2025-09-20 05:36:00,Prompt Injection,Image Classifier,2,0.72,89,USA,Open,malicious
+2114,2025-09-04 10:24:00,Model Evasion,Recommendation Engine,2,0.91,2921,India,In Progress,malicious
+2115,2025-09-14 18:16:00,Adversarial Example,Fraud Detection,1,0.77,1251,USA,Closed,malicious
+2116,2025-09-26 16:51:00,Adversarial Example,Chatbot,1,0.96,1102,China,Closed,malicious
+2117,2025-09-18 07:17:00,Model Evasion,Recommendation Engine,1,0.97,4703,Russia,In Progress,malicious
+2118,2025-09-22 15:55:00,Prompt Injection,Chatbot,3,0.53,348,China,Open,malicious
+2119,2025-09-15 23:26:00,Data Poisoning,Image Classifier,1,0.73,3913,China,Open,malicious
+2120,2025-09-07 21:16:00,Data Poisoning,Fraud Detection,4,0.8,4052,Brazil,Open,malicious
+2121,2025-09-15 10:46:00,Adversarial Example,Chatbot,2,0.63,2941,Russia,Closed,malicious
+2122,2025-09-07 22:24:00,Model Evasion,Fraud Detection,5,0.7,245,USA,Closed,malicious
+2123,2025-09-02 05:19:00,Adversarial Example,Chatbot,5,0.84,271,China,In Progress,malicious
+2124,2025-09-30 03:09:00,Model Evasion,Image Classifier,2,0.61,2030,Brazil,,malicious
+2125,2025-09-19 15:18:00,Data Poisoning,Image Classifier,4,0.8,4498,USA,In Progress,malicious
+2126,2025-09-02 17:22:00,Prompt Injection,Fraud Detection,5,0.85,3187,USA,Closed,malicious
+2127,2025-09-17 23:22:00,Model Evasion,Image Classifier,99,0.55,3506,USA,Open,malicious
+2128,2025-09-24 09:59:00,Data Poisoning,Recommendation Engine,3,0.75,1465,USA,Open,malicious
+2129,2025-09-20 10:05:00,Adversarial Example,Chatbot,1,0.63,1195,Germany,Open,malicious
+2130,2025-09-02 10:39:00,Model Evasion,Image Classifier,4,0.86,3087,India,Open,benign
+2131,,Prompt Injection,Recommendation Engine,4,0.59,3008,Brazil,,malicious
+2132,2025-09-20 09:52:00,Adversarial Example,Fraud Detection,4,0.95,3823,India,In Progress,malicious
+2133,2025-09-15 12:28:00,Adversarial Example,Recommendation Engine,2,0.72,1614,USA,In Progress,malicious
+2134,2025-09-30 11:40:00,Data Poisoning,Fraud Detection,5,0.6,1126,USA,Closed,malicious
+2135,2025-09-18 06:21:00,Model Evasion,Fraud Detection,5,0.72,4379,Brazil,In Progress,malicious
+2136,2025-09-06 01:51:00,Adversarial Example,Chatbot,2,0.7,516,USA,,malicious
+2137,2025-09-20 11:51:00,Prompt Injection,Chatbot,1,0.71,2665,USA,,malicious
+2138,2025-09-17 08:50:00,Model Evasion,Recommendation Engine,2,0.79,1301,Russia,,malicious
+2139,2025-09-13 19:29:00,Prompt Injection,Chatbot,5,0.76,611,China,Open,malicious
+2140,2025-09-24 06:56:00,Adversarial Example,Chatbot,4,0.57,749,USA,Closed,malicious
+2141,2025-09-27 13:38:00,Prompt Injection,Chatbot,4,0.53,1856,Russia,,malicious
+2142,2025-09-21 01:05:00,Data Poisoning,Recommendation Engine,3,0.86,399,Brazil,In Progress,malicious
+2143,2025-09-05 14:45:00,Prompt Injection,Image Classifier,3,0.78,1526,USA,In Progress,malicious
+2144,2025-09-27 09:20:00,Model Evasion,Chatbot,2,0.68,2024,Russia,In Progress,malicious
+2145,2025-09-19 13:37:00,Prompt Injection,Chatbot,3,0.9,319,USA,,malicious
+2146,2025-09-08 23:25:00,Prompt Injection,Recommendation Engine,4,0.69,335,China,,malicious
+2147,2025-09-27 18:45:00,Data Poisoning,Image Classifier,99,0.9,2098,Russia,In Progress,malicious
+2148,2025-09-18 17:22:00,Prompt Injection,Chatbot,5,0.65,173,Brazil,,malicious
+2149,2025-09-09 13:42:00,Prompt Injection,Fraud Detection,5,0.54,4019,USA,In Progress,malicious
+2150,2025-09-29 08:06:00,Adversarial Example,Recommendation Engine,3,0.97,1641,USA,Open,malicious
+2151,2025-09-10 02:07:00,Adversarial Example,Chatbot,3,0.7,500,USA,,malicious
+2152,2025-09-27 03:21:00,Model Evasion,Chatbot,4,0.9,3646,China,Open,malicious
+2153,2025-09-24 18:49:00,Adversarial Example,Fraud Detection,5,0.64,2363,USA,Open,malicious
+2154,2025-09-08 00:13:00,Adversarial Example,Fraud Detection,1,0.82,1856,China,,malicious
+2155,2025-09-12 09:58:00,Adversarial Example,Recommendation Engine,2,0.94,3152,USA,In Progress,malicious
+2156,2025-09-29 01:31:00,Adversarial Example,Recommendation Engine,1,0.52,1896,China,Closed,malicious
+2157,2025-09-19 07:59:00,Data Poisoning,Fraud Detection,4,0.92,1718,USA,Open,malicious
+2158,2025-09-14 18:46:00,Adversarial Example,Recommendation Engine,2,0.79,1778,India,,malicious
+2159,2025-09-11 21:48:00,Data Poisoning,Fraud Detection,2,0.8,4792,USA,Open,malicious
+2160,2025-09-08 15:18:00,Data Poisoning,Chatbot,1,0.76,3057,USA,In Progress,malicious
+2161,2025-09-22 07:18:00,Adversarial Example,Fraud Detection,2,0.94,4827,Russia,,malicious
+2162,2025-09-08 10:02:00,Prompt Injection,Fraud Detection,5,0.52,2713,Germany,Closed,malicious
+2163,2025-09-06 21:59:00,Data Poisoning,Image Classifier,2,0.63,3828,USA,,malicious
+2164,2025-09-22 20:40:00,Prompt Injection,Fraud Detection,4,0.94,4747,USA,Open,malicious
+2165,2025-09-14 16:14:00,Prompt Injection,Fraud Detection,4,0.88,1094,Germany,,malicious
+2166,2025-09-03 07:00:00,Adversarial Example,Image Classifier,5,0.51,45,USA,,malicious
+2167,2025-09-05 16:02:00,Model Evasion,Recommendation Engine,1,0.76,1445,India,Open,malicious
+2168,2025-09-28 18:26:00,Adversarial Example,Image Classifier,5,0.76,2196,China,Closed,benign
+2169,2025-09-17 18:40:00,Model Evasion,Chatbot,3,0.7,3201,USA,In Progress,malicious
+2170,2025-09-14 22:19:00,Model Evasion,Image Classifier,99,0.65,455,China,,malicious
+2171,2025-09-25 21:02:00,Adversarial Example,Chatbot,5,0.84,1662,Germany,Closed,malicious
+2172,2025-09-10 10:15:00,Adversarial Example,Recommendation Engine,2,0.6,2924,Russia,In Progress,malicious
+2173,2025-09-06 12:50:00,Model Evasion,Image Classifier,1,0.9,965,USA,Open,malicious
+2174,2025-09-25 05:51:00,Adversarial Example,Image Classifier,2,0.9,4964,China,Closed,malicious
+2175,2025-09-15 23:51:00,Model Evasion,Recommendation Engine,3,0.71,1528,USA,Closed,malicious
+2176,2025-09-23 02:21:00,Prompt Injection,Chatbot,1,0.64,2976,China,,malicious
+2177,2025-09-07 14:23:00,Adversarial Example,Image Classifier,1,0.64,500000,Russia,Open,malicious
+2178,2025-09-14 03:22:00,Prompt Injection,Chatbot,3,0.74,4869,USA,,malicious
+2179,2025-09-09 10:55:00,Data Poisoning,Image Classifier,1,0.86,2521,Russia,Open,malicious
+2180,2025-09-29 13:24:00,Prompt Injection,Fraud Detection,1,0.68,1126,Germany,In Progress,benign
+2181,2025-09-15 20:29:00,Prompt Injection,Image Classifier,3,0.81,3404,Russia,,malicious
+2182,2025-09-01 13:42:00,Model Evasion,Recommendation Engine,1,0.69,4492,India,Open,malicious
+2183,2025-09-13 00:47:00,Prompt Injection,Recommendation Engine,3,0.65,2343,USA,Open,malicious
+2184,2025-09-05 06:30:00,Adversarial Example,Chatbot,3,0.51,500000,USA,Closed,malicious
+2185,2025-09-04 01:45:00,Model Evasion,Image Classifier,3,0.5,2577,USA,,malicious
+2186,2025-09-12 03:12:00,Data Poisoning,Chatbot,5,0.61,3154,USA,,malicious
+2187,2025-09-02 12:38:00,Adversarial Example,Chatbot,3,0.7,4383,China,In Progress,malicious
+2188,2025-09-14 22:39:00,Data Poisoning,Fraud Detection,3,0.93,4053,China,Open,malicious
+2189,2025-09-26 03:40:00,Prompt Injection,Fraud Detection,3,0.9,4801,Brazil,Closed,malicious
+2190,2025-09-30 01:54:00,Adversarial Example,Recommendation Engine,5,0.63,214,China,Open,malicious
+2191,2025-09-10 14:59:00,Adversarial Example,Chatbot,5,0.62,4439,India,Open,malicious
+2192,2025-09-22 19:39:00,Data Poisoning,Recommendation Engine,5,0.61,4289,Russia,Open,benign
+2193,2025-09-07 01:05:00,Adversarial Example,Image Classifier,4,0.67,4253,Russia,,malicious
+2194,2025-09-30 18:40:00,Adversarial Example,Chatbot,1,0.75,464,USA,Open,malicious
+2195,2025-09-17 03:16:00,Adversarial Example,Chatbot,2,0.72,2372,China,In Progress,malicious
+2196,2025-09-16 13:39:00,Prompt Injection,Image Classifier,1,0.61,591,USA,Closed,benign
+2197,2025-09-14 20:58:00,Data Poisoning,Image Classifier,5,0.57,2188,USA,Closed,malicious
+2198,2025-09-27 02:49:00,Adversarial Example,Recommendation Engine,4,0.51,883,USA,Open,malicious
+2199,2025-09-11 15:58:00,Model Evasion,Recommendation Engine,4,0.58,4158,India,Closed,malicious
+2200,2025-09-24 17:37:00,Model Evasion,Image Classifier,2,0.85,303,China,Open,benign
+2201,2025-09-21 09:38:00,Model Evasion,Recommendation Engine,5,0.62,4491,China,,benign
+2202,2025-09-26 22:14:00,Model Evasion,Image Classifier,2,0.73,333,Brazil,Closed,malicious
+2203,2025-09-08 21:42:00,Prompt Injection,Chatbot,1,0.8,2833,USA,,malicious
+2204,2025-09-11 03:16:00,Adversarial Example,Chatbot,2,0.94,4506,China,,malicious
+2205,2025-09-24 07:32:00,Data Poisoning,Fraud Detection,3,0.94,2331,India,In Progress,malicious
+2206,2025-09-10 04:21:00,Adversarial Example,Chatbot,3,0.87,4561,USA,In Progress,malicious
+2207,2025-09-01 21:19:00,Prompt Injection,Image Classifier,5,0.52,79,Germany,Closed,malicious
+2208,2025-09-05 22:03:00,Model Evasion,Recommendation Engine,1,0.79,3763,USA,Open,malicious
+2209,2025-09-13 08:11:00,Prompt Injection,Fraud Detection,3,0.89,2831,Russia,Open,malicious
+2210,2025-09-21 19:35:00,Adversarial Example,Recommendation Engine,3,0.51,1977,USA,Open,malicious
+2211,2025-09-14 05:43:00,Data Poisoning,Image Classifier,2,0.77,732,USA,Open,malicious
+2212,2025-09-02 11:06:00,Prompt Injection,Chatbot,5,0.93,3976,China,In Progress,benign
+2213,2025-09-18 01:17:00,Data Poisoning,Fraud Detection,4,0.74,1817,USA,Open,malicious
+2214,2025-09-15 07:27:00,Prompt Injection,Image Classifier,4,0.5,,USA,Open,benign
+2215,2025-09-27 02:39:00,Data Poisoning,Fraud Detection,5,0.51,2124,China,,benign
+2216,2025-09-20 19:29:00,Data Poisoning,Fraud Detection,4,0.71,1198,USA,Open,benign
+2217,2025-09-25 23:14:00,Model Evasion,Chatbot,2,0.58,2292,China,Open,malicious
+2218,2025-09-20 08:16:00,Data Poisoning,Image Classifier,4,0.83,4217,China,In Progress,malicious
+2219,2025-09-02 18:53:00,Model Evasion,Recommendation Engine,2,0.85,184,China,Closed,malicious
+2220,2025-09-09 21:28:00,Adversarial Example,Fraud Detection,2,0.59,4127,Germany,,malicious
+2221,2025-09-25 13:27:00,Adversarial Example,Fraud Detection,1,0.94,997,USA,,malicious
+2222,2025-09-26 13:21:00,Model Evasion,Recommendation Engine,4,0.72,1986,USA,Closed,malicious
+2223,2025-09-29 14:36:00,Model Evasion,Image Classifier,4,0.57,2809,India,,malicious
+2224,2025-09-24 15:52:00,Prompt Injection,Fraud Detection,2,0.88,4664,Russia,Open,malicious
+2225,2025-09-17 11:52:00,Prompt Injection,Fraud Detection,4,0.89,2357,USA,Open,malicious
+2226,2025-09-13 06:45:00,Prompt Injection,Fraud Detection,5,0.82,1679,China,Closed,malicious
+2227,2025-09-29 18:01:00,Adversarial Example,Image Classifier,1,0.93,4925,China,In Progress,malicious
+2228,2025-09-08 21:32:00,Prompt Injection,Image Classifier,2,0.87,3039,China,In Progress,malicious
+2229,2025-09-07 05:56:00,Data Poisoning,Recommendation Engine,4,0.94,4886,Germany,,malicious
+2230,2025-09-12 10:18:00,Data Poisoning,Image Classifier,2,0.72,2511,USA,In Progress,malicious
+2231,2025-09-23 03:29:00,Prompt Injection,Image Classifier,4,0.87,3527,Germany,In Progress,malicious
+2232,2025-09-19 12:25:00,Data Poisoning,Chatbot,1,1.0,3026,USA,In Progress,malicious
+2233,2025-09-27 13:23:00,Adversarial Example,Recommendation Engine,3,0.86,2745,China,In Progress,malicious
+2234,2025-09-22 23:33:00,Data Poisoning,Fraud Detection,4,0.56,4173,India,In Progress,malicious
+2235,2025-09-19 12:17:00,Adversarial Example,Image Classifier,4,0.76,2581,China,In Progress,malicious
+2236,2025-09-28 17:52:00,Model Evasion,Fraud Detection,5,0.79,4203,USA,In Progress,malicious
+2237,2025-09-16 09:40:00,Model Evasion,Fraud Detection,5,0.59,2811,Brazil,,malicious
+2238,2025-09-23 03:36:00,Model Evasion,Chatbot,4,0.98,4090,Russia,Open,malicious
+2239,2025-09-09 22:35:00,Model Evasion,Image Classifier,4,0.59,369,India,In Progress,malicious
+2240,2025-09-02 03:02:00,Data Poisoning,Recommendation Engine,1,0.59,3743,China,Open,malicious
+2241,2025-09-29 08:09:00,Prompt Injection,Image Classifier,3,0.96,2004,USA,Closed,malicious
+2242,2025-09-12 14:45:00,Data Poisoning,Fraud Detection,1,0.73,1703,Russia,Open,malicious
+2243,2025-09-29 07:20:00,Adversarial Example,Recommendation Engine,5,0.53,3324,China,Closed,benign
+2244,2025-09-11 20:46:00,Data Poisoning,Image Classifier,2,0.8,440,Russia,,malicious
+2245,2025-09-12 19:49:00,Data Poisoning,Fraud Detection,3,0.8,3257,USA,Open,malicious
+2246,2025-09-21 10:02:00,Adversarial Example,Fraud Detection,2,0.53,2906,USA,Closed,malicious
+2247,2025-09-03 23:03:00,Model Evasion,Chatbot,4,0.99,226,Brazil,Open,malicious
+2248,2025-09-22 12:27:00,Model Evasion,Chatbot,5,0.77,2401,China,,benign
+2249,2025-09-07 00:06:00,Model Evasion,Chatbot,3,0.78,4718,USA,Open,malicious
+2250,,Prompt Injection,Fraud Detection,5,0.76,1024,USA,Closed,malicious
+2251,2025-09-09 02:24:00,Adversarial Example,Image Classifier,2,0.81,3491,China,In Progress,malicious
+2252,2025-09-25 19:37:00,Adversarial Example,Chatbot,3,0.63,4256,USA,In Progress,malicious
+2253,2025-09-25 20:36:00,Data Poisoning,Image Classifier,5,0.64,870,China,In Progress,malicious
+2254,2025-09-17 16:27:00,Prompt Injection,Chatbot,2,0.76,3199,China,,malicious
+2255,2025-09-21 09:33:00,Model Evasion,Recommendation Engine,5,0.9,1745,India,In Progress,malicious
+2256,2025-09-26 06:37:00,Prompt Injection,Recommendation Engine,1,0.52,443,USA,,malicious
+2257,2025-09-15 07:29:00,Adversarial Example,Chatbot,1,0.8,4558,Brazil,In Progress,malicious
+2258,2025-09-25 21:15:00,Adversarial Example,Fraud Detection,5,0.9,472,USA,,malicious
+2259,2025-09-27 21:09:00,Data Poisoning,Chatbot,1,0.58,79,China,,malicious
+2260,2025-09-14 08:50:00,Data Poisoning,Chatbot,99,0.51,239,USA,Open,malicious
+2261,2025-09-15 16:52:00,Adversarial Example,Fraud Detection,5,0.66,4652,Germany,In Progress,malicious
+2262,2025-09-09 00:35:00,Model Evasion,Recommendation Engine,1,0.79,589,Brazil,Open,malicious
+2263,2025-09-16 04:34:00,Model Evasion,Image Classifier,3,0.57,1360,India,Closed,malicious
+2264,2025-09-10 02:01:00,Prompt Injection,Chatbot,2,0.71,1884,China,In Progress,malicious
+2265,2025-09-17 17:03:00,Adversarial Example,Fraud Detection,3,0.78,2316,China,In Progress,malicious
+2266,2025-09-05 17:39:00,Adversarial Example,Chatbot,1,0.8,4430,India,In Progress,malicious
+2267,2025-09-18 20:32:00,Model Evasion,Fraud Detection,2,0.64,311,Russia,In Progress,malicious
+2268,2025-09-18 04:42:00,Model Evasion,Image Classifier,2,0.7,1076,Brazil,Open,malicious
+2269,2025-09-08 16:06:00,Adversarial Example,Image Classifier,3,0.89,33,USA,Open,malicious
+2270,2025-09-22 20:23:00,Data Poisoning,Recommendation Engine,5,0.97,1841,Brazil,,malicious
+2271,2025-09-20 23:29:00,Adversarial Example,Fraud Detection,5,0.93,4481,USA,Open,malicious
+2272,2025-09-17 01:50:00,Adversarial Example,Fraud Detection,4,0.78,248,USA,,malicious
+2273,2025-09-02 21:11:00,Model Evasion,Recommendation Engine,3,0.71,1134,USA,Closed,malicious
+2274,2025-09-04 08:53:00,Model Evasion,Recommendation Engine,5,0.67,4889,USA,Open,malicious
+2275,2025-09-21 04:37:00,Data Poisoning,Fraud Detection,2,high,4947,India,,malicious
+2276,2025-09-17 13:43:00,Data Poisoning,Recommendation Engine,4,0.55,375,Russia,In Progress,malicious
+2277,2025-09-16 03:12:00,Prompt Injection,Image Classifier,99,0.84,723,India,Closed,malicious
+2278,2025-09-29 02:43:00,Adversarial Example,Chatbot,2,0.63,1913,Germany,,benign
+2279,2025-09-07 05:02:00,Model Evasion,Image Classifier,4,0.63,4297,China,Closed,malicious
+2280,2025-09-02 05:22:00,Data Poisoning,Recommendation Engine,5,1.0,2492,Germany,In Progress,malicious
+2281,2025-09-23 05:07:00,Prompt Injection,Fraud Detection,5,0.59,1942,USA,In Progress,malicious
+2282,2025-09-12 00:10:00,Prompt Injection,Fraud Detection,4,0.57,4004,India,,malicious
+2283,2025-09-09 09:52:00,Model Evasion,Image Classifier,2,0.55,2344,Germany,,malicious
+2284,2025-09-17 16:58:00,Model Evasion,Fraud Detection,2,0.79,1331,Germany,In Progress,benign
+2285,2025-09-28 00:10:00,Prompt Injection,Recommendation Engine,1,0.81,4588,China,,benign
+2286,2025-09-01 08:01:00,Data Poisoning,Image Classifier,4,0.68,337,Russia,In Progress,malicious
+2287,2025-09-23 20:41:00,Prompt Injection,Fraud Detection,1,0.77,1865,USA,Open,malicious
+2288,2025-09-29 01:05:00,Adversarial Example,Chatbot,5,0.89,3137,USA,,benign
+2289,2025-09-02 01:24:00,Adversarial Example,Chatbot,1,0.91,791,India,Closed,malicious
+2290,2025-09-25 05:28:00,Model Evasion,Recommendation Engine,1,0.98,3611,China,In Progress,malicious
+2291,2025-09-11 10:48:00,Data Poisoning,Fraud Detection,3,0.91,3700,Russia,Open,malicious
+2292,2025-09-25 09:11:00,Data Poisoning,Recommendation Engine,4,0.78,1516,USA,,malicious
+2293,2025-09-27 07:44:00,Adversarial Example,Image Classifier,1,0.59,3953,USA,In Progress,malicious
+2294,2025-09-24 14:48:00,Prompt Injection,Chatbot,3,0.55,3908,Russia,Open,malicious
+2295,2025-09-01 01:00:00,Model Evasion,Image Classifier,3,0.53,2673,China,,malicious
+2296,2025-09-07 08:10:00,Prompt Injection,Fraud Detection,2,0.83,2122,China,In Progress,malicious
+2297,2025-09-13 12:23:00,Prompt Injection,Recommendation Engine,1,0.9,3785,USA,In Progress,benign
+2298,2025-09-10 06:30:00,Prompt Injection,Recommendation Engine,5,0.75,58,USA,In Progress,malicious
+2299,2025-09-17 21:54:00,Data Poisoning,Recommendation Engine,3,0.53,2433,Germany,,malicious
+2300,2025-09-20 13:05:00,Adversarial Example,Image Classifier,1,0.77,2062,USA,Open,malicious
+2301,2025-09-24 15:00:00,Data Poisoning,Chatbot,5,0.97,1254,Russia,In Progress,malicious
+2302,2025-09-15 07:07:00,Adversarial Example,Image Classifier,99,0.8,3688,India,Open,benign
+2303,2025-09-29 13:31:00,Model Evasion,Image Classifier,4,0.9,3748,USA,Open,malicious
+2304,2025-09-07 16:50:00,Model Evasion,Fraud Detection,3,0.9,4130,Germany,Closed,malicious
+2305,2025-09-14 20:13:00,Prompt Injection,Fraud Detection,5,0.97,4257,Germany,Open,malicious
+2306,2025-09-15 07:01:00,Adversarial Example,Fraud Detection,5,0.89,3029,USA,Open,malicious
+2307,2025-09-17 05:53:00,Adversarial Example,Chatbot,4,0.87,2846,USA,Open,malicious
+2308,2025-09-17 00:11:00,Adversarial Example,Chatbot,3,0.62,4990,China,Open,malicious
+2309,2025-09-19 04:52:00,Prompt Injection,Fraud Detection,3,0.53,470,Germany,Open,malicious
+2310,2025-09-03 20:10:00,Prompt Injection,Fraud Detection,4,0.76,4035,Germany,,malicious
+2311,2025-09-05 20:00:00,Model Evasion,Chatbot,2,0.56,2899,China,Closed,malicious
+2312,2025-09-25 20:12:00,Data Poisoning,Recommendation Engine,3,0.98,1446,India,In Progress,benign
+2313,2025-09-15 22:40:00,Adversarial Example,Chatbot,5,0.64,4443,India,Closed,malicious
+2314,2025-09-26 06:48:00,Adversarial Example,Chatbot,4,0.93,4789,Germany,Closed,malicious
+2315,2025-09-20 18:30:00,Data Poisoning,Chatbot,3,0.69,912,India,In Progress,malicious
+2316,2025-09-15 05:31:00,Adversarial Example,Fraud Detection,4,0.66,4242,USA,Open,malicious
+2317,2025-09-01 22:21:00,Prompt Injection,Recommendation Engine,1,0.97,500000,Russia,In Progress,malicious
+2318,2025-09-18 05:11:00,Prompt Injection,Chatbot,3,0.68,674,Germany,Open,malicious
+2319,2025-09-01 05:38:00,Adversarial Example,Fraud Detection,4,0.7,1439,India,In Progress,malicious
+2320,2025-09-05 02:15:00,Prompt Injection,Image Classifier,2,0.55,2734,China,,malicious
+2321,2025-09-09 12:14:00,Prompt Injection,Image Classifier,2,0.84,3630,USA,Closed,malicious
+2322,2025-09-08 21:04:00,Adversarial Example,Chatbot,5,high,685,China,Open,malicious
+2323,2025-09-02 05:10:00,Model Evasion,Image Classifier,2,high,1126,USA,Closed,malicious
+2324,2025-09-02 16:21:00,Data Poisoning,Recommendation Engine,2,0.8,4216,Germany,Open,malicious
+2325,2025-09-28 16:47:00,Prompt Injection,Image Classifier,5,0.86,2466,China,In Progress,malicious
+2326,2025-09-04 16:39:00,Model Evasion,Image Classifier,4,0.87,2397,India,In Progress,malicious
+2327,2025-09-12 00:56:00,Prompt Injection,Recommendation Engine,4,0.76,4137,Germany,In Progress,malicious
+2328,2025-09-09 06:38:00,Prompt Injection,Chatbot,5,0.67,3438,Germany,,malicious
+2329,2025-09-18 09:44:00,Data Poisoning,Chatbot,1,0.92,4124,USA,In Progress,malicious
+2330,2025-09-20 09:35:00,Prompt Injection,Recommendation Engine,4,0.65,965,Brazil,In Progress,malicious
+2331,2025-09-27 03:21:00,Data Poisoning,Recommendation Engine,3,0.75,919,India,,malicious
+2332,2025-09-21 15:11:00,Data Poisoning,Recommendation Engine,5,0.7,4913,India,Closed,malicious
+2333,2025-09-04 08:06:00,Data Poisoning,Image Classifier,3,0.93,2872,USA,Closed,malicious
+2334,2025-09-29 17:20:00,Model Evasion,Recommendation Engine,4,0.72,1508,China,Open,malicious
+2335,2025-09-09 11:02:00,Adversarial Example,Fraud Detection,3,0.69,1212,USA,Closed,malicious
+2336,2025-09-16 11:37:00,Model Evasion,Image Classifier,3,0.84,871,China,Open,malicious
+2337,2025-09-14 13:41:00,Adversarial Example,Chatbot,4,0.8,4390,USA,Open,benign
+2338,2025-09-21 02:01:00,Adversarial Example,Chatbot,4,0.55,3254,China,Closed,malicious
+2339,2025-09-12 15:34:00,Data Poisoning,Chatbot,4,0.75,863,Germany,Closed,malicious
+2340,2025-09-26 19:58:00,Prompt Injection,Image Classifier,3,0.87,3953,USA,,benign
+2341,2025-09-07 03:00:00,Data Poisoning,Fraud Detection,3,1.0,3108,China,Open,malicious
+2342,2025-09-17 17:10:00,Prompt Injection,Recommendation Engine,4,0.81,3055,Russia,Closed,malicious
+2343,2025-09-03 22:32:00,Adversarial Example,Recommendation Engine,5,0.69,3994,USA,Closed,malicious
+2344,2025-09-08 17:22:00,Data Poisoning,Chatbot,4,0.61,2682,India,,malicious
+2345,2025-09-11 10:23:00,Prompt Injection,Chatbot,5,0.94,4690,USA,Closed,malicious
+2346,2025-09-06 13:27:00,Model Evasion,Image Classifier,5,0.91,613,USA,In Progress,benign
+2347,,Prompt Injection,Fraud Detection,3,0.62,1872,USA,In Progress,malicious
+2348,2025-09-30 00:26:00,Data Poisoning,Recommendation Engine,4,0.6,3154,India,Open,malicious
+2349,2025-09-21 09:58:00,Model Evasion,Image Classifier,5,0.86,4560,China,,malicious
+2350,2025-09-24 19:08:00,Prompt Injection,Recommendation Engine,4,0.66,3373,Russia,Closed,malicious
+2351,2025-09-05 16:17:00,Prompt Injection,Chatbot,5,0.65,3191,China,Open,malicious
+2352,2025-09-26 01:02:00,Prompt Injection,Recommendation Engine,4,0.58,567,USA,Closed,malicious
+2353,2025-09-18 17:10:00,Prompt Injection,Fraud Detection,3,0.63,500000,Germany,In Progress,malicious
+2354,2025-09-14 11:46:00,Prompt Injection,Fraud Detection,2,0.71,244,USA,Closed,malicious
+2355,2025-09-26 21:05:00,Model Evasion,Chatbot,3,0.87,20,India,Closed,malicious
+2356,2025-09-13 09:30:00,Adversarial Example,Fraud Detection,5,0.67,,USA,Closed,malicious
+2357,2025-09-01 10:14:00,Model Evasion,Fraud Detection,4,0.66,3814,USA,In Progress,benign
+2358,2025-09-16 02:56:00,Model Evasion,Image Classifier,3,0.64,2055,India,In Progress,malicious
+2359,2025-09-17 17:17:00,Model Evasion,Recommendation Engine,5,0.74,3515,Brazil,,malicious
+2360,2025-09-07 12:14:00,Adversarial Example,Chatbot,3,0.59,2375,USA,In Progress,malicious
+2361,2025-09-25 14:35:00,Data Poisoning,Chatbot,3,0.74,1910,India,Open,malicious
+2362,2025-09-22 11:07:00,Adversarial Example,Chatbot,4,0.85,289,USA,Closed,benign
+2363,2025-09-10 07:29:00,Model Evasion,Chatbot,4,0.51,2558,India,In Progress,malicious
+2364,2025-09-12 11:14:00,Prompt Injection,Chatbot,2,0.5,360,Germany,Open,malicious
+2365,2025-09-21 17:46:00,Prompt Injection,Fraud Detection,3,0.54,1622,USA,In Progress,malicious
+2366,2025-09-03 01:43:00,Model Evasion,Image Classifier,3,0.77,4314,USA,Closed,malicious
+2367,2025-09-23 00:25:00,Prompt Injection,Chatbot,2,0.93,4094,USA,Open,malicious
+2368,2025-09-15 08:22:00,Model Evasion,Image Classifier,3,0.5,2453,USA,In Progress,malicious
+2369,2025-09-17 07:50:00,Prompt Injection,Image Classifier,3,0.97,2015,USA,In Progress,benign
+2370,2025-09-09 18:51:00,Adversarial Example,Fraud Detection,2,0.55,2040,Germany,Open,malicious
+2371,2025-09-29 11:18:00,Data Poisoning,Chatbot,3,0.92,2044,Brazil,,malicious
+2372,2025-09-20 19:35:00,Data Poisoning,Fraud Detection,1,0.74,2800,USA,Open,malicious
+2373,2025-09-05 14:40:00,Adversarial Example,Chatbot,3,0.83,2970,China,Open,malicious
+2374,2025-09-11 15:17:00,Adversarial Example,Fraud Detection,5,0.76,831,China,Open,malicious
+2375,2025-09-06 06:04:00,Model Evasion,Image Classifier,4,0.74,1793,Russia,Open,malicious
+2376,2025-09-19 23:45:00,Model Evasion,Chatbot,2,0.92,3692,China,In Progress,malicious
+2377,2025-09-20 22:07:00,Model Evasion,Recommendation Engine,1,0.88,1791,China,Open,malicious
+2378,2025-09-10 12:57:00,Prompt Injection,Image Classifier,2,0.74,2841,China,Open,malicious
+2379,2025-09-07 11:23:00,Model Evasion,Recommendation Engine,3,0.56,,USA,Closed,malicious
+2380,2025-09-11 13:49:00,Adversarial Example,Image Classifier,2,0.56,2154,USA,In Progress,malicious
+2381,2025-09-06 21:42:00,Data Poisoning,Fraud Detection,3,0.9,580,China,Closed,malicious
+2382,2025-09-01 09:05:00,Prompt Injection,Chatbot,2,0.76,2853,USA,In Progress,malicious
+2383,2025-09-26 18:34:00,Model Evasion,Image Classifier,5,0.74,2236,China,,malicious
+2384,2025-09-21 10:30:00,Prompt Injection,Fraud Detection,3,0.84,4176,USA,,malicious
+2385,2025-09-07 22:36:00,Prompt Injection,Chatbot,2,0.93,2155,China,In Progress,malicious
+2386,2025-09-20 07:08:00,Model Evasion,Chatbot,5,0.81,1344,USA,,malicious
+2387,2025-09-21 19:29:00,Prompt Injection,Image Classifier,2,0.88,345,Russia,,malicious
+2388,2025-09-10 15:59:00,Data Poisoning,Chatbot,1,0.88,1886,Russia,In Progress,malicious
+2389,2025-09-03 15:30:00,Adversarial Example,Image Classifier,3,0.68,554,USA,Open,malicious
+2390,2025-09-22 05:46:00,Adversarial Example,Chatbot,3,0.64,3770,USA,Closed,benign
+2391,2025-09-28 18:14:00,Data Poisoning,Recommendation Engine,4,0.9,4397,Germany,In Progress,malicious
+2392,2025-09-30 00:13:00,Prompt Injection,Fraud Detection,2,0.69,199,USA,In Progress,malicious
+2393,2025-09-12 08:51:00,Model Evasion,Recommendation Engine,3,0.95,2940,USA,In Progress,malicious
+2394,2025-09-21 13:49:00,Prompt Injection,Image Classifier,2,0.53,3490,USA,Closed,malicious
+2395,2025-09-06 20:36:00,Data Poisoning,Recommendation Engine,1,0.53,306,Russia,In Progress,malicious
+2396,2025-09-10 00:24:00,Prompt Injection,Image Classifier,5,0.96,3075,Russia,Closed,malicious
+2397,2025-09-23 22:39:00,Adversarial Example,Chatbot,4,0.82,1656,China,Closed,benign
+2398,2025-09-14 19:35:00,Prompt Injection,Chatbot,2,0.69,2692,China,,malicious
+2399,2025-09-13 14:35:00,Data Poisoning,Image Classifier,3,0.88,1764,Russia,Open,malicious
+2400,2025-09-08 08:56:00,Adversarial Example,Recommendation Engine,2,0.84,275,Russia,,benign
+2401,2025-09-26 18:49:00,Prompt Injection,Chatbot,5,0.77,3361,Brazil,In Progress,malicious
+2402,2025-09-28 15:57:00,Prompt Injection,Fraud Detection,1,0.55,1401,USA,In Progress,malicious
+2403,2025-09-18 01:34:00,Adversarial Example,Chatbot,1,0.91,4733,USA,Closed,malicious
+2404,2025-09-03 09:10:00,Model Evasion,Fraud Detection,3,0.93,1775,Germany,,malicious
+2405,2025-09-09 19:16:00,Adversarial Example,Recommendation Engine,3,0.59,3381,China,Closed,malicious
+2406,2025-09-08 12:16:00,Model Evasion,Fraud Detection,3,0.93,4050,USA,,malicious
+2407,2025-09-23 17:33:00,Data Poisoning,Fraud Detection,1,0.94,3460,USA,,malicious
+2408,2025-09-14 23:44:00,Data Poisoning,Fraud Detection,2,0.77,1880,Russia,,malicious
+2409,2025-09-02 10:10:00,Adversarial Example,Fraud Detection,3,0.83,3835,Russia,,malicious
+2410,2025-09-24 13:33:00,Adversarial Example,Chatbot,2,0.69,4278,USA,,malicious
+2411,2025-09-18 07:51:00,Data Poisoning,Fraud Detection,5,0.64,1844,Russia,Open,malicious
+2412,2025-09-23 12:13:00,Model Evasion,Chatbot,1,0.86,3377,China,In Progress,malicious
+2413,2025-09-25 04:01:00,Data Poisoning,Fraud Detection,3,0.93,71,India,,malicious
+2414,2025-09-23 20:33:00,Adversarial Example,Image Classifier,4,high,1676,China,,malicious
+2415,2025-09-29 04:40:00,Data Poisoning,Recommendation Engine,2,0.76,1295,USA,Closed,malicious
+2416,2025-09-18 13:20:00,Adversarial Example,Fraud Detection,4,0.58,1043,China,In Progress,malicious
+2417,2025-09-18 01:17:00,Adversarial Example,Image Classifier,5,0.53,2625,China,In Progress,malicious
+2418,2025-09-25 14:00:00,Data Poisoning,Fraud Detection,2,0.72,3042,China,In Progress,malicious
+2419,2025-09-04 02:54:00,Model Evasion,Fraud Detection,5,0.52,814,USA,,malicious
+2420,2025-09-11 12:32:00,Prompt Injection,Fraud Detection,3,0.78,2194,Brazil,Closed,malicious
+2421,2025-09-17 14:15:00,Data Poisoning,Image Classifier,2,0.69,3500,USA,In Progress,malicious
+2422,2025-09-07 08:35:00,Prompt Injection,Recommendation Engine,3,0.88,309,USA,Closed,malicious
+2423,2025-09-23 03:23:00,Data Poisoning,Image Classifier,2,0.65,2061,China,Open,malicious
+2424,2025-09-30 23:54:00,Prompt Injection,Recommendation Engine,4,0.8,4227,China,Open,malicious
+2425,2025-09-30 20:41:00,Model Evasion,Fraud Detection,4,0.77,1877,China,Closed,malicious
+2426,2025-09-02 06:28:00,Model Evasion,Chatbot,5,0.5,2802,India,,malicious
+2427,2025-09-30 02:18:00,Data Poisoning,Fraud Detection,99,0.54,2486,China,In Progress,malicious
+2428,2025-09-23 07:23:00,Adversarial Example,Recommendation Engine,4,0.65,4835,Germany,Open,malicious
+2429,2025-09-27 02:13:00,Prompt Injection,Image Classifier,4,0.94,3745,Germany,Open,malicious
+2430,2025-09-01 13:26:00,Adversarial Example,Fraud Detection,2,0.57,794,USA,Closed,malicious
+2431,2025-09-29 10:50:00,Adversarial Example,Image Classifier,3,0.86,4014,China,,malicious
+2432,2025-09-21 15:57:00,Adversarial Example,Image Classifier,1,high,4353,Russia,Closed,malicious
+2433,2025-09-25 01:16:00,Model Evasion,Image Classifier,4,0.9,3407,USA,Closed,malicious
+2434,2025-09-11 02:41:00,Data Poisoning,Fraud Detection,3,0.62,2456,China,Closed,malicious
+2435,2025-09-17 20:22:00,Data Poisoning,Image Classifier,1,0.95,1851,Russia,Closed,malicious
+2436,2025-09-11 08:19:00,Model Evasion,Image Classifier,1,0.55,974,USA,Closed,malicious
+2437,2025-09-12 01:34:00,Model Evasion,Fraud Detection,3,0.73,1047,China,,malicious
+2438,2025-09-27 12:37:00,Data Poisoning,Image Classifier,3,0.94,4366,Brazil,Closed,malicious
+2439,2025-09-30 01:24:00,Adversarial Example,Fraud Detection,3,0.82,4237,USA,,malicious
+2440,2025-09-26 05:32:00,Prompt Injection,Recommendation Engine,4,high,3789,USA,In Progress,malicious
+2441,2025-09-24 17:17:00,Prompt Injection,Recommendation Engine,3,0.65,4997,Russia,In Progress,malicious
+2442,2025-09-09 01:13:00,Prompt Injection,Recommendation Engine,4,0.69,3021,Russia,In Progress,malicious
+2443,2025-09-28 19:22:00,Adversarial Example,Image Classifier,2,0.75,4369,China,In Progress,malicious
+2444,2025-09-13 00:40:00,Data Poisoning,Chatbot,1,0.66,4029,China,Open,malicious
+2445,2025-09-20 00:16:00,Model Evasion,Chatbot,3,0.98,464,India,,malicious
+2446,2025-09-10 20:39:00,Data Poisoning,Image Classifier,3,0.97,287,Germany,In Progress,malicious
+2447,2025-09-12 00:36:00,Adversarial Example,Chatbot,1,0.94,3195,USA,Open,malicious
+2448,2025-09-06 17:25:00,Model Evasion,Fraud Detection,3,0.71,875,USA,,benign
+2449,2025-09-06 00:14:00,Adversarial Example,Chatbot,1,0.85,1992,China,Open,malicious
+2450,2025-09-01 12:06:00,Prompt Injection,Image Classifier,3,0.95,2925,Russia,Open,malicious
+2451,2025-09-08 21:22:00,Prompt Injection,Image Classifier,3,0.93,1120,Russia,Closed,malicious
+2452,2025-09-13 16:57:00,Adversarial Example,Fraud Detection,4,0.71,446,Brazil,Open,malicious
+2453,2025-09-22 03:28:00,Model Evasion,Recommendation Engine,5,0.56,2832,Russia,Open,malicious
+2454,2025-09-19 04:12:00,Model Evasion,Image Classifier,2,0.54,3568,China,,benign
+2455,2025-09-30 18:34:00,Data Poisoning,Fraud Detection,5,0.79,2896,China,Open,malicious
+2456,2025-09-06 07:37:00,Prompt Injection,Chatbot,3,0.82,721,India,Closed,malicious
+2457,2025-09-14 02:10:00,Data Poisoning,Chatbot,4,0.92,2163,Germany,In Progress,benign
+2458,2025-09-18 15:45:00,Data Poisoning,Fraud Detection,4,0.65,2582,China,In Progress,malicious
+2459,2025-09-19 12:45:00,Adversarial Example,Fraud Detection,4,0.58,1351,USA,,benign
+2460,2025-09-18 01:38:00,Adversarial Example,Image Classifier,3,0.69,3980,Russia,,malicious
+2461,2025-09-21 00:31:00,Data Poisoning,Chatbot,3,0.68,4502,China,Open,malicious
+2462,2025-09-06 11:46:00,Prompt Injection,Fraud Detection,1,0.57,500000,USA,,malicious
+2463,2025-09-06 01:27:00,Adversarial Example,Chatbot,1,0.84,1725,Germany,Open,benign
+2464,2025-09-24 09:00:00,Data Poisoning,Fraud Detection,2,0.75,693,Germany,,malicious
+2465,2025-09-08 02:22:00,Data Poisoning,Chatbot,2,0.86,3413,USA,In Progress,malicious
+2466,2025-09-27 00:03:00,Data Poisoning,Recommendation Engine,3,0.68,494,India,In Progress,malicious
+2467,2025-09-25 02:21:00,Data Poisoning,Image Classifier,1,0.66,947,USA,In Progress,benign
+2468,2025-09-13 08:04:00,Data Poisoning,Chatbot,4,0.74,22,USA,In Progress,malicious
+2469,2025-09-13 06:34:00,Data Poisoning,Recommendation Engine,5,0.94,1128,China,Open,benign
+2470,2025-09-13 12:24:00,Adversarial Example,Chatbot,5,0.52,557,Germany,Open,benign
+2471,2025-09-17 13:54:00,Prompt Injection,Chatbot,3,0.9,1616,Brazil,Open,malicious
+2472,2025-09-23 10:04:00,Data Poisoning,Recommendation Engine,4,0.68,3730,India,In Progress,malicious
+2473,2025-09-13 05:22:00,Model Evasion,Chatbot,5,0.93,1656,Russia,Closed,malicious
+2474,2025-09-27 05:44:00,Adversarial Example,Chatbot,3,0.9,4173,USA,In Progress,malicious
+2475,2025-09-17 03:45:00,Adversarial Example,Image Classifier,2,0.67,806,USA,In Progress,malicious
+2476,2025-09-19 00:11:00,Data Poisoning,Recommendation Engine,5,0.85,3312,China,Closed,malicious
+2477,2025-09-21 00:41:00,Adversarial Example,Recommendation Engine,3,0.58,4863,USA,Closed,malicious
+2478,2025-09-21 06:32:00,Data Poisoning,Fraud Detection,3,0.95,453,India,,malicious
+2479,2025-09-30 12:40:00,Prompt Injection,Chatbot,1,0.7,2975,Germany,In Progress,malicious
+2480,2025-09-11 19:45:00,Prompt Injection,Image Classifier,1,0.73,2324,Brazil,Closed,malicious
+2481,2025-09-18 17:59:00,Adversarial Example,Chatbot,5,0.85,,USA,,malicious
+2482,2025-09-28 19:39:00,Adversarial Example,Chatbot,4,0.91,2561,China,Closed,benign
+2483,2025-09-24 10:22:00,Model Evasion,Fraud Detection,2,0.62,2511,China,Closed,benign
+2484,2025-09-03 20:53:00,Adversarial Example,Chatbot,2,0.83,2871,USA,,malicious
+2485,2025-09-11 04:23:00,Model Evasion,Image Classifier,3,high,362,China,In Progress,malicious
+2486,2025-09-16 02:34:00,Prompt Injection,Image Classifier,3,0.68,3454,China,,benign
+2487,2025-09-03 18:12:00,Prompt Injection,Fraud Detection,2,0.85,2798,China,In Progress,malicious
+2488,2025-09-04 16:15:00,Data Poisoning,Chatbot,5,high,4620,USA,Closed,malicious
+2489,2025-09-30 01:53:00,Prompt Injection,Image Classifier,1,0.67,3453,USA,,malicious
+2490,2025-09-21 05:25:00,Model Evasion,Chatbot,2,0.92,3255,China,Open,malicious
+2491,2025-09-29 11:16:00,Adversarial Example,Chatbot,4,0.55,1217,USA,Closed,malicious
+2492,2025-09-07 21:03:00,Data Poisoning,Chatbot,2,0.84,1485,USA,,malicious
+2493,2025-09-03 02:20:00,Model Evasion,Fraud Detection,5,0.62,2103,USA,Closed,malicious
+2494,2025-09-29 23:55:00,Adversarial Example,Chatbot,4,0.51,2536,USA,,benign
+2495,2025-09-15 04:20:00,Data Poisoning,Image Classifier,4,0.58,1855,USA,In Progress,malicious
+2496,2025-09-15 21:32:00,Prompt Injection,Chatbot,1,0.8,4817,USA,Open,malicious
+2497,2025-09-27 09:21:00,Model Evasion,Image Classifier,1,0.85,1207,China,Closed,malicious
+2498,2025-09-07 14:36:00,Adversarial Example,Chatbot,2,0.51,1448,Germany,Open,malicious
+2499,2025-09-02 15:56:00,Data Poisoning,Image Classifier,3,0.52,1507,Germany,In Progress,malicious
+2500,2025-09-13 21:06:00,Data Poisoning,Image Classifier,4,0.95,1003,India,,malicious
+2501,2025-09-14 06:49:00,Prompt Injection,Chatbot,5,0.54,925,China,Open,malicious
+2502,2025-09-02 02:31:00,Adversarial Example,Chatbot,4,0.95,4951,China,,malicious
+2503,2025-09-08 20:23:00,Prompt Injection,Image Classifier,5,0.61,83,India,In Progress,malicious
+2504,2025-09-22 05:21:00,Prompt Injection,Recommendation Engine,4,0.87,3742,China,Closed,malicious
+2505,2025-09-05 07:03:00,Adversarial Example,Fraud Detection,2,0.65,3927,Germany,In Progress,malicious
+2506,2025-09-19 10:52:00,Adversarial Example,Recommendation Engine,2,0.93,1542,China,Open,malicious
+2507,2025-09-24 16:00:00,Adversarial Example,Recommendation Engine,4,0.85,985,China,Open,malicious
+2508,2025-09-15 08:55:00,Model Evasion,Chatbot,2,0.7,4231,India,Open,malicious
+2509,2025-09-06 01:54:00,Adversarial Example,Fraud Detection,1,0.54,908,USA,,malicious
+2510,2025-09-14 15:03:00,Data Poisoning,Recommendation Engine,3,0.87,2908,USA,Closed,malicious
+2511,2025-09-02 11:39:00,Prompt Injection,Chatbot,5,0.81,4685,USA,Open,malicious
+2512,2025-09-22 17:30:00,Model Evasion,Recommendation Engine,1,0.5,2737,USA,Open,malicious
+2513,2025-09-13 13:28:00,Adversarial Example,Recommendation Engine,4,0.5,2586,USA,Open,malicious
+2514,2025-09-28 13:32:00,Model Evasion,Chatbot,5,0.9,1143,China,In Progress,malicious
+2515,2025-09-24 00:10:00,Adversarial Example,Chatbot,3,0.63,500000,India,Open,malicious
+2516,2025-09-23 06:48:00,Model Evasion,Chatbot,1,0.82,3348,India,In Progress,malicious
+2517,2025-09-19 06:12:00,Prompt Injection,Fraud Detection,1,0.73,1553,USA,Open,malicious
+2518,2025-09-15 08:30:00,Prompt Injection,Recommendation Engine,4,0.93,2342,Brazil,In Progress,benign
+2519,2025-09-03 14:18:00,Data Poisoning,Chatbot,4,0.96,1806,China,,malicious
+2520,2025-09-02 17:09:00,Data Poisoning,Image Classifier,5,1.0,2100,USA,,malicious
+2521,2025-09-16 15:34:00,Adversarial Example,Recommendation Engine,3,0.58,805,India,In Progress,malicious
+2522,2025-09-07 06:17:00,Prompt Injection,Image Classifier,1,0.93,4147,Germany,Closed,malicious
+2523,2025-09-02 22:48:00,Model Evasion,Fraud Detection,1,0.63,2775,Germany,Closed,malicious
+2524,2025-09-09 19:53:00,Model Evasion,Chatbot,4,0.8,71,USA,In Progress,malicious
+2525,2025-09-29 00:09:00,Model Evasion,Image Classifier,2,0.75,27,China,,malicious
+2526,2025-09-02 21:19:00,Data Poisoning,Fraud Detection,2,0.51,468,Russia,In Progress,malicious
+2527,2025-09-16 21:30:00,Model Evasion,Chatbot,3,0.97,3983,China,Closed,malicious
+2528,2025-09-09 03:00:00,Data Poisoning,Image Classifier,1,0.54,763,Germany,In Progress,malicious
+2529,2025-09-26 08:29:00,Data Poisoning,Image Classifier,2,0.84,1424,China,,malicious
+2530,2025-09-30 12:54:00,Adversarial Example,Fraud Detection,3,0.89,2248,India,Closed,malicious
+2531,2025-09-26 12:46:00,Model Evasion,Chatbot,2,0.9,3832,USA,Closed,malicious
+2532,2025-09-19 13:05:00,Model Evasion,Chatbot,1,high,4915,China,Open,malicious
+2533,2025-09-14 01:07:00,Prompt Injection,Image Classifier,4,0.72,4060,USA,Open,malicious
+2534,2025-09-19 11:08:00,Adversarial Example,Image Classifier,5,0.91,4070,Germany,Closed,malicious
+2535,2025-09-19 03:23:00,Prompt Injection,Image Classifier,2,0.65,1675,Germany,Closed,malicious
+2536,2025-09-23 23:02:00,Adversarial Example,Chatbot,4,0.73,559,USA,In Progress,malicious
+2537,2025-09-08 01:37:00,Model Evasion,Fraud Detection,3,0.64,500000,Germany,,malicious
+2538,2025-09-16 02:07:00,Data Poisoning,Fraud Detection,3,0.73,3831,China,Closed,malicious
+2539,2025-09-21 23:40:00,Data Poisoning,Chatbot,5,0.94,1918,USA,,malicious
+2540,2025-09-07 20:42:00,Data Poisoning,Recommendation Engine,4,0.73,78,China,Closed,malicious
+2541,2025-09-01 18:56:00,Data Poisoning,Fraud Detection,5,0.78,4929,USA,,malicious
+2542,2025-09-25 04:32:00,Data Poisoning,Image Classifier,1,0.7,3647,China,Open,malicious
+2543,2025-09-23 04:46:00,Prompt Injection,Recommendation Engine,1,0.73,1031,USA,Closed,malicious
+2544,2025-09-05 20:49:00,Adversarial Example,Recommendation Engine,5,0.51,2072,Germany,In Progress,malicious
+2545,2025-09-10 00:27:00,Model Evasion,Fraud Detection,3,0.64,4545,India,,malicious
+2546,2025-09-26 21:51:00,Prompt Injection,Recommendation Engine,2,0.72,1484,Germany,Closed,malicious
+2547,2025-09-22 22:15:00,Adversarial Example,Recommendation Engine,4,0.82,2245,USA,Open,malicious
+2548,2025-09-01 16:47:00,Data Poisoning,Fraud Detection,5,0.73,1550,Russia,Open,malicious
+2549,2025-09-04 18:45:00,Adversarial Example,Fraud Detection,5,0.67,4785,Germany,Open,malicious
+2550,2025-09-08 10:26:00,Adversarial Example,Recommendation Engine,2,0.69,4682,USA,Open,benign
+2551,2025-09-21 07:37:00,Data Poisoning,Image Classifier,5,0.62,,India,Closed,malicious
+2552,2025-09-16 02:16:00,Data Poisoning,Chatbot,1,0.96,3751,USA,In Progress,malicious
+2553,2025-09-30 07:27:00,Data Poisoning,Recommendation Engine,1,0.76,4722,China,,malicious
+2554,2025-09-10 05:21:00,Model Evasion,Recommendation Engine,4,high,2031,China,In Progress,malicious
+2555,2025-09-01 23:55:00,Data Poisoning,Image Classifier,1,0.51,4459,China,,malicious
+2556,2025-09-24 03:39:00,Model Evasion,Recommendation Engine,2,0.99,3856,Russia,In Progress,malicious
+2557,,Data Poisoning,Recommendation Engine,4,0.61,2182,China,Closed,malicious
+2558,2025-09-18 22:21:00,Model Evasion,Chatbot,2,0.9,4469,USA,Closed,malicious
+2559,2025-09-19 12:20:00,Adversarial Example,Chatbot,1,0.53,2094,Russia,,malicious
+2560,2025-09-04 12:44:00,Prompt Injection,Chatbot,2,0.96,3903,Russia,Closed,malicious
+2561,2025-09-12 13:41:00,Adversarial Example,Fraud Detection,3,0.94,3032,Germany,,benign
+2562,2025-09-10 09:07:00,Adversarial Example,Fraud Detection,3,0.79,1548,China,In Progress,malicious
+2563,,Data Poisoning,Chatbot,4,0.5,367,USA,Closed,malicious
+2564,2025-09-13 16:31:00,Model Evasion,Chatbot,4,0.63,64,India,Closed,malicious
+2565,2025-09-06 04:51:00,Prompt Injection,Fraud Detection,3,0.7,3299,USA,,malicious
+2566,2025-09-11 07:39:00,Data Poisoning,Image Classifier,5,0.73,4849,USA,,malicious
+2567,2025-09-06 14:33:00,Data Poisoning,Recommendation Engine,1,0.65,2035,China,,malicious
+2568,2025-09-07 07:17:00,Data Poisoning,Recommendation Engine,2,0.52,2863,USA,,malicious
+2569,2025-09-15 13:13:00,Adversarial Example,Chatbot,5,0.8,1876,USA,Open,benign
+2570,2025-09-08 21:43:00,Model Evasion,Image Classifier,2,0.76,4851,China,,malicious
+2571,2025-09-02 15:13:00,Model Evasion,Fraud Detection,99,0.64,2228,USA,Open,malicious
+2572,2025-09-17 13:01:00,Prompt Injection,Chatbot,3,0.52,596,USA,In Progress,malicious
+2573,2025-09-27 02:07:00,Model Evasion,Image Classifier,4,1.0,3606,USA,,malicious
+2574,2025-09-18 06:20:00,Model Evasion,Image Classifier,3,0.74,2674,USA,Open,malicious
+2575,2025-09-15 17:15:00,Data Poisoning,Image Classifier,3,0.88,3889,Germany,Open,malicious
+2576,2025-09-09 06:59:00,Data Poisoning,Fraud Detection,3,0.73,3506,India,Open,malicious
+2577,2025-09-18 14:18:00,Adversarial Example,Fraud Detection,4,0.52,1834,China,Closed,malicious
+2578,2025-09-16 02:10:00,Data Poisoning,Recommendation Engine,3,0.65,1395,China,Open,malicious
+2579,2025-09-15 21:07:00,Data Poisoning,Recommendation Engine,5,0.66,1586,USA,,malicious
+2580,2025-09-25 10:36:00,Data Poisoning,Image Classifier,2,0.92,111,USA,,malicious
+2581,2025-09-19 19:23:00,Data Poisoning,Image Classifier,1,0.83,452,USA,,malicious
+2582,2025-09-15 22:30:00,Adversarial Example,Fraud Detection,3,0.64,2803,China,Open,benign
+2583,2025-09-06 10:13:00,Data Poisoning,Recommendation Engine,4,0.98,2631,Germany,Open,malicious
+2584,2025-09-22 22:38:00,Prompt Injection,Image Classifier,5,0.66,2186,Germany,Closed,benign
+2585,2025-09-20 03:30:00,Prompt Injection,Recommendation Engine,2,1.0,4348,USA,In Progress,malicious
+2586,2025-09-19 19:22:00,Prompt Injection,Recommendation Engine,4,1.0,2004,USA,Closed,malicious
+2587,2025-09-21 07:21:00,Prompt Injection,Image Classifier,2,high,1459,India,,malicious
+2588,2025-09-22 07:18:00,Data Poisoning,Fraud Detection,4,0.66,1942,USA,,malicious
+2589,2025-09-09 03:45:00,Prompt Injection,Image Classifier,5,0.74,3493,Germany,,malicious
+2590,2025-09-19 01:49:00,Data Poisoning,Image Classifier,2,0.83,,China,Closed,malicious
+2591,2025-09-10 01:05:00,Adversarial Example,Recommendation Engine,3,0.76,61,Germany,,malicious
+2592,2025-09-26 02:04:00,Prompt Injection,Image Classifier,99,0.98,1494,Russia,,malicious
+2593,2025-09-10 22:08:00,Model Evasion,Fraud Detection,5,0.86,1180,Russia,,malicious
+2594,2025-09-17 10:10:00,Prompt Injection,Image Classifier,3,0.61,4901,China,Open,malicious
+2595,2025-09-05 13:00:00,Prompt Injection,Fraud Detection,3,0.55,2788,China,In Progress,malicious
+2596,2025-09-23 09:12:00,Data Poisoning,Fraud Detection,2,0.84,1875,USA,Open,malicious
+2597,2025-09-12 09:42:00,Prompt Injection,Recommendation Engine,3,0.58,2208,Russia,Open,malicious
+2598,2025-09-03 07:42:00,Model Evasion,Chatbot,5,0.89,4636,China,In Progress,malicious
+2599,2025-09-30 01:26:00,Data Poisoning,Chatbot,4,0.66,4721,USA,In Progress,malicious
+2600,2025-09-25 17:32:00,Data Poisoning,Recommendation Engine,2,0.66,105,China,Closed,malicious
+2601,2025-09-08 05:16:00,Adversarial Example,Image Classifier,2,0.51,1154,USA,In Progress,malicious
+2602,2025-09-13 03:22:00,Adversarial Example,Recommendation Engine,2,0.85,3428,China,Closed,malicious
+2603,2025-09-17 06:11:00,Prompt Injection,Fraud Detection,1,high,4087,China,Closed,malicious
+2604,2025-09-10 05:01:00,Adversarial Example,Chatbot,1,0.89,1708,USA,Open,malicious
+2605,2025-09-03 03:33:00,Adversarial Example,Recommendation Engine,3,0.75,2823,USA,,benign
+2606,2025-09-09 03:22:00,Adversarial Example,Image Classifier,1,0.89,3925,Russia,Open,malicious
+2607,2025-09-16 07:22:00,Data Poisoning,Recommendation Engine,1,0.79,1908,India,Open,malicious
+2608,2025-09-20 12:07:00,Data Poisoning,Chatbot,3,0.54,2049,India,In Progress,malicious
+2609,2025-09-23 11:07:00,Data Poisoning,Recommendation Engine,1,0.88,4464,USA,In Progress,malicious
+2610,2025-09-24 10:36:00,Adversarial Example,Recommendation Engine,1,0.53,1274,India,Closed,malicious
+2611,2025-09-28 05:34:00,Data Poisoning,Chatbot,2,0.74,945,China,Closed,malicious
+2612,2025-09-12 08:15:00,Adversarial Example,Fraud Detection,2,0.59,3904,USA,Closed,malicious
+2613,2025-09-20 20:42:00,Data Poisoning,Fraud Detection,3,0.88,2227,USA,In Progress,malicious
+2614,2025-09-24 22:10:00,Data Poisoning,Chatbot,1,0.96,3796,USA,Closed,malicious
+2615,2025-09-23 08:36:00,Model Evasion,Recommendation Engine,4,0.78,292,USA,Closed,benign
+2616,2025-09-04 21:46:00,Prompt Injection,Chatbot,5,0.76,4679,Brazil,In Progress,malicious
+2617,2025-09-06 03:44:00,Adversarial Example,Fraud Detection,4,0.88,2222,USA,,malicious
+2618,2025-09-09 22:17:00,Model Evasion,Image Classifier,3,0.5,3973,China,Open,malicious
+2619,2025-09-14 21:02:00,Data Poisoning,Recommendation Engine,5,0.96,2491,China,In Progress,malicious
+2620,2025-09-08 22:25:00,Adversarial Example,Fraud Detection,4,0.6,2475,USA,Closed,malicious
+2621,2025-09-02 09:00:00,Data Poisoning,Recommendation Engine,1,0.99,4860,China,Open,malicious
+2622,2025-09-19 08:31:00,Prompt Injection,Chatbot,3,0.87,3729,USA,In Progress,malicious
+2623,2025-09-14 12:00:00,Model Evasion,Image Classifier,5,0.89,427,India,Open,malicious
+2624,2025-09-29 23:52:00,Prompt Injection,Chatbot,2,0.83,2972,USA,Open,malicious
+2625,2025-09-12 22:15:00,Model Evasion,Image Classifier,1,0.74,106,China,,benign
+2626,2025-09-19 07:45:00,Data Poisoning,Recommendation Engine,4,0.79,3619,Germany,Closed,benign
+2627,2025-09-27 11:58:00,Prompt Injection,Recommendation Engine,5,0.52,4754,Russia,In Progress,malicious
+2628,2025-09-16 23:39:00,Prompt Injection,Chatbot,1,0.81,3333,India,Closed,malicious
+2629,2025-09-13 22:39:00,Data Poisoning,Image Classifier,3,0.81,3992,Germany,,benign
+2630,2025-09-14 21:14:00,Prompt Injection,Image Classifier,2,0.95,1225,USA,,malicious
+2631,2025-09-24 20:55:00,Adversarial Example,Recommendation Engine,4,0.75,4004,China,In Progress,malicious
+2632,2025-09-15 23:23:00,Model Evasion,Chatbot,2,0.54,,India,In Progress,malicious
+2633,2025-09-28 07:41:00,Model Evasion,Image Classifier,2,0.65,3368,Russia,,malicious
+2634,2025-09-05 00:16:00,Model Evasion,Recommendation Engine,5,0.83,895,USA,In Progress,malicious
+2635,2025-09-26 07:24:00,Adversarial Example,Fraud Detection,3,0.62,3905,USA,Open,malicious
+2636,2025-09-03 08:20:00,Model Evasion,Chatbot,4,0.64,1620,India,Open,benign
+2637,2025-09-07 01:11:00,Data Poisoning,Fraud Detection,3,0.91,3863,China,,malicious
+2638,2025-09-07 02:22:00,Prompt Injection,Chatbot,2,0.79,2292,USA,Closed,malicious
+2639,2025-09-13 02:34:00,Adversarial Example,Recommendation Engine,4,0.75,1385,China,In Progress,malicious
+2640,2025-09-14 21:37:00,Model Evasion,Image Classifier,1,0.66,3899,Germany,In Progress,malicious
+2641,2025-09-22 07:47:00,Data Poisoning,Image Classifier,2,0.87,3592,Brazil,Open,malicious
+2642,2025-09-28 03:50:00,Prompt Injection,Image Classifier,2,0.64,2433,China,In Progress,benign
+2643,2025-09-13 01:03:00,Prompt Injection,Chatbot,4,0.87,2806,USA,Closed,malicious
+2644,2025-09-27 23:07:00,Adversarial Example,Recommendation Engine,5,0.54,3383,USA,In Progress,malicious
+2645,2025-09-29 22:12:00,Adversarial Example,Fraud Detection,99,0.93,1301,USA,In Progress,malicious
+2646,2025-09-04 22:15:00,Adversarial Example,Recommendation Engine,3,0.75,758,China,Open,malicious
+2647,2025-09-11 14:11:00,Data Poisoning,Fraud Detection,2,0.72,746,China,In Progress,malicious
+2648,2025-09-01 08:46:00,Data Poisoning,Chatbot,3,0.81,592,USA,,malicious
+2649,2025-09-03 05:44:00,Adversarial Example,Chatbot,5,0.81,2886,Germany,,malicious
+2650,2025-09-09 00:16:00,Model Evasion,Fraud Detection,2,0.57,4111,Germany,Closed,malicious
+2651,2025-09-20 19:41:00,Prompt Injection,Fraud Detection,5,0.88,1068,USA,Closed,malicious
+2652,2025-09-10 09:47:00,Prompt Injection,Fraud Detection,2,0.64,3307,USA,Closed,malicious
+2653,2025-09-24 23:31:00,Data Poisoning,Recommendation Engine,99,0.95,702,Brazil,Closed,malicious
+2654,2025-09-07 01:12:00,Prompt Injection,Fraud Detection,5,0.91,4708,USA,Open,malicious
+2655,2025-09-27 18:45:00,Model Evasion,Chatbot,5,0.67,104,India,In Progress,malicious
+2656,2025-09-07 09:28:00,Prompt Injection,Chatbot,2,0.9,1497,China,Open,malicious
+2657,2025-09-04 13:09:00,Data Poisoning,Image Classifier,1,0.68,3833,India,Closed,malicious
+2658,2025-09-25 10:41:00,Data Poisoning,Fraud Detection,3,0.55,395,India,In Progress,malicious
+2659,2025-09-12 18:47:00,Model Evasion,Recommendation Engine,2,0.98,3517,Germany,,malicious
+2660,2025-09-21 15:59:00,Model Evasion,Recommendation Engine,1,0.83,2653,Russia,Open,malicious
+2661,2025-09-15 00:12:00,Prompt Injection,Recommendation Engine,3,0.73,,Russia,In Progress,malicious
+2662,2025-09-26 15:35:00,Prompt Injection,Image Classifier,3,0.7,2010,China,,malicious
+2663,2025-09-19 11:09:00,Data Poisoning,Chatbot,4,0.66,3881,USA,,malicious
+2664,,Model Evasion,Recommendation Engine,4,0.99,4946,USA,Closed,malicious
+2665,2025-09-21 03:29:00,Model Evasion,Chatbot,1,0.57,1988,India,,malicious
+2666,2025-09-13 08:13:00,Model Evasion,Image Classifier,5,0.66,4537,Germany,,malicious
+2667,2025-09-29 13:25:00,Prompt Injection,Fraud Detection,2,0.74,1668,USA,Closed,malicious
+2668,2025-09-19 03:43:00,Model Evasion,Fraud Detection,3,0.74,4968,USA,In Progress,malicious
+2669,2025-09-05 06:34:00,Data Poisoning,Fraud Detection,3,high,4762,Germany,In Progress,malicious
+2670,2025-09-16 03:24:00,Data Poisoning,Recommendation Engine,5,0.59,1051,USA,Closed,malicious
+2671,2025-09-29 22:48:00,Prompt Injection,Fraud Detection,1,0.57,2841,China,Open,malicious
+2672,2025-09-15 07:01:00,Adversarial Example,Recommendation Engine,3,0.63,4723,Germany,Closed,malicious
+2673,2025-09-21 21:27:00,Prompt Injection,Image Classifier,4,0.96,3584,China,In Progress,malicious
+2674,2025-09-23 21:41:00,Adversarial Example,Image Classifier,2,0.56,347,USA,Open,malicious
+2675,2025-09-03 14:42:00,Model Evasion,Recommendation Engine,4,0.88,1263,USA,Closed,malicious
+2676,2025-09-07 18:48:00,Prompt Injection,Chatbot,5,0.88,4665,USA,In Progress,malicious
+2677,2025-09-28 10:19:00,Data Poisoning,Fraud Detection,99,0.9,2742,USA,In Progress,malicious
+2678,2025-09-27 18:39:00,Model Evasion,Fraud Detection,1,0.94,2073,China,In Progress,malicious
+2679,2025-09-07 02:23:00,Data Poisoning,Fraud Detection,2,0.63,3148,China,,malicious
+2680,2025-09-21 16:21:00,Model Evasion,Recommendation Engine,2,0.61,1351,USA,,malicious
+2681,2025-09-22 09:31:00,Prompt Injection,Image Classifier,3,0.73,2821,USA,Open,malicious
+2682,2025-09-25 15:28:00,Adversarial Example,Fraud Detection,2,0.63,3827,USA,Open,malicious
+2683,2025-09-07 04:25:00,Model Evasion,Image Classifier,2,0.87,669,Brazil,Open,malicious
+2684,2025-09-07 08:07:00,Adversarial Example,Fraud Detection,5,0.82,4813,China,,malicious
+2685,,Model Evasion,Fraud Detection,5,0.94,2646,Russia,Open,malicious
+2686,2025-09-05 10:08:00,Data Poisoning,Recommendation Engine,1,0.54,266,India,In Progress,malicious
+2687,2025-09-20 01:04:00,Data Poisoning,Chatbot,2,0.96,1438,China,In Progress,malicious
+2688,2025-09-13 17:33:00,Model Evasion,Recommendation Engine,3,0.65,2693,Germany,Open,malicious
+2689,2025-09-17 01:16:00,Adversarial Example,Fraud Detection,2,0.75,1022,USA,Open,malicious
+2690,2025-09-11 18:45:00,Prompt Injection,Fraud Detection,4,0.72,2037,Germany,,malicious
+2691,2025-09-17 05:58:00,Prompt Injection,Chatbot,4,0.88,564,USA,In Progress,benign
+2692,2025-09-23 19:37:00,Data Poisoning,Image Classifier,5,0.71,1059,India,Closed,benign
+2693,2025-09-08 04:41:00,Prompt Injection,Image Classifier,4,0.97,1424,USA,Closed,malicious
+2694,2025-09-12 08:49:00,Data Poisoning,Fraud Detection,3,0.95,4123,India,,malicious
+2695,2025-09-03 02:41:00,Prompt Injection,Image Classifier,4,0.94,219,USA,,malicious
+2696,2025-09-01 01:45:00,Model Evasion,Fraud Detection,2,0.54,405,Russia,,malicious
+2697,2025-09-07 07:18:00,Data Poisoning,Chatbot,3,0.93,1637,USA,In Progress,malicious
+2698,2025-09-18 08:43:00,Data Poisoning,Chatbot,3,0.89,2318,Germany,Open,benign
+2699,2025-09-05 05:30:00,Model Evasion,Fraud Detection,1,0.55,1759,China,Open,benign
+2700,2025-09-27 23:30:00,Data Poisoning,Chatbot,2,0.55,1674,USA,,malicious
+2701,2025-09-02 08:05:00,Prompt Injection,Recommendation Engine,2,0.55,791,Germany,In Progress,malicious
+2702,2025-09-13 19:20:00,Prompt Injection,Recommendation Engine,5,0.51,3582,Russia,Closed,malicious
+2703,2025-09-28 13:25:00,Data Poisoning,Chatbot,2,0.77,1309,USA,,malicious
+2704,2025-09-19 01:35:00,Prompt Injection,Fraud Detection,2,0.99,3833,Russia,In Progress,malicious
+2705,2025-09-24 03:20:00,Adversarial Example,Fraud Detection,2,0.72,4929,Germany,,malicious
+2706,2025-09-18 13:31:00,Data Poisoning,Chatbot,4,0.77,4412,India,In Progress,malicious
+2707,2025-09-26 11:19:00,Model Evasion,Image Classifier,1,0.98,1330,USA,In Progress,malicious
+2708,2025-09-19 06:09:00,Adversarial Example,Recommendation Engine,5,0.63,4446,China,,malicious
+2709,2025-09-03 08:29:00,Data Poisoning,Image Classifier,5,0.93,510,Russia,Open,malicious
+2710,2025-09-18 20:03:00,Model Evasion,Fraud Detection,3,0.77,2572,China,,malicious
+2711,2025-09-10 11:09:00,Prompt Injection,Fraud Detection,4,0.78,3929,China,Open,malicious
+2712,2025-09-18 05:46:00,Model Evasion,Image Classifier,1,0.67,491,USA,Open,malicious
+2713,2025-09-25 10:38:00,Adversarial Example,Chatbot,2,0.78,1617,USA,Closed,malicious
+2714,2025-09-19 11:50:00,Prompt Injection,Image Classifier,4,0.54,2056,Germany,In Progress,malicious
+2715,2025-09-24 01:46:00,Data Poisoning,Image Classifier,1,0.88,1520,Germany,,malicious
+2716,2025-09-23 21:35:00,Prompt Injection,Recommendation Engine,2,0.64,500000,China,In Progress,malicious
+2717,2025-09-01 14:59:00,Data Poisoning,Recommendation Engine,3,0.94,1575,USA,Closed,malicious
+2718,2025-09-09 02:13:00,Data Poisoning,Image Classifier,2,0.68,3946,China,Open,malicious
+2719,2025-09-20 10:01:00,Model Evasion,Image Classifier,5,0.57,1761,USA,,malicious
+2720,2025-09-12 09:25:00,Model Evasion,Fraud Detection,1,0.85,1991,China,In Progress,malicious
+2721,2025-09-06 23:21:00,Model Evasion,Recommendation Engine,4,0.58,3179,Russia,Closed,malicious
+2722,2025-09-24 09:02:00,Adversarial Example,Recommendation Engine,3,0.88,3326,India,Open,malicious
+2723,2025-09-24 02:42:00,Adversarial Example,Fraud Detection,4,0.98,1046,USA,Open,malicious
+2724,2025-09-15 18:48:00,Model Evasion,Chatbot,2,0.89,2892,Russia,In Progress,malicious
+2725,2025-09-21 12:25:00,Adversarial Example,Recommendation Engine,3,0.51,2613,China,Open,malicious
+2726,2025-09-26 14:37:00,Prompt Injection,Recommendation Engine,5,0.8,3892,Germany,Closed,malicious
+2727,2025-09-11 15:13:00,Prompt Injection,Chatbot,3,0.85,4144,USA,Open,malicious
+2728,2025-09-11 15:49:00,Adversarial Example,Recommendation Engine,2,0.91,461,Germany,,malicious
+2729,2025-09-05 23:39:00,Adversarial Example,Recommendation Engine,3,0.53,4431,USA,,malicious
+2730,2025-09-08 04:06:00,Prompt Injection,Chatbot,4,0.74,1381,China,In Progress,malicious
+2731,2025-09-02 02:00:00,Data Poisoning,Chatbot,3,0.77,1145,USA,Closed,malicious
+2732,2025-09-10 10:52:00,Prompt Injection,Image Classifier,5,0.58,3515,USA,Open,malicious
+2733,2025-09-13 06:10:00,Prompt Injection,Fraud Detection,2,0.66,4454,USA,Open,malicious
+2734,2025-09-19 13:45:00,Adversarial Example,Fraud Detection,3,0.72,192,USA,Open,malicious
+2735,2025-09-23 03:30:00,Prompt Injection,Chatbot,4,0.92,3534,USA,,malicious
+2736,2025-09-14 21:42:00,Adversarial Example,Chatbot,4,0.96,755,Germany,Closed,malicious
+2737,2025-09-04 07:40:00,Adversarial Example,Recommendation Engine,5,0.81,1684,USA,Open,malicious
+2738,2025-09-13 17:11:00,Model Evasion,Image Classifier,99,0.7,2525,Germany,In Progress,malicious
+2739,2025-09-20 17:00:00,Prompt Injection,Image Classifier,3,0.63,827,USA,Closed,malicious
+2740,2025-09-02 15:16:00,Data Poisoning,Chatbot,1,0.99,889,Russia,Closed,malicious
+2741,2025-09-04 07:50:00,Model Evasion,Recommendation Engine,1,0.99,4748,Russia,Open,malicious
+2742,2025-09-19 16:31:00,Adversarial Example,Recommendation Engine,4,0.96,500000,USA,,malicious
+2743,2025-09-17 22:03:00,Adversarial Example,Fraud Detection,5,0.89,2333,Germany,Closed,malicious
+2744,2025-09-14 22:09:00,Data Poisoning,Fraud Detection,2,0.66,500000,USA,In Progress,benign
+2745,2025-09-08 01:41:00,Adversarial Example,Recommendation Engine,1,0.91,110,Russia,Closed,malicious
+2746,2025-09-28 15:45:00,Prompt Injection,Fraud Detection,1,0.7,4715,China,,malicious
+2747,2025-09-12 04:02:00,Model Evasion,Chatbot,5,0.66,792,USA,In Progress,malicious
+2748,2025-09-01 11:01:00,Adversarial Example,Recommendation Engine,2,0.87,4683,USA,,malicious
+2749,2025-09-26 23:32:00,Adversarial Example,Fraud Detection,3,0.54,2643,USA,Open,malicious
+2750,2025-09-03 00:40:00,Data Poisoning,Image Classifier,3,0.52,3414,USA,Closed,malicious
+2751,2025-09-18 19:38:00,Prompt Injection,Recommendation Engine,5,0.72,1309,Germany,In Progress,malicious
+2752,2025-09-10 17:45:00,Adversarial Example,Recommendation Engine,4,0.72,296,China,,malicious
+2753,2025-09-07 05:06:00,Data Poisoning,Image Classifier,4,0.95,1629,USA,Open,malicious
+2754,2025-09-20 22:26:00,Adversarial Example,Chatbot,1,0.56,568,USA,In Progress,malicious
+2755,2025-09-28 02:04:00,Data Poisoning,Image Classifier,3,0.56,4927,USA,Closed,benign
+2756,2025-09-12 07:49:00,Data Poisoning,Recommendation Engine,4,0.57,4705,USA,Closed,malicious
+2757,2025-09-24 00:00:00,Prompt Injection,Chatbot,5,0.51,,India,,malicious
+2758,2025-09-21 20:27:00,Adversarial Example,Fraud Detection,2,0.54,71,USA,In Progress,malicious
+2759,2025-09-05 20:45:00,Prompt Injection,Fraud Detection,1,0.83,4365,China,Open,malicious
+2760,2025-09-01 15:56:00,Data Poisoning,Fraud Detection,1,0.72,4382,USA,Open,malicious
+2761,2025-09-25 04:39:00,Model Evasion,Recommendation Engine,2,0.88,65,USA,Open,malicious
+2762,2025-09-06 23:15:00,Adversarial Example,Image Classifier,5,1.0,879,Germany,,malicious
+2763,2025-09-09 21:23:00,Model Evasion,Chatbot,1,0.83,,China,Open,benign
+2764,2025-09-19 00:43:00,Adversarial Example,Fraud Detection,3,0.53,1216,China,In Progress,malicious
+2765,2025-09-26 03:41:00,Prompt Injection,Chatbot,2,0.55,3027,China,,benign
+2766,2025-09-28 09:23:00,Prompt Injection,Recommendation Engine,1,0.94,3239,China,Closed,malicious
+2767,2025-09-24 10:03:00,Prompt Injection,Fraud Detection,3,0.76,3480,USA,,benign
+2768,2025-09-28 03:03:00,Prompt Injection,Recommendation Engine,2,0.91,507,China,,malicious
+2769,2025-09-11 14:42:00,Prompt Injection,Image Classifier,2,0.93,3714,Germany,,malicious
+2770,2025-09-04 06:23:00,Model Evasion,Recommendation Engine,4,0.96,2884,USA,In Progress,malicious
+2771,2025-09-05 13:23:00,Prompt Injection,Recommendation Engine,3,0.97,1125,China,Closed,malicious
+2772,2025-09-18 22:49:00,Data Poisoning,Image Classifier,1,0.78,885,USA,Closed,malicious
+2773,2025-09-23 03:00:00,Data Poisoning,Chatbot,5,0.67,2841,USA,,malicious
+2774,2025-09-22 22:25:00,Model Evasion,Image Classifier,4,0.98,3877,China,,malicious
+2775,2025-09-16 06:55:00,Adversarial Example,Image Classifier,4,0.77,4870,Russia,,malicious
+2776,2025-09-09 08:03:00,Data Poisoning,Recommendation Engine,1,0.53,2525,Russia,In Progress,benign
+2777,2025-09-19 17:18:00,Adversarial Example,Chatbot,1,0.82,925,USA,In Progress,malicious
+2778,2025-09-19 01:37:00,Model Evasion,Fraud Detection,1,0.79,4215,China,Open,malicious
+2779,2025-09-08 18:11:00,Adversarial Example,Image Classifier,2,0.95,1938,China,Closed,malicious
+2780,2025-09-09 11:21:00,Adversarial Example,Chatbot,3,0.83,3814,USA,Open,malicious
+2781,2025-09-21 10:26:00,Adversarial Example,Image Classifier,5,0.67,3362,India,Open,malicious
+2782,2025-09-13 08:18:00,Adversarial Example,Image Classifier,3,0.98,4583,Germany,,malicious
+2783,,Model Evasion,Image Classifier,2,0.9,3232,Russia,In Progress,malicious
+2784,2025-09-15 15:56:00,Data Poisoning,Image Classifier,3,0.82,3744,USA,Open,malicious
+2785,2025-09-24 02:57:00,Prompt Injection,Recommendation Engine,1,0.65,3465,USA,Open,benign
+2786,2025-09-14 10:22:00,Adversarial Example,Chatbot,4,0.69,440,India,Open,malicious
+2787,2025-09-20 02:10:00,Data Poisoning,Chatbot,3,0.83,3611,Germany,,malicious
+2788,2025-09-14 20:55:00,Data Poisoning,Chatbot,4,0.54,461,Russia,,malicious
+2789,2025-09-19 13:23:00,Model Evasion,Image Classifier,99,0.63,611,USA,In Progress,malicious
+2790,2025-09-17 03:59:00,Data Poisoning,Recommendation Engine,2,0.86,3471,China,Open,malicious
+2791,2025-09-09 20:45:00,Model Evasion,Image Classifier,3,0.74,,China,Open,malicious
+2792,2025-09-09 00:41:00,Adversarial Example,Image Classifier,5,0.7,5,USA,In Progress,benign
+2793,2025-09-30 02:19:00,Adversarial Example,Chatbot,4,0.58,4776,China,In Progress,malicious
+2794,2025-09-01 08:45:00,Prompt Injection,Image Classifier,3,0.72,,Germany,In Progress,malicious
+2795,2025-09-16 21:01:00,Prompt Injection,Fraud Detection,5,0.89,2858,USA,Closed,malicious
+2796,2025-09-24 00:22:00,Prompt Injection,Image Classifier,1,0.63,2606,USA,In Progress,malicious
+2797,2025-09-19 16:36:00,Data Poisoning,Fraud Detection,5,0.5,98,Germany,,malicious
+2798,2025-09-04 05:28:00,Adversarial Example,Image Classifier,1,0.83,525,China,Closed,malicious
+2799,2025-09-25 09:33:00,Model Evasion,Recommendation Engine,3,0.99,1180,Russia,In Progress,malicious
+2800,2025-09-22 04:43:00,Prompt Injection,Recommendation Engine,5,0.8,1689,USA,,malicious
+2801,2025-09-21 04:12:00,Model Evasion,Chatbot,2,0.56,1138,USA,In Progress,malicious
+2802,2025-09-24 21:34:00,Model Evasion,Image Classifier,3,0.66,4491,Brazil,In Progress,malicious
+2803,2025-09-23 18:21:00,Prompt Injection,Fraud Detection,2,0.93,4865,Russia,Closed,malicious
+2804,2025-09-04 04:39:00,Adversarial Example,Fraud Detection,5,0.62,3071,USA,,malicious
+2805,2025-09-25 08:06:00,Prompt Injection,Image Classifier,5,0.8,2927,India,Open,malicious
+2806,2025-09-25 22:43:00,Model Evasion,Fraud Detection,4,0.7,2792,USA,In Progress,benign
+2807,2025-09-29 12:49:00,Prompt Injection,Recommendation Engine,3,0.6,4778,USA,Closed,benign
+2808,2025-09-03 15:34:00,Model Evasion,Fraud Detection,5,0.91,14,USA,,malicious
+2809,2025-09-25 23:44:00,Model Evasion,Chatbot,3,0.87,2415,USA,In Progress,malicious
+2810,2025-09-19 11:36:00,Prompt Injection,Recommendation Engine,3,0.83,2685,India,Open,malicious
+2811,2025-09-02 11:13:00,Data Poisoning,Recommendation Engine,4,0.62,2900,Germany,,malicious
+2812,2025-09-30 20:46:00,Prompt Injection,Recommendation Engine,2,0.55,1236,Brazil,,benign
+2813,2025-09-10 13:20:00,Data Poisoning,Image Classifier,1,0.79,4100,Germany,Closed,malicious
+2814,2025-09-16 05:27:00,Model Evasion,Image Classifier,1,0.78,3220,China,In Progress,malicious
+2815,2025-09-15 12:59:00,Model Evasion,Recommendation Engine,1,0.59,1607,Germany,In Progress,malicious
+2816,2025-09-23 12:19:00,Data Poisoning,Image Classifier,5,0.53,3563,Brazil,,malicious
+2817,2025-09-09 17:48:00,Model Evasion,Fraud Detection,3,0.54,3297,Germany,In Progress,malicious
+2818,2025-09-26 02:22:00,Data Poisoning,Image Classifier,4,1.0,2633,India,,malicious
+2819,2025-09-28 05:18:00,Data Poisoning,Image Classifier,3,0.89,3890,Russia,Open,malicious
+2820,2025-09-24 04:37:00,Model Evasion,Recommendation Engine,2,0.96,4264,USA,Closed,malicious
+2821,2025-09-12 13:33:00,Adversarial Example,Chatbot,2,0.6,2808,Germany,In Progress,malicious
+2822,2025-09-08 12:31:00,Data Poisoning,Chatbot,4,0.98,,Russia,In Progress,malicious
+2823,2025-09-04 23:24:00,Prompt Injection,Chatbot,4,0.57,999,Brazil,Closed,benign
+2824,2025-09-08 16:43:00,Prompt Injection,Fraud Detection,5,0.75,151,USA,Open,malicious
+2825,2025-09-14 18:16:00,Model Evasion,Image Classifier,4,0.91,3063,China,Open,malicious
+2826,2025-09-30 08:00:00,Adversarial Example,Chatbot,3,0.67,4599,Germany,Open,malicious
+2827,,Model Evasion,Recommendation Engine,4,0.71,,USA,Open,malicious
+2828,2025-09-27 20:23:00,Adversarial Example,Chatbot,5,0.56,4599,Germany,Open,malicious
+2829,2025-09-10 17:14:00,Data Poisoning,Chatbot,4,0.56,,USA,,malicious
+2830,2025-09-17 07:39:00,Data Poisoning,Image Classifier,1,0.81,4026,USA,In Progress,malicious
+2831,2025-09-17 00:00:00,Data Poisoning,Image Classifier,3,0.84,2977,China,In Progress,malicious
+2832,2025-09-12 18:39:00,Data Poisoning,Image Classifier,4,0.89,842,China,In Progress,malicious
+2833,2025-09-05 05:39:00,Prompt Injection,Fraud Detection,4,0.78,,China,,malicious
+2834,2025-09-30 08:27:00,Prompt Injection,Fraud Detection,2,0.82,3793,China,Closed,malicious
+2835,2025-09-14 14:16:00,Model Evasion,Chatbot,5,0.51,2070,USA,Open,malicious
+2836,2025-09-25 23:06:00,Adversarial Example,Image Classifier,5,0.58,1659,USA,Closed,malicious
+2837,2025-09-05 05:56:00,Data Poisoning,Chatbot,2,0.99,597,USA,Open,malicious
+2838,2025-09-11 19:23:00,Data Poisoning,Recommendation Engine,5,0.54,2513,USA,Open,malicious
+2839,2025-09-19 14:28:00,Adversarial Example,Recommendation Engine,1,0.84,4135,China,Closed,malicious
+2840,2025-09-19 16:48:00,Adversarial Example,Image Classifier,1,0.59,4270,India,In Progress,malicious
+2841,2025-09-26 05:36:00,Model Evasion,Image Classifier,1,0.86,3603,USA,,malicious
+2842,2025-09-07 20:07:00,Adversarial Example,Recommendation Engine,1,0.85,1216,USA,Closed,malicious
+2843,2025-09-19 03:55:00,Data Poisoning,Image Classifier,5,0.62,2291,Germany,In Progress,malicious
+2844,2025-09-10 19:35:00,Data Poisoning,Fraud Detection,1,0.63,4931,USA,Open,malicious
+2845,2025-09-13 08:14:00,Data Poisoning,Fraud Detection,2,0.83,3811,Brazil,In Progress,malicious
+2846,2025-09-02 05:02:00,Data Poisoning,Image Classifier,1,0.7,4993,Germany,Open,malicious
+2847,2025-09-13 17:09:00,Data Poisoning,Recommendation Engine,2,0.6,931,USA,Open,benign
+2848,2025-09-01 10:19:00,Model Evasion,Chatbot,1,0.87,2138,USA,In Progress,malicious
+2849,2025-09-13 06:18:00,Data Poisoning,Image Classifier,4,0.58,4002,China,Open,malicious
+2850,2025-09-25 02:27:00,Model Evasion,Image Classifier,1,0.93,2978,USA,,malicious
+2851,2025-09-15 02:57:00,Data Poisoning,Chatbot,5,0.76,500000,USA,In Progress,malicious
+2852,2025-09-12 02:41:00,Prompt Injection,Image Classifier,5,0.55,4595,USA,Closed,malicious
+2853,2025-09-01 16:08:00,Prompt Injection,Chatbot,1,0.85,2918,India,Open,malicious
+2854,2025-09-18 23:32:00,Prompt Injection,Recommendation Engine,5,0.76,2564,China,Open,malicious
+2855,2025-09-18 18:59:00,Prompt Injection,Fraud Detection,1,0.65,1763,USA,,malicious
+2856,2025-09-01 04:41:00,Model Evasion,Recommendation Engine,2,0.71,2170,Germany,,benign
+2857,2025-09-20 01:00:00,Model Evasion,Fraud Detection,1,0.65,335,China,Closed,benign
+2858,2025-09-11 16:00:00,Adversarial Example,Chatbot,2,0.63,1176,China,Open,malicious
+2859,2025-09-28 02:30:00,Data Poisoning,Fraud Detection,3,0.58,3021,USA,Closed,malicious
+2860,2025-09-01 17:38:00,Prompt Injection,Recommendation Engine,4,0.68,778,China,Closed,malicious
+2861,2025-09-15 08:37:00,Model Evasion,Fraud Detection,2,0.63,1185,Brazil,Open,malicious
+2862,2025-09-08 10:44:00,Data Poisoning,Chatbot,4,0.84,3285,USA,Closed,malicious
+2863,2025-09-20 17:24:00,Data Poisoning,Fraud Detection,2,0.84,3447,USA,Closed,benign
+2864,2025-09-27 08:26:00,Model Evasion,Image Classifier,4,0.75,3991,USA,,malicious
+2865,2025-09-28 14:28:00,Prompt Injection,Recommendation Engine,2,0.89,2470,USA,,benign
+2866,2025-09-21 17:36:00,Adversarial Example,Image Classifier,1,0.92,938,USA,Closed,malicious
+2867,2025-09-07 09:20:00,Data Poisoning,Chatbot,2,0.79,4899,India,Open,malicious
+2868,2025-09-24 14:37:00,Adversarial Example,Fraud Detection,2,0.81,4006,Russia,,malicious
+2869,2025-09-18 18:51:00,Prompt Injection,Image Classifier,3,0.64,1935,USA,Closed,malicious
+2870,2025-09-29 15:15:00,Prompt Injection,Image Classifier,5,0.95,633,China,In Progress,malicious
+2871,2025-09-25 08:17:00,Adversarial Example,Fraud Detection,1,0.51,1253,Germany,In Progress,malicious
+2872,2025-09-01 20:39:00,Prompt Injection,Fraud Detection,4,0.67,1082,China,Closed,malicious
+2873,2025-09-27 11:38:00,Data Poisoning,Recommendation Engine,4,0.86,2143,China,In Progress,benign
+2874,2025-09-01 02:05:00,Adversarial Example,Image Classifier,5,0.54,1285,USA,,malicious
+2875,2025-09-17 13:37:00,Prompt Injection,Image Classifier,2,0.59,353,China,Open,malicious
+2876,2025-09-11 16:38:00,Adversarial Example,Chatbot,3,0.79,1885,China,Closed,benign
+2877,2025-09-05 14:38:00,Data Poisoning,Recommendation Engine,5,0.78,1818,India,,malicious
+2878,2025-09-05 13:30:00,Prompt Injection,Chatbot,4,0.87,2520,India,Open,malicious
+2879,2025-09-03 06:09:00,Data Poisoning,Image Classifier,3,0.91,4008,USA,In Progress,malicious
+2880,2025-09-07 07:50:00,Prompt Injection,Chatbot,1,0.56,3022,USA,In Progress,malicious
+2881,2025-09-29 00:43:00,Model Evasion,Image Classifier,2,0.51,2584,Russia,In Progress,malicious
+2882,2025-09-10 10:45:00,Prompt Injection,Image Classifier,3,0.84,1547,China,In Progress,malicious
+2883,2025-09-09 09:55:00,Adversarial Example,Chatbot,4,0.65,,Russia,,malicious
+2884,2025-09-28 03:02:00,Prompt Injection,Chatbot,1,0.81,4204,USA,,benign
+2885,2025-09-16 21:51:00,Data Poisoning,Fraud Detection,3,0.58,1368,China,Open,malicious
+2886,2025-09-27 18:05:00,Data Poisoning,Fraud Detection,3,0.73,3337,China,Closed,malicious
+2887,2025-09-23 14:36:00,Prompt Injection,Fraud Detection,3,0.75,1757,Russia,Open,malicious
+2888,2025-09-09 17:55:00,Adversarial Example,Image Classifier,4,0.79,1517,USA,Closed,malicious
+2889,2025-09-02 08:49:00,Model Evasion,Chatbot,5,0.76,4917,USA,In Progress,malicious
+2890,2025-09-12 23:55:00,Adversarial Example,Recommendation Engine,2,0.75,3484,China,In Progress,malicious
+2891,2025-09-04 02:30:00,Model Evasion,Image Classifier,5,0.67,3685,Russia,In Progress,malicious
+2892,2025-09-08 02:25:00,Data Poisoning,Recommendation Engine,1,0.54,3052,Russia,In Progress,malicious
+2893,2025-09-30 09:24:00,Adversarial Example,Chatbot,1,0.54,2696,Brazil,,malicious
+2894,2025-09-30 03:34:00,Model Evasion,Image Classifier,2,0.72,190,Brazil,Open,malicious
+2895,2025-09-30 16:39:00,Prompt Injection,Recommendation Engine,1,0.68,932,USA,Closed,malicious
+2896,2025-09-17 02:36:00,Data Poisoning,Recommendation Engine,2,0.76,4237,USA,Closed,malicious
+2897,2025-09-28 23:27:00,Prompt Injection,Fraud Detection,1,0.65,3238,USA,,malicious
+2898,,Data Poisoning,Fraud Detection,5,0.84,2215,USA,In Progress,benign
+2899,2025-09-26 23:00:00,Adversarial Example,Fraud Detection,1,0.93,565,India,Open,malicious
+2900,2025-09-27 09:26:00,Adversarial Example,Image Classifier,4,0.65,1134,Russia,In Progress,malicious
+2901,2025-09-11 19:37:00,Data Poisoning,Chatbot,1,0.6,743,USA,,malicious
+2902,2025-09-16 14:33:00,Data Poisoning,Chatbot,5,0.56,672,Germany,Closed,malicious
+2903,2025-09-20 21:05:00,Data Poisoning,Fraud Detection,4,0.81,2911,Russia,,malicious
+2904,2025-09-11 18:24:00,Adversarial Example,Fraud Detection,1,0.72,530,China,Closed,malicious
+2905,2025-09-17 17:29:00,Model Evasion,Fraud Detection,4,0.59,3021,USA,Open,malicious
+2906,2025-09-26 08:07:00,Prompt Injection,Recommendation Engine,3,0.83,561,China,Closed,malicious
+2907,2025-09-01 05:02:00,Prompt Injection,Fraud Detection,4,0.57,301,USA,Open,malicious
+2908,2025-09-22 20:23:00,Adversarial Example,Recommendation Engine,3,0.78,3767,China,In Progress,malicious
+2909,2025-09-21 07:39:00,Prompt Injection,Chatbot,4,0.76,4280,China,In Progress,malicious
+2910,2025-09-30 17:43:00,Data Poisoning,Image Classifier,4,0.87,509,USA,,malicious
+2911,2025-09-26 20:08:00,Model Evasion,Image Classifier,3,0.53,3445,Brazil,Open,malicious
+2912,2025-09-22 06:59:00,Prompt Injection,Image Classifier,1,0.94,,China,In Progress,malicious
+2913,2025-09-25 21:20:00,Model Evasion,Image Classifier,5,0.85,2834,China,Open,malicious
+2914,2025-09-23 03:30:00,Data Poisoning,Recommendation Engine,3,0.61,794,Brazil,In Progress,malicious
+2915,2025-09-10 10:38:00,Prompt Injection,Recommendation Engine,3,0.59,2479,USA,In Progress,malicious
+2916,2025-09-14 13:08:00,Adversarial Example,Fraud Detection,1,0.72,1523,USA,Closed,malicious
+2917,2025-09-30 08:47:00,Model Evasion,Recommendation Engine,3,0.91,4856,India,,malicious
+2918,2025-09-10 07:00:00,Data Poisoning,Fraud Detection,99,0.92,2194,USA,Closed,malicious
+2919,2025-09-19 17:44:00,Model Evasion,Fraud Detection,2,0.76,2528,India,Open,malicious
+2920,2025-09-06 15:25:00,Prompt Injection,Image Classifier,3,0.93,434,USA,In Progress,malicious
+2921,2025-09-26 00:59:00,Prompt Injection,Recommendation Engine,4,0.5,2038,USA,,malicious
+2922,2025-09-03 19:13:00,Adversarial Example,Recommendation Engine,5,0.52,1706,China,In Progress,malicious
+2923,2025-09-27 07:13:00,Data Poisoning,Fraud Detection,3,0.96,68,USA,In Progress,malicious
+2924,2025-09-12 20:47:00,Data Poisoning,Fraud Detection,2,0.89,1904,India,Closed,malicious
+2925,2025-09-29 09:41:00,Adversarial Example,Chatbot,5,0.73,3959,Germany,Open,malicious
+2926,2025-09-04 23:04:00,Adversarial Example,Chatbot,4,0.88,2951,Russia,,malicious
+2927,2025-09-06 10:48:00,Data Poisoning,Fraud Detection,1,0.98,4649,India,,malicious
+2928,2025-09-15 23:52:00,Model Evasion,Chatbot,1,0.89,2713,USA,,malicious
+2929,2025-09-05 19:24:00,Model Evasion,Chatbot,3,0.92,3369,India,Open,malicious
+2930,2025-09-19 21:28:00,Adversarial Example,Fraud Detection,2,0.88,4595,Germany,,malicious
+2931,2025-09-14 14:54:00,Model Evasion,Fraud Detection,2,0.58,3727,Germany,Open,malicious
+2932,2025-09-01 08:08:00,Data Poisoning,Recommendation Engine,5,0.92,2404,India,,malicious
+2933,2025-09-28 16:42:00,Prompt Injection,Fraud Detection,1,0.6,3325,China,In Progress,malicious
+2934,2025-09-19 00:03:00,Prompt Injection,Fraud Detection,4,0.95,3546,China,Open,malicious
+2935,2025-09-25 23:01:00,Model Evasion,Image Classifier,2,0.73,2303,Germany,Closed,malicious
+2936,2025-09-21 06:05:00,Adversarial Example,Recommendation Engine,4,0.84,3681,USA,,malicious
+2937,2025-09-02 03:47:00,Adversarial Example,Recommendation Engine,4,0.75,3221,USA,Closed,malicious
+2938,2025-09-19 04:53:00,Adversarial Example,Recommendation Engine,1,0.55,4374,Germany,Open,malicious
+2939,2025-09-03 20:34:00,Adversarial Example,Image Classifier,3,0.65,1082,USA,In Progress,benign
+2940,2025-09-26 05:21:00,Adversarial Example,Fraud Detection,1,0.99,445,USA,Closed,malicious
+2941,2025-09-06 09:21:00,Model Evasion,Recommendation Engine,5,0.98,4931,USA,Closed,malicious
+2942,2025-09-22 14:36:00,Prompt Injection,Recommendation Engine,5,0.66,4850,Germany,In Progress,malicious
+2943,2025-09-24 10:48:00,Prompt Injection,Chatbot,3,1.0,1592,USA,In Progress,malicious
+2944,2025-09-18 15:46:00,Model Evasion,Recommendation Engine,3,0.92,2775,India,Open,malicious
+2945,2025-09-13 08:12:00,Adversarial Example,Fraud Detection,2,0.81,3816,USA,,malicious
+2946,2025-09-27 12:58:00,Model Evasion,Fraud Detection,4,0.52,3053,China,Closed,malicious
+2947,2025-09-03 13:52:00,Prompt Injection,Chatbot,2,0.95,1590,China,Closed,malicious
+2948,2025-09-01 22:47:00,Data Poisoning,Recommendation Engine,2,0.78,2231,Germany,Open,malicious
+2949,2025-09-29 10:37:00,Model Evasion,Recommendation Engine,3,0.93,1561,USA,,malicious
+2950,2025-09-30 00:21:00,Adversarial Example,Recommendation Engine,1,0.92,4272,Brazil,Open,malicious
+2951,2025-09-19 04:40:00,Prompt Injection,Image Classifier,4,0.92,3646,Russia,Closed,benign
+2952,2025-09-03 14:06:00,Prompt Injection,Recommendation Engine,1,0.85,4942,India,Closed,malicious
+2953,2025-09-17 09:36:00,Prompt Injection,Fraud Detection,4,0.65,3238,Russia,In Progress,malicious
+2954,2025-09-20 06:03:00,Prompt Injection,Fraud Detection,2,0.67,1600,China,In Progress,malicious
+2955,2025-09-27 02:14:00,Adversarial Example,Image Classifier,2,0.65,2056,China,,malicious
+2956,2025-09-25 06:38:00,Data Poisoning,Image Classifier,4,0.51,4331,Germany,Closed,malicious
+2957,2025-09-07 07:48:00,Prompt Injection,Recommendation Engine,99,0.79,709,Germany,Closed,malicious
+2958,2025-09-09 10:58:00,Model Evasion,Chatbot,4,0.85,2971,Russia,In Progress,benign
+2959,2025-09-25 18:03:00,Data Poisoning,Image Classifier,2,0.93,2732,Germany,Open,malicious
+2960,2025-09-22 18:04:00,Prompt Injection,Image Classifier,1,0.57,793,Brazil,Open,malicious
+2961,2025-09-27 15:20:00,Data Poisoning,Recommendation Engine,5,0.77,3099,USA,Closed,malicious
+2962,2025-09-13 09:04:00,Model Evasion,Recommendation Engine,3,0.5,2855,India,Closed,malicious
+2963,2025-09-07 04:47:00,Prompt Injection,Image Classifier,1,0.55,26,Germany,,malicious
+2964,2025-09-20 13:04:00,Model Evasion,Chatbot,5,0.53,3267,Germany,,malicious
+2965,2025-09-22 12:50:00,Adversarial Example,Image Classifier,5,0.86,84,USA,In Progress,malicious
+2966,2025-09-16 14:03:00,Prompt Injection,Recommendation Engine,99,0.54,3101,India,Closed,benign
+2967,2025-09-11 00:37:00,Prompt Injection,Recommendation Engine,5,0.86,1122,Russia,Open,malicious
+2968,2025-09-28 14:58:00,Prompt Injection,Image Classifier,5,0.62,11,USA,,malicious
+2969,2025-09-08 18:47:00,Prompt Injection,Chatbot,1,0.94,1748,Germany,In Progress,malicious
+2970,2025-09-18 17:37:00,Adversarial Example,Image Classifier,1,0.91,3109,USA,In Progress,malicious
+2971,2025-09-25 19:57:00,Prompt Injection,Image Classifier,3,0.98,1876,Brazil,Open,malicious
+2972,2025-09-09 08:40:00,Data Poisoning,Recommendation Engine,3,0.94,2619,China,,malicious
+2973,2025-09-30 03:46:00,Prompt Injection,Chatbot,3,0.97,179,USA,Open,malicious
+2974,2025-09-16 16:52:00,Adversarial Example,Fraud Detection,3,0.93,796,USA,In Progress,malicious
+2975,2025-09-20 18:01:00,Prompt Injection,Chatbot,3,0.85,3813,Germany,Closed,malicious
+2976,2025-09-05 11:51:00,Data Poisoning,Image Classifier,3,0.59,2024,USA,Open,malicious
+2977,2025-09-25 17:51:00,Adversarial Example,Image Classifier,1,0.64,3217,Germany,In Progress,malicious
+2978,2025-09-19 10:03:00,Adversarial Example,Image Classifier,2,0.61,886,Russia,Closed,malicious
+2979,2025-09-22 18:28:00,Data Poisoning,Chatbot,3,0.8,2468,Russia,Closed,malicious
+2980,2025-09-01 19:37:00,Data Poisoning,Recommendation Engine,4,0.75,3387,USA,,malicious
+2981,2025-09-04 07:20:00,Data Poisoning,Image Classifier,1,0.93,1519,Brazil,,malicious
+2982,2025-09-23 18:19:00,Data Poisoning,Image Classifier,3,0.98,2432,Germany,In Progress,malicious
+2983,2025-09-16 00:36:00,Data Poisoning,Chatbot,4,0.7,4866,USA,Open,malicious
+2984,,Adversarial Example,Fraud Detection,3,0.75,916,USA,Closed,benign
+2985,2025-09-09 00:36:00,Adversarial Example,Fraud Detection,1,0.99,2070,USA,,malicious
+2986,2025-09-20 03:58:00,Prompt Injection,Recommendation Engine,3,0.64,3976,India,,malicious
+2987,2025-09-09 00:43:00,Prompt Injection,Recommendation Engine,2,0.9,1781,USA,Open,malicious
+2988,2025-09-06 17:14:00,Model Evasion,Image Classifier,5,0.61,338,USA,,malicious
+2989,2025-09-18 17:19:00,Prompt Injection,Chatbot,1,0.84,1516,India,In Progress,malicious
+2990,2025-09-19 17:26:00,Prompt Injection,Image Classifier,4,0.63,2870,China,Open,malicious
+2991,2025-09-12 05:33:00,Data Poisoning,Recommendation Engine,1,0.94,3582,India,Closed,malicious
+2992,2025-09-19 17:47:00,Data Poisoning,Chatbot,3,0.78,914,Germany,In Progress,benign
+2993,2025-09-10 03:38:00,Prompt Injection,Chatbot,3,0.59,3290,USA,Closed,malicious
+2994,2025-09-28 07:38:00,Model Evasion,Recommendation Engine,2,0.61,4570,Russia,Closed,malicious
+2995,2025-09-18 01:56:00,Data Poisoning,Fraud Detection,3,0.75,1446,USA,,benign
+2996,2025-09-24 00:54:00,Prompt Injection,Fraud Detection,1,0.98,1379,China,In Progress,malicious
+2997,,Prompt Injection,Chatbot,2,0.88,1483,Germany,In Progress,malicious
+2998,2025-09-04 01:51:00,Adversarial Example,Image Classifier,4,0.74,2074,USA,Open,malicious
+2999,2025-09-20 06:44:00,Model Evasion,Fraud Detection,2,0.67,800,Brazil,In Progress,malicious
+3000,2025-09-16 00:27:00,Adversarial Example,Image Classifier,5,0.77,1246,China,Open,malicious
+2861,,Model Evasion,Fraud Detection,2,0.63,1185,Brazil,Open,malicious
+1354,2025-09-29 10:21:00,Data Poisoning,Recommendation Engine,2,0.68,3247,China,,malicious
+2334,2025-09-29 17:20:00,Model Evasion,Recommendation Engine,4,0.72,1508,China,Open,malicious
+1906,2025-09-08 14:34:00,Data Poisoning,Image Classifier,3,0.67,4589,Brazil,Closed,malicious
+2290,2025-09-25 05:28:00,Model Evasion,Recommendation Engine,1,0.98,3611,China,In Progress,malicious
+2274,2025-09-04 08:53:00,Model Evasion,Recommendation Engine,5,0.67,4889,USA,Open,malicious
+1939,2025-09-23 10:13:00,Prompt Injection,Chatbot,5,0.53,4057,Russia,Open,malicious
+2732,2025-09-10 10:52:00,Prompt Injection,Image Classifier,5,0.58,3515,USA,Open,malicious
+1066,2025-09-26 17:45:00,Prompt Injection,Image Classifier,1,0.53,2913,USA,Closed,malicious
+2324,2025-09-02 16:21:00,Data Poisoning,Recommendation Engine,2,0.8,4216,Germany,Open,malicious
+1057,2025-09-14 12:17:00,Model Evasion,Fraud Detection,4,0.94,,Germany,In Progress,malicious
+2293,2025-09-27 07:44:00,Adversarial Example,Image Classifier,1,0.59,3953,USA,In Progress,malicious
+2119,2025-09-15 23:26:00,Data Poisoning,Image Classifier,1,0.73,3913,China,Open,malicious
+1585,2025-09-28 23:02:00,Data Poisoning,Recommendation Engine,4,0.71,696,China,In Progress,malicious
+1375,2025-09-14 13:08:00,Data Poisoning,Image Classifier,1,0.86,354,China,Open,malicious
+1276,2025-09-24 14:26:00,Prompt Injection,Fraud Detection,4,0.62,4192,USA,Open,malicious
+1747,2025-09-06 13:37:00,Prompt Injection,Recommendation Engine,4,0.73,4251,China,Closed,malicious
+1129,2025-09-29 20:03:00,Data Poisoning,Image Classifier,4,0.98,3216,Brazil,Closed,malicious
+2647,2025-09-11 14:11:00,Data Poisoning,Fraud Detection,2,0.72,746,China,In Progress,malicious
+2853,2025-09-01 16:08:00,Prompt Injection,Chatbot,1,0.85,2918,India,Open,malicious
