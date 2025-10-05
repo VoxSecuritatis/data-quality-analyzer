@@ -92,3 +92,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Baseline **plots folder** creation for charting outputs.
 
 ---
+
+© 2025 Brock Frary. All rights reserved.
