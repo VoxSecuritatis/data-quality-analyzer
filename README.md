@@ -1,4 +1,7 @@
 # Data Quality Analyzer (DQA) v2.7.2
+Published:  2025-09-30 | Last Updated: 2025-10-04
+
+### **[Project Portfolio Page](https://github.com/VoxSecuritatis/Project-Data-Science-DQA)**
 
 **Video Demo**: Go to the `DQA-v2.6 folder` -> click on the `DQA_demo_v2.6.1_2025-09-27.mp4`, then click `View Raw` to download the video to run locally.
 
