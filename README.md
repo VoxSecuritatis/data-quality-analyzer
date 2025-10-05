@@ -3,8 +3,7 @@ Published:  2025-09-30 | Last Updated: 2025-10-04
 
 ### **[Project Portfolio Page](https://github.com/VoxSecuritatis/Project-Data-Science-DQA)**
 
-**Video Demo**: Go to the `DQA-v2.6 folder` -> click on the `DQA_demo_v2.6.1_2025-09-27.mp4`, then click `View Raw` to download the video to run locally
-or [Click here](https://github.com/VoxSecuritatis/data-quality-analyzer/blob/main/DQA-v2.6/DAQ_demo_v2.6.1_2025-09-27.mp4) for the demonstration video.
+**Video Demo**: [Click here](https://github.com/VoxSecuritatis/data-quality-analyzer/blob/main/DQA-v2.6/DAQ_demo_v2.6.1_2025-09-27.mp4) for the demonstration video, then click `View Raw` to download the video to run locally.
 
 ## Overview
 The **Data Quality Analyzer (DQA)** is a Python-based application designed to analyze datasets (CSV) for **missing values, descriptive statistics, and overall data quality**.  
